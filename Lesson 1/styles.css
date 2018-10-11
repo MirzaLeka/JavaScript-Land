@@ -1,0 +1,17 @@
+div{
+    height: 200px;
+    width: 500px;
+    /* border: 5px solid #DDD; */
+    cursor: pointer;
+    background: aqua;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  p{
+      cursor: pointer;
+      border: 2px solid orange;
+  }
