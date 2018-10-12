@@ -1,0 +1,22 @@
+{
+  "name": "js30",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MirzaLeka/Javascript30.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MirzaLeka/Javascript30/issues"
+  },
+  "homepage": "https://github.com/MirzaLeka/Javascript30#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
