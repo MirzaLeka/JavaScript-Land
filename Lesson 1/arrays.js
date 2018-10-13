@@ -44,3 +44,41 @@ mirza["name"] = "Mirza";
 
 console.log(`My name is ${mirza["name"]}, favorite color is ${mirza["favColor"]},
 favorite food: ${mirza["favFood"]} and age is ${mirza["age"]}`);
+
+/* Destructuring array */
+
+    var destArr = [1,2,3];
+
+    // before destructuring
+
+    var xyz = destArr[0]; // outputs 1
+
+    // now
+
+    var [a, b] = destArr;
+
+    console.log("Second element from array is " + b);
+
+
+/* Object destructuring */
+
+    var obj = {
+        name: "Mirza",
+        age: 24,
+        favLng: "Javascript"
+    };
+
+    // before destructuring
+
+    var zyx = obj.name; // outputs Mirza
+
+    // now
+
+    // var {name, age, favLng} = obj;
+
+    var {favLng} = obj;
+
+    console.log(`My favorite language is ${favLng}`);
+
+
+
