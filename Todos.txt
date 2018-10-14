@@ -29,5 +29,16 @@
 29. TDD II
 30. TDD III
 
+# Promises 
+https://www.youtube.com/watch?v=QO4NXhWo_NM // coding train
+- udacity
+https://www.youtube.com/watch?v=PoRJizFvM7s // traversy
+
+#fetch API
+https://www.youtube.com/watch?v=tVQgfKqbX3M
+
 # lodash playlist
 https://www.youtube.com/playlist?list=PLTgRMOcmRb3OL-PKT5FvIBdXVazTNTl-_
+
+# CSS GRID
+https://medium.freecodecamp.org/how-to-make-your-html-responsive-by-adding-a-single-line-of-css-2a62de81e431
