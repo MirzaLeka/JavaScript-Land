@@ -1,0 +1,14 @@
+Javascript FileReader
+https://www.youtube.com/watch?v=-AR-6X_98rM
+
+Upload file NodeJS (just building API)
+https://www.youtube.com/watch?v=WLEtj-iZL3g
+
+Create RESTAPI with NodeJS - uploading IMG (Max)
+https://www.youtube.com/watch?v=srPXMt1Q0nY
+
+Uploading Files MongoDB - Traversy
+https://www.youtube.com/watch?v=3f5Q9wDePzY
+
+
+
