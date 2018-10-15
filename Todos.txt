@@ -1,7 +1,7 @@
 1. OOPs, Constructor, this keyword, getters and setters, event listeners, try & catch
 2. modular Javascript, inheritance
 3. regex, high order functions, string functions
-4. es6 modules, es6 set and map, es6 classes, arrow functions
+4. es6 modules, es6 set and map, es6 classes, arrow functions, rest vs spread
 5. gulp, gulp on server, gulp / browserify, gulp sass, concat css files
 6. webpack, gulp / webpack
 7. ajax vanilla JS, fetch API
