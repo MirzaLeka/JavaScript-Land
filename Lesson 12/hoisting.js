@@ -42,7 +42,7 @@ console.log ( spy() ); // because it's not hoisted
 // so if have function inside function
 
 (() => {
-    
+
     // monkey();
 
     let funky = function() { // will NOT be hoisted to the top
