@@ -4,7 +4,7 @@
 4. es6 modules, es6 set and map, es6 classes, arrow functions, rest vs spread
 5. gulp, gulp on server, gulp / browserify, gulp sass, concat css files
 6. webpack, gulp / webpack
-7. ajax vanilla JS, fetch API
+7. ajax vanilla JS, fetch API, jquery vs js 
 8. callbacks, introduction to design patterns
 9. promises I
 10. promises II, generators
