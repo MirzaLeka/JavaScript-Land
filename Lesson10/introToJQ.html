@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="../scripts/jquery.js"></script>
+    <script src="../scripts/bootstrap.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="../scripts/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="introToJQ.css" />
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-sm-3">
+
+                <div class="panel" id="panel1" data-name="introToJQ">  <!-- data-something="something" is a custom HTML attribute -->
+                    <div class="panel-header">Panel 1</div>
+                    <div class="panel-body">abc</div>
+                </div>
+
+            </div>
+
+            <div class="col-sm-3">
+
+                <div class="panel" id="panel2">
+                    <div class="panel-header">Panel 2</div>
+                    <div class="panel-body">def</div>
+                </div>
+
+            </div>
+
+            <div class="col-sm-3">
+
+                <div class="panel" id="panel3">
+                    <div class="panel-header">Panel 3</div>
+                    <div class="panel-body">ghi</div>
+                </div>
+
+            </div>
+
+            <div class="col-sm-3">
+
+                <div class="panel" id="panel4">
+                    <div class="panel-header">Panel 4</div>
+                    <div class="panel-body">jkl</div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="row">
+
+            <div class="col-sm-12">
+                <button class="btb btn-danger panel-btn" data-panelid="panel1">abc</button>
+                <button class="btb btn-success panel-btn" data-panelid="panel2">def</button>
+                <button class="btb btn-warning panel-btn" data-panelid="panel3">ghi</button>
+                <button class="btb btn-primary panel-btn" data-panelid="panel4">jkl</button>
+            </div>
+
+
+        </div>
+
+    </div>
+
+</body>
+<script src="introToJQ.js"></script>
+
+</html>
