@@ -1,0 +1,12 @@
+.special{
+    color: blue;
+}
+
+ul, li{
+    cursor: pointer;
+    width: 50px;
+}
+
+body{
+    margin: 100px;
+}
