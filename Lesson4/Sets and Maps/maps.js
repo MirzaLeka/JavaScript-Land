@@ -55,3 +55,37 @@ console.log("Does map have a key named hitman? " + myMap.has(hitman));
 myMap.forEach((value, key) => {
     console.log(` Key: ${key}, Value: ${value} `);
 });
+
+
+/* Weak Maps - maps with objects */
+
+let carMap = new WeakMap();
+
+// Since these are maps we need to create keys too
+
+let key1 = {
+    id: 1
+};
+
+let car1 = {
+    name: "Hyundai",
+    model: "ix 35",
+    year: 2015,
+    maxSpeed: 240
+}
+
+let key2 = {
+    id: 2
+}
+
+let car2 = {
+    name: "Golf",
+    model: "4",
+    year: 2004,
+    newSpeed: 220
+}
+
+
+carMap.set(key1, car1).set(key2, car2);
+
+console.log("Cars: ",  carMap); // for some reason fors for Map, but not Weak Map
