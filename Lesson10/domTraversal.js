@@ -37,6 +37,48 @@ $("li").on('click', function() { // When you click on any <li> tag on the page, 
     $(this).next().remove(); // to the element you just clicked on
 });  
 
+$("li").siblings().remove(); // removing all siblings to <li> tag
+
+$(this).parent().addClass("className") // so every element that shares the same parent() gets that class
+
+$(this).closest(".list").addClass("className") // going up the chain till it finds class list and adds class to it
+
+$(".list").find("li"); // find all <li> tags within .list class
+
+$(".list").find("li").filter(":first").addClass("className"); // add class only to the first li
+
+$(".list").find("li").filter(".special").renove(); // find any <li> in .list filter only the ones with special class and remove those elements
+
+// Alternative, but not very efficient JS
+$(".special").remove(); // because this searchs through a whole document, while the previous searches specifically for .special within .list 
+
+
+// Examples
+
+// Example with is (matching)
+$("li").on("click", function(){
+    $(this).hide();
+    if ( $(this).is(".special") ) { // if this object has class special
+        alert ("special"); // just text special
+    }
+});
+
+ if ( !$(this).is(".special") ) { } // if not special
+
+ // Remove <li> tags of sublist class 
+ $(".sublist li").on("click", function(){
+        $(this).remove();
+});
+
+// Alternative
+$("li").on("click", function(){
+
+    if ( $(this).parent().is('.sublist') ) { 
+        $(this).remove();
+    }
+
+});
+ 
 
 
 // Stop propagation
