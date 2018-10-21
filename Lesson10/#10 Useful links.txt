@@ -1,0 +1,8 @@
+jQuery vs vanilla JavaScript - Beau teaches JavaScript
+https://www.youtube.com/watch?v=X65s7WQLWJY
+
+jQuery tutorial for beginners - LearnCode Academy
+https://www.youtube.com/playlist?list=PLoYCgNOIyGABdI2V8I_SWo22tFpgh2s6_
+
+You might not need jQuery
+http://youmightnotneedjquery.com
