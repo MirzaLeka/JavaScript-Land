@@ -46,16 +46,16 @@ const people = {
    // example 3
     // similar example, only this time we're calling addBanana from an anonymous function.
     // It's already known that inside a function, this is refering to the window (global) object, unless function is
-    // an object method, whhich will refer to the object itself. To gain access to this keyword, we'll need to:
+    // an object method, which will refer to the object itself. To gain access to this keyword, we'll need to:
         // a) add this inside argument of addBanana function and use it inside addBanana function
-        // b) 
+        // b) add call keyword and insert pass this which is an alternative of a)
 
     window.onload = function() {
 
         var button = document.querySelector("button");
         button.onclick = function() { // this is anonymous function inside function, so this refers to window object
             // compute some stuff
-            addBanana(); // Fix with addBanana.call(apply)
+            addBanana(); // can be fixed with addBanana.call(apply)
         }
     }
 
@@ -66,3 +66,6 @@ const people = {
     // since this keyword is now refered to an actual button inside html, we could use to access other DOM elements, like:
         this.closest("element").remove(); // which will remove the closest "element" the button we cliecked on is inside in    
     }
+
+    // first argument of bind, apply and call is always this, thus if we write function.call(), empty argument is refering to this
+    // Similarily, bind(null) or apply(null) will give not give object a value of ull
