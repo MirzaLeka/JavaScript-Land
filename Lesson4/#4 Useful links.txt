@@ -1,2 +1,5 @@
 #Net ninja JS OOPs
 https://www.youtube.com/playlist?list=PL4cUxeGkcC9i5yvDkJgt60vNVWffpblB7
+
+#Symbols: 
+http://exploringjs.com/es6/ch_symbols.html
