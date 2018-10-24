@@ -19,6 +19,8 @@ let newVal = ["a", 4, "b", 3, "C"];
 
 console.log (newVal.sort()); // outputs [3,4,"C","a","b"] - capital letter comes first
 
+// the reason why numbers come ahead of letters and capital letters in front of lowercase is because sorting is done with ASCII code
+
 // array of objects
 let objs = [
     {
