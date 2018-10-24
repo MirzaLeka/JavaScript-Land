@@ -7,7 +7,7 @@ const person = {
          }
     };
 
-const definePerson = function (...attr) {
+function definePerson (...attr) {
     const [a, b] = attr;
  console.log(`My name is ${this.fullName()}. I'm ${a} years old and I love ${b}.`); 
 }
