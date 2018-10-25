@@ -40,3 +40,5 @@ console.log(add);
 // sort/reverse/fill is for modifying an existing array
 
 // map/filter/flat is for modifying an existing array, but saving changes into a new array
+
+// reduce prints a single value after some calculation is complete
