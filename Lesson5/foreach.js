@@ -35,14 +35,8 @@ fruits.forEach(item => add+= item + " "); // for each item in fruits array add +
 
 console.log(add);
 
-/* 4th argument -- object */
+// forEach is for printing an array
 
-let people = ["Sinan", "Ermin", "Amar"];
+// sort/reverse/fill is for modifying an existing array
 
-let newPeople = people.forEach(function (value, index, array) {
-    return `${index}: ${value}, is gamer: ${this.gamer}` // returns an object as well
-}, {
-    gamer: true
-});
-
-console.log(people);
+// map/filter/flat is for modifying an existing array, but saving changes into a new array

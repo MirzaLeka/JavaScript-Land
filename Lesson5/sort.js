@@ -63,3 +63,25 @@ let words = s.split(/\W+/).filter(word => word.length > 2); // split string into
 words.sort((a,b) => a.length - b.length); // same like above if result is negative, shorter words will come first
 
 console.log(words);
+
+
+// Sort colors and sizes
+
+let colors = [
+    {
+        color: "red",
+        fontWeight: 300
+    },
+    {
+        color: "blue",
+        fontWeight: 500
+    },
+    {
+        color: "green",
+        fontWeight: 300
+    }
+];
+
+colors.sort((a,b) =>  a.color > b.color );
+
+console.log(colors); // ouput blue, green, red (objects)
