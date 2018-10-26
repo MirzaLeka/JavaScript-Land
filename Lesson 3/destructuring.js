@@ -73,5 +73,80 @@ var [a,b] = arr; // a & b are the first two elements from an array
 
 console.log(a+b); // output: 3
 
+// we can also access any index from an array with commas
+
+var [a,b,,,e] = arr; // a is first, b is 2nd array element. Then we have three commas which skip 3rd and 4th element,
+// followed by e, which the fifth array element
+
+console.log(a+b+e); // => 1 + 2 + 5, ouput: 8
 
 
+// 4. Using Rest operator to Reassign array elements
+
+var [a,b, ...rest] = arr; // a & b will be the first two elements from an array. ...rest stands for the rest of the array.
+// what rest in this case represents are numbers followed by a & b, which are 3, 4 and 5. rest is always the last parameter.
+// rest can be called anything we like, like ...bbb
+
+console.log(a,b); // output: 1, 2
+
+console.log(rest); // output: [ 3, 4, 5 ] | Note: this will print an array. 
+// If we want pure numbers, we can use spread operator to spread array into individual numbers
+
+console.log(...rest); // output: 3, 4, 5
+
+
+// 5. Pass an Object as a function's parameters
+
+/* first method */
+
+var profileUpdate = (profileData) => {
+    var {name, age, nationality, location} = profileData;
+
+    name = "Mirza"; // notice that we don't need to write var age, because we already declared it in the destructuring above
+    age = 24;
+
+}
+
+/* second method - much more clear */ 
+
+var profileUpdate = ({name, age, nationality}) => { // we're still passing profileData object, but right in parameter,
+// we're destructuring that object into the different variables
+
+// I purposefully did not use location property because if I don't need that property, I don't need to destructor it
+// So even if I pass in entire object, function will only grab toese properies that I chose to destructor
+
+return name + " " +  age + " " + nationality;
+}
+
+
+// Custom example
+
+
+function Saiyan(name, age, nationality, location, superSaiyan) {
+    this.name = name;
+    this.age = age;
+    this.nationality = nationality;
+    this.location = location;
+    this.superSaiyan = superSaiyan;
+}
+
+let goku = new Saiyan("Kakarot", 40, "Vegetian", "Earth", true);
+let vegeta = new Saiyan("Vegeta", 45, "Vegetian", "Earth", true);
+let raditz = new Saiyan("Raditz", 50, "Vegetian", "unkwnown", false);
+let nappa = new Saiyan("Nappa", 55, "Vegetian", "unkwnown", false);
+
+
+let isSuperSaiyan = ({name, age, nationality, location, superSaiyan}) =>  {
+
+    if (superSaiyan) {
+       return {
+           name, age, nationality, location, superSaiyan
+       } // returns an object
+    }
+    else {
+        return `${name} is not a super saiyan`;
+    }
+
+}
+
+console.log(isSuperSaiyan(goku));
