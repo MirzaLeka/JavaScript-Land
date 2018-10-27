@@ -132,8 +132,8 @@ function Saiyan(name, age, nationality, location, superSaiyan) {
 
 let goku = new Saiyan("Kakarot", 40, "Vegetian", "Earth", true);
 let vegeta = new Saiyan("Vegeta", 45, "Vegetian", "Earth", true);
-let raditz = new Saiyan("Raditz", 50, "Vegetian", "unkwnown", false);
-let nappa = new Saiyan("Nappa", 55, "Vegetian", "unkwnown", false);
+let raditz = new Saiyan("Raditz", 50, "Vegetian", "unknown", false);
+let nappa = new Saiyan("Nappa", 55, "Vegetian", "unknown", false);
 
 
 let isSuperSaiyan = ({name, age, nationality, location, superSaiyan}) =>  {
