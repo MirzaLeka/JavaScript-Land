@@ -8,7 +8,7 @@ where anyone can learn something.
 This repository is public and encourages forking with other users to contribute to open source by helping others learn
 tough topics of JavaScript.
 
-If you'd like to contribute, please do, but please, please, please, don't change code in files I created. If you don't like my code
+If you'd like to contribute, please do, but please, please, please, **don't** change code in files I created. If you don't like my code
 or you think I made a mistake, please write your own code in your own *file*. 
 The reason why I asking you to make your own files, instead of editing the existing ones is because I initially wrote this code
 to help myself learn in way I can understand it.
