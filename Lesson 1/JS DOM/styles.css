@@ -15,3 +15,10 @@ div{
       cursor: pointer;
       border: 2px solid orange;
   }
+
+  .red{
+      height: 100px;
+      width: 100px;
+      background: red;
+      display: block;
+  }
