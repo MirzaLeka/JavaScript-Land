@@ -1,5 +1,13 @@
 
 
+// variable is equal to the return result of function7
+
+var gimmeBack =	a => a ** 2;
+	
+	console.log(gimmeBack(3)); // we can use this variable to call a function
+
+
+
 // let name = "Mirza";
 
 // printName();
@@ -56,6 +64,7 @@
 
 // Callback
 
+/*
 function getData() {
 
     
@@ -86,3 +95,4 @@ function readDAta() {
 }
 
 getData();
+*/

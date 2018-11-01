@@ -6,3 +6,6 @@ https://www.youtube.com/playlist?list=PLoYCgNOIyGABdI2V8I_SWo22tFpgh2s6_
 
 You might not need jQuery
 http://youmightnotneedjquery.com
+
+Jquery .find() in Vanilla JS
+http://usefulangle.com/post/43/jquery-find-function-in-pure-vanilla-javascript

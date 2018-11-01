@@ -1,4 +1,10 @@
 
+// CALLBACK FUNCTIONS
+
+// Callback is a function that is passed as an argument to another function that receives the argument & executes that callback function
+
+// Callbacks can be synchronous and asynchronous
+
 // example without callbacks
 
 // var users = ["Sam", "Lambert", "Grim"];
@@ -25,19 +31,19 @@
 
 // example with callbacks
 
-var users = ["Sam", "Lambert", "Grim"];
+// var users = ["Sam", "Lambert", "Grim"];
 
-function addUser (username, callback) {
-    setTimeout(() => {
-        users.push(username);
-        callback();
-    }, 1000);
-}
+// function addUser (username, callback) {
+//     setTimeout(() => {
+//         users.push(username);
+//         callback();
+//     }, 1000);
+// }
 
-function getUsers() {
-    setTimeout(() => {
-        console.log(users);
-    }, 500)
-}
+// function getUsers() {
+//     setTimeout(() => {
+//         console.log(users);
+//     }, 500)
+// }
 
-addUser("Redding", getUsers); 
+// addUser("Redding", getUsers); 
