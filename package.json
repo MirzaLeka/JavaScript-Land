@@ -10,20 +10,22 @@
     "type": "git",
     "url": "git+https://github.com/MirzaLeka/Javascript30.git"
   },
-  "author": "",
+  "author": "Mirza Leka",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MirzaLeka/Javascript30/issues"
   },
   "homepage": "https://github.com/MirzaLeka/Javascript30#readme",
-  "devDependencies": {
-    "nodemon": "^1.18.4"
-  },
   "dependencies": {
     "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
     "express": "^4.16.4",
     "lodash": "^4.17.11",
     "mongodb": "^3.1.8",
     "mongoose": "^5.3.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
   }
+  
 }

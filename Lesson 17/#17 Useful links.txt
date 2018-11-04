@@ -1,3 +1,9 @@
 
 # res.send vs res.json vs res.end
 https://fullstack-developer.academy/res-json-vs-res-send-vs-res-end-in-express/
+
+# Express JS Middleware Explained
+https://www.youtube.com/watch?v=9HOem0amlyg
+
+# Net Ninja: Node JS beginners tutorial
+https://www.youtube.com/playlist?list=PL4cUxeGkcC9gcy9lrvMJ75z9maRw4byYp

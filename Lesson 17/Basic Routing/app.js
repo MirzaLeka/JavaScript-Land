@@ -116,9 +116,49 @@ p{
 } */
 
 
-// Get all html files htm too
+// Get multiple html files
+// what if we have more html files but we didn't create routes for these files?
+
+app.use(express.static(__dirname + "/public", { extensions: ["html", "htm"]}));
+// line above will allow us to use all html files in public folder without making routes
+
+// object in between with extensions key will leave out .html and .htm extensions from route, like
+// website.com/home.html
+
+
+// if we dom't include this line app.use(express.static(__dirname + "/public", { extensions: ["html", "htm"]}));
+
+// then if we go to localhost:3000/index, we will not get index.html page. In other words, we'll only
+// be able to access index page through routes '/' and '/home'
+
 
 // Handle error page
+
+// if you want to block other routes, like website.com/supermario and all the other routes that don't exits,
+// you can create and error page and each time user enters wrong route, server will redirect him to that page
+
+// this code should be right before listening for port
+
+const router = express.Router();
+
+router.use(function(req, res, next) {
+    if (!req.route) // if route doesn't exist
+        return next (new Error('404'));  
+    next();
+});
+
+router.use(function(err, req, res, next){
+   // res.send(err.message); // we can send error message or send file
+   res.sendFile(__dirname + "/public/error.html"); 
+})
+
+router.use(function(req, res){
+    res.send(app.locals.test + '');
+});
+
+ app.use(router);
+
+
 
 
 
