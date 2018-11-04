@@ -13,6 +13,18 @@ const app = express(); // we asign variable app to the return result of express(
 // Let's respond to get request
 // Syntax: app.get('route', callback function with request and response objects as arguments)
 
+// app.use() => this means all methods below will use this middleware
+
+// Middleware is executed in order we call app.use(). So if you chose to send file maintenance, 
+// but you don't call next(), routes below will never execute.
+// What we'll render instead is our maintenance page on all routes
+
+app.use((req, res, next) => {
+    res.sendFile(__dirname + "/public/maintenance.html");
+    // next(); // remove this comment to be able to access other routes
+});
+
+
 // Route Sample
 app.get('/someRoute', function(req, res) { 
     res.send("Hello world!"); // so whenever user requests/comes to this route, we'll send the message
@@ -53,6 +65,37 @@ app.get("/home", function(req, res) {
 app.get(["/", "/home"], function(req, res) {
     res.sendFile(__dirname + "/public/index.html"); // will load html home page on  both routes
 })
+
+
+// send json
+app.get("/somejson", (req, res) => {
+    res.send({ // when we go to this route we'll get the json below
+        user: "Mirza",
+        likes: [
+            "JS",
+            "Games",
+            "Traveling"
+        ]
+    });
+});
+// there is also res.json() method that gives us a few more options. 
+// More about this method in #17 Useful link.txt
+
+
+// send html without making an html file
+app.get("/somehtml", (req, res) => {
+    res.send(`<h1>This is some html tag</h1>`); 
+});
+
+
+// send status
+app.get('/somestatus', (req, res) => {
+    if (res.status(200)) {
+        res.send("You're all good!");
+    } else {
+        res.send("You have an error");
+    }
+});
 
 
 // Middlewares and static files
@@ -124,6 +167,7 @@ app.use(express.static(__dirname + "/public", { extensions: ["html", "htm"]}));
 
 // object in between with extensions key will leave out .html and .htm extensions from route, like
 // website.com/home.html
+// the object is optional
 
 
 // if we dom't include this line app.use(express.static(__dirname + "/public", { extensions: ["html", "htm"]}));
