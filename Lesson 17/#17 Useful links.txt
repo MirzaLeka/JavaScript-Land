@@ -1,0 +1,3 @@
+
+# res.send vs res.json vs res.end
+https://fullstack-developer.academy/res-json-vs-res-send-vs-res-end-in-express/
