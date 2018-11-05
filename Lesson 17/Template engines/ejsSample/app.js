@@ -29,10 +29,6 @@ app.get('/', (req, res) => {
     res.render("home");
 });
 
-app.get('/contact', (req, res) => {
-    res.render("contact");
-});
-
 app.get('/profile/:name', (req, res) => {
     
     let data = {age: 24, job: "dev", hobbies: ["traveling", "movies", "music"]};

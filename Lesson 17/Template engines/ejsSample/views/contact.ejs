@@ -16,8 +16,9 @@
     <% /* we had dept property and we'll output it */ %>
     <p><%= qs.person %></p> 
 
+    <% /* to post html data to server we have to use body-parser middleware */ %>
 
-    <form id="contact-form">
+    <form id="contact-form" method="POST" action="/contact"> <% /* we're posting to /contact route */ %>
         <label for="who">Who do you want to contact?</label> <br> 
         <input type="text" name="who" value="<%= qs.person %>"> <br> <% /* we can populate input fiels with a value from query strings */ %>
 
