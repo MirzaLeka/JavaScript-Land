@@ -13,7 +13,7 @@ app.set("view engine", "ejs"); // what we want to set, which engine we want to t
 // When working with templating engines, we don't use sendFile method. Instead we use render method to render view
 
 
-// Note: As it turns out, by default express wants our views to be in the root JS30/views",
+// Note: As it turns out, by default express wants our views to be in the root javascript30/views",
 // meaning it will be among other lessons and that's not what we want. 
 // So we'll need to tell him to relocate default folder
 
