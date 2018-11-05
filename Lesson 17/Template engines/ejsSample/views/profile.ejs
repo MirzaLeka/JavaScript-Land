@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Profile Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+    <% include partials/nav.ejs %> <% /* This is how include partial files */ %>
+
+<h2>Welcome to profile of <%= person %></h2>    
+<p><strong>Age: </strong> <%= data.age %> </p>
+<p><strong>Job: </strong> <%= data.job %> </p>
+
+<% /* Printing all items from hobbies array into list. This is a comment */ %>
+<ul>Hobbies:
+    <% data.hobbies.forEach( function(item) { %>
+        <li> <%= item %> </li>
+    <% }); %>     
+</ul>
+
+
+</body>
+</html>

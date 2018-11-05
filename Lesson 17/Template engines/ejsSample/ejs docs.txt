@@ -1,0 +1,10 @@
+
+We need to surround javascript code with ejs tags 
+
+When we want to output some data we use <%= data %>       
+But when we're working with regular javascript we just use <% js code %>   
+
+More on ejs
+http://ejs.co
+
+
