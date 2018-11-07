@@ -49,3 +49,9 @@
     let doubled = nums.map(num => num * 2); // returns value from the array multiplied by 2
 
     console.log(doubled);
+
+    // example 6: Return array of strings
+
+    let stringedArr = nums.map(item => item + "");
+
+    console.log(stringedArr);
