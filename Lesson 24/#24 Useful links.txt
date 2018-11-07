@@ -1,3 +1,6 @@
 
 # Lodash docs
 https://lodash.com/docs/4.17.11
+
+# Lodash and Underscore in 10 minutes
+https://www.youtube.com/watch?v=kdfikit351Y
