@@ -1,0 +1,6 @@
+
+# Udacity JavaScript Testing
+https://classroom.udacity.com/courses/ud549
+
+# Mocha Docs
+https://mochajs.org

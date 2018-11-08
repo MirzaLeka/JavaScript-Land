@@ -1,0 +1,9 @@
+
+# Udacity - Asynchronous JavaScript Requests
+https://classroom.udacity.com/courses/ud109
+
+# How to use Fetch with JavaScript
+https://www.youtube.com/watch?v=tVQgfKqbX3M
+
+# Jquery Ajax LearnCode Aacademy
+https://www.youtube.com/playlist?list=PLoYCgNOIyGABdI2V8I_SWo22tFpgh2s6_

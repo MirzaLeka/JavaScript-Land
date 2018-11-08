@@ -43,7 +43,7 @@ Now let's look at the topics I intend to cover in this repository.
 * Lesson 24 - Lodash
 * Lesson 25 - ESLint
 * Lesson 26 - Typescript 
-* Lesson 27 - 
+* Lesson 27 - Unit testing
 * Lesson 28 - 
 * Lesson 29 - 
 * Lesson 30 - Cool modules, typed js, cookie parser, baffle js...

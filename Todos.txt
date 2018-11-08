@@ -35,7 +35,7 @@ https://www.youtube.com/watch?v=QO4NXhWo_NM // coding train
 https://www.youtube.com/watch?v=PoRJizFvM7s // traversy
 
 #fetch API
-https://www.youtube.com/watch?v=tVQgfKqbX3M
+
 
 # lodash playlist
 https://www.youtube.com/playlist?list=PLTgRMOcmRb3OL-PKT5FvIBdXVazTNTl-_
