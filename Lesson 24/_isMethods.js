@@ -44,5 +44,6 @@ console.log( _.isSet(name) ); // false
 
 console.log( _.isSymbol(name) ); // false
 
+console.log( _.isRegExp(name) ); // false - it's not regular expression, but /Mirza/ is 
 
 // and so on
