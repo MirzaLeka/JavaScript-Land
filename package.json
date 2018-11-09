@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": " mocha \"./{,!(node_modules)/**/}*.test.js\" ",
+    "test": " mocha \"./{,!(node_modules)/**/}*assertions.test.js\" ",
     "test-watch": "nodemon --exec \"npm test\""
   },
   "repository": {
