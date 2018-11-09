@@ -60,3 +60,43 @@ let num = 123;
 let numLength = _.size(num);
 
 console.log(numLength); // output: 0
+
+
+// Vanilla JS alternative
+
+console.log("----------------------");
+
+// String
+
+let name = "Mirza";
+
+console.log(name.length); // output: 5
+
+// Array
+
+let nums = [1,2,3];
+
+console.log(nums.length); // output: 3
+
+// Object
+
+let user = {name: "Mirza", age: 24};
+
+console.log( Object.keys(user).length ); // output: 2. This counts number of keys in object, thus this is it's size
+
+// Set
+
+let otherSet = new Set();
+otherSet.add(1).add(2).add("M");
+console.log(otherSet.size); // output: 3
+
+// Map
+
+let otherMap = new Map();
+otherMap.set(1,1).set("A",1).set(true,false).set([1,1,1], "ABC");
+console.log(otherMap.size); // output: 4
+
+// Number
+
+let number = 123; 
+console.log(number.length); // output: undefined
