@@ -4,3 +4,6 @@ https://lodash.com/docs/4.17.11
 
 # Lodash and Underscore in 10 minutes
 https://www.youtube.com/watch?v=kdfikit351Y
+
+# Lodash - Replacing the chain pattern with flow()
+https://www.youtube.com/watch?v=Gj9THIxp7HE
