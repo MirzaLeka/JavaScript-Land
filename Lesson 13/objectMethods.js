@@ -1,4 +1,6 @@
 
+// keys, values and entries
+
 let user = {
     name: "Mirza",
     age: 24,
@@ -13,7 +15,7 @@ let keys = Object.keys(user);
 console.log(keys); // output: [ 'name', 'age', 'job' ]
 
 
-// ES5 - Object values =>  returns an array of all values of desired object
+// ES7 - Object values =>  returns an array of all values of desired object
 
 let values = Object.values(user); 
 

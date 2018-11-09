@@ -62,3 +62,23 @@ console.log(true && false); // output: false. It's true and it's false, so javas
 console.log(true || false || true); // output: true. First true or false returns true, then we have true or true, which is true
 
 console.log(true && false && true); // output: false. true and false returns false and then false and true also returns false
+
+console.log("-------------------");
+
+// Simple math
+
+console.log(1 + 2 == 3); // output: true
+
+console.log(5 + 7 + "4"); // output: "124" (1)
+
+console.log("4" + 5 + 7); // output: "457" (2)
+
+console.log(0.1 + 0.2 == 0.3); // output: false 
+
+// (1) Javascript is looking from left to right. On the far left we have addition of two numbers. 
+// Once calucation is complete, the next step is to concatinate the sum with the string on the far right.
+
+// (2) As I said, Javascript is looking from left to right. On the far left we have string concatination, thus string and number
+// will concatinate into a larger string. Next step is a number and since JS looks from right to left, it will again concatinate 
+// the string and number into a larger string.
+
