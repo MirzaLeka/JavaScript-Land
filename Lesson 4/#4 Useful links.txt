@@ -1,2 +1,5 @@
 #Symbols: 
 http://exploringjs.com/es6/ch_symbols.html
+
+# Web Workes | multithreading
+https://www.youtube.com/watch?v=pMK-jcOAYI8

@@ -55,9 +55,9 @@ console.log(!true); // output: false
 
 console.log(!!true); // output: true
 
-console.log(true || false); // output: true. It can eiter be true or false, so javascript chooses true
+console.log(true || false); // output: true. It can eiter be true or false, so javascript chooses true. It's like a light switch it can be On OR Off.
 
-console.log(true && false); // output: false. It's true and it's false, so javascript chooses false
+console.log(true && false); // output: false. It's true and it's false, so javascript chooses false. But light switch can't be On AND Off at the same time.
 
 console.log(true || false || true); // output: true. First true or false returns true, then we have true or true, which is true
 
