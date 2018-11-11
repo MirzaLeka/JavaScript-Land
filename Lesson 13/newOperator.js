@@ -17,7 +17,19 @@ console.log(x); // output: 25
 
 let y = 10;
 
-let z = y ** 5;
+let z = y ** 5; // 10 * 10 * 10 * 10 * 10
 
 console.log(z); // output: 100000
+
+
+// example 3 // works only with babel
+
+// let number = 3;
+
+// let squared = number**;  
+
+// console.log(squared); // output: 9
+
+// number** is equal to number*number
+
 
