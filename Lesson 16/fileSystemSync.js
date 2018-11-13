@@ -1,10 +1,10 @@
 
 // File System (fs) is a core module
-// It's used for reading, writting, deleting files as well as creating, deleting directories
+// It's used for working with files and folders
 
 const fs = require('fs');
 
-// Synchronous Syntax
+
 
 // fs.readFileSync('path/filename.type', encoding);  // this is a synchronous code, blocking code, meaning it will block the rest of the code below
 

@@ -1,3 +1,7 @@
+#ESLint playlist
+https://www.youtube.com/playlist?list=PLMWjeRChIK6bnp6qaS3rxLGCpc9aQYzEE
+
+Start ESLint: eslint --init
 
 Gulp live reload
 https://www.youtube.com/results?search_query=gulp+livereload
