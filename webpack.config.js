@@ -6,5 +6,5 @@ module.exports = {
     path: path.join(__dirname, '/Lesson 8/webpack/dist'),
     filename: 'bundle.js'
   },
-  mode: 'production'
+  mode: 'development'
 };

@@ -1,15 +1,15 @@
 const basicMath = require('./basicMath');
 
-basicMath.add(2,3);
-basicMath.subtract(basicMath.pi,1);
+basicMath.add(2, 3);
+basicMath.subtract(basicMath.pi, 1);
 
-var {multiply, divide} = require('./advanceMath');
+const { multiply, divide } = require('./advanceMath');
 
 // to get default we need to use import keyword and give default function a name, because default keyword cannot be used
 // import power, {multiply, divide} from './advanceMath';
 
-multiply(2,3);
-divide(10,2);
+multiply(2, 3);
+divide(10, 2);
 // when we use destructuring we no longer require filename keyword to call a method,
 // because destructured variable is directly connected to a method we're calling
 
@@ -30,6 +30,6 @@ print("Mirza");
 
 // Exporting variables
 
-var {num} = require ('./variables');
+const { num } = require('./variables');
 
-console.log("Num is " + num);
+console.log('Num is ' + num);
