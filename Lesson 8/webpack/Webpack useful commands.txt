@@ -1,0 +1,2 @@
+Change config destination:
+webpack --config=config/webpack.dev.js 

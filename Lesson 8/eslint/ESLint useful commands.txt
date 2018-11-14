@@ -1,0 +1,2 @@
+Start ESLint:
+eslint --init

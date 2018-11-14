@@ -1,7 +1,5 @@
-#ESLint playlist
+ESLint playlist
 https://www.youtube.com/playlist?list=PLMWjeRChIK6bnp6qaS3rxLGCpc9aQYzEE
-
-Start ESLint: eslint --init
 
 Gulp live reload
 https://www.youtube.com/results?search_query=gulp+livereload
@@ -17,6 +15,9 @@ https://www.youtube.com/results?search_query=ryan+gulp
 
 Reload server with Gulp
 https://gist.github.com/webdesserts/5632955
+
+Webpack: Beyond the basics
+https://www.youtube.com/playlist?list=PLmTsWjOvTMNG6I3auZMjIV6ZghbvgCvm4
 
 Net Ninja Webpack
 https://www.youtube.com/playlist?list=PL4cUxeGkcC9iTQ3J5oa6orDIMQKKxl8dC

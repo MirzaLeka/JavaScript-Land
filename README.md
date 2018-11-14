@@ -1,4 +1,4 @@
-# JavaScript 30
+# JavaScript30
 Intermediate to Pro practice course
 
 ![](readMe_img/js-logo.jpg)
@@ -13,6 +13,9 @@ or you think I made a mistake, please write your own code in your own **file**.
 The reason why I asking you to make your own files, instead of editing the existing ones is because I initially wrote this code
 to help myself learn in way I can understand it.
 I'm also adding coding challenges which can be found in folders directory.
+
+One last important thing to say is that lessons are not connected. 
+There is no **start** script. If you see any scripts in *package.json* file, these are not connected to one project, but rather spread across multiple lessons and used where needed.
 
 With that out of the way, I wish you happy coding moments. 
 Now let's look at the topics I intend to cover in this repository.
