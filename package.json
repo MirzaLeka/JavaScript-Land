@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "webpack --watch",
     "test": " mocha \"./{,!(node_modules)/**/}*assertions.test.js\" ",
     "test-watch": "nodemon --exec \"npm test\""
   },
@@ -35,6 +36,8 @@
     "eslint-plugin-react": "^7.11.1",
     "expect": "^1.20.2",
     "mocha": "^5.2.0",
-    "nodemon": "^1.18.6"
+    "nodemon": "^1.18.6",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2"
   }
 }
