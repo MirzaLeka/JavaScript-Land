@@ -22,6 +22,13 @@ module.exports = {
         'style-loader',
         'css-loader' // we just installed these
       ]
+    }, {
+      test: /\.scss$/, // usually we'll just test for scss, but in this lesson we're doing both
+      use: [
+        'style-loader', // we'll convert sass into css using sass loader
+        'css-loader', // then css loader will put css into JS via import 
+        'sass-loader' // finally style loader will put that css into the DOM
+      ]
     }]
   },
   devtool: 'cheap-module-eval-source-map', // finds error in original src. This src map can't be used in production

@@ -1,10 +1,11 @@
 import subtract, { square, sum, str } from './another';
 import divide from './singleExport'; // we are importing just default export
 import 'jquery';
+// import './styles/styles.css'; // => we are importing our styles file into js
+import './styles/index.scss';
 
 const _ = require('lodash');
 
-// import './styles/styles.css'; // we are importing our styles file into js
 
 const div = document.createElement('div');
 div.style.width = '120px';
@@ -37,10 +38,9 @@ document.body.appendChild(div);
 // import anythingWeWant, { square, add} from './another' and it will work just fine
 
 $('body').css({
-  background: 'whitesmoke',
   height: '100vh',
   width: '100%',
   overflowX: 'hidden'
 });
 
-console.log(_.isEmpty(''));
+console.log(`${_.isEmpty('')} from Lodash!`);
