@@ -20,6 +20,9 @@
   },
   "homepage": "https://github.com/MirzaLeka/Javascript30#readme",
   "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1",
     "body-parser": "^1.18.3",
     "css-loader": "^1.0.1",
     "ejs": "^2.6.1",

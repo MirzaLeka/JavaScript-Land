@@ -12,7 +12,10 @@ module.exports = {
     rules: [{
       loader: 'babel-loader',
       test: /\.js$/, // what file types we want to run with babel loader & check if file ends with .js
-      exclude: /node_modules/ // we are excluding node modules
+      exclude: /node_modules/, // we are excluding node modules
+      query: { // specify what kind of code we want to convert to vanilla JS
+        presets: ['es2015', 'es2016', 'es2017', 'react', 'env']
+      }
     }, {
       test: /\.css$/, // looking for any file that ends with .css
       use: [ // we need multiple loaders, so we'll use "use" and setup array of loaders

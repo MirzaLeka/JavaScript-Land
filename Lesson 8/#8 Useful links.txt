@@ -1,5 +1,11 @@
+
+# ESLint
+
 ESLint playlist
 https://www.youtube.com/playlist?list=PLMWjeRChIK6bnp6qaS3rxLGCpc9aQYzEE
+
+
+# Gulp
 
 Gulp live reload
 https://www.youtube.com/results?search_query=gulp+livereload
@@ -16,11 +22,20 @@ https://www.youtube.com/results?search_query=ryan+gulp
 Reload server with Gulp
 https://gist.github.com/webdesserts/5632955
 
+
+# Webpack
+
 Webpack: Beyond the basics
 https://www.youtube.com/playlist?list=PLmTsWjOvTMNG6I3auZMjIV6ZghbvgCvm4
 
+Webpack: Academind
+https://www.youtube.com/playlist?list=PL55RiY5tL51rcCnrOrZixuOsZhAHHy6os
+
 Net Ninja Webpack
 https://www.youtube.com/playlist?list=PL4cUxeGkcC9iTQ3J5oa6orDIMQKKxl8dC
+
+
+# Webpack + Gulp
 
 Improve code with Webpack and Gulp
 https://www.youtube.com/watch?v=pFAB35Dm3D8
