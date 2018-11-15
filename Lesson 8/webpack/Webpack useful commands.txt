@@ -1,2 +1,12 @@
 Change config destination:
 webpack --config=config/webpack.dev.js 
+
+Build script example:
+"build": "webpack --watch"
+
+// build script builds bundle file
+// if we delete bundle file and restart the server it's still gonna run based on previous bundle file 
+
+// to create new bundle we just run *npm run build* 
+// and then run server with *npm run dev-server*
+
