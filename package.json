@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "dev-server": "webpack-dev-server", 
+    "dev-server": "webpack-dev-server",
     "test": " mocha \"./{,!(node_modules)/**/}*assertions.test.js\" ",
     "test-watch": "nodemon --exec \"npm test\""
   },
@@ -21,13 +21,17 @@
   "homepage": "https://github.com/MirzaLeka/Javascript30#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
+    "css-loader": "^1.0.1",
     "ejs": "^2.6.1",
     "express": "^4.16.4",
+    "jquery": "^3.3.1",
     "lodash": "^4.17.11",
     "mongodb": "^3.1.9",
     "mongoose": "^5.3.12",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
+    "style-loader": "^0.23.1",
+    "validator": "^10.9.0",
     "webpack": "^4.25.1",
     "webpack-cli": "^3.1.2",
     "webpack-dev-middleware": "^3.4.0",
@@ -37,6 +41,7 @@
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
+    "babel-plugin-lodash": "^3.3.4",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "eslint": "^5.9.0",
@@ -45,6 +50,7 @@
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-react": "^7.11.1",
     "expect": "^1.20.2",
+    "lodash-webpack-plugin": "^0.11.5",
     "mocha": "^5.2.0",
     "nodemon": "^1.18.6"
   }
