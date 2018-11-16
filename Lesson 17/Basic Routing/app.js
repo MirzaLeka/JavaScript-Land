@@ -183,6 +183,14 @@ app.use(express.static(__dirname + "/public", { extensions: ["html", "htm"]}));
 
 // this code should be right before listening for port
 
+/* NEW CODE to render error page is to use * instead of / */
+app.get('*', (req, res) => {
+  res.sendFile(__dirname + '/public/error.html');
+});
+
+
+/* OLD CODE 
+
 const router = express.Router();
 
 router.use(function(req, res, next) {
@@ -202,7 +210,7 @@ router.use(function(req, res){
 
  app.use(router);
 
-
+*/
 
 
 

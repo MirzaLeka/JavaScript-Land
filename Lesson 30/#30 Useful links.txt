@@ -1,3 +1,6 @@
 
 # Validator
 https://www.npmjs.com/package/validator
+
+# Chalk
+https://www.npmjs.com/package/chalk
