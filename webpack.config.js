@@ -17,14 +17,8 @@ module.exports = {
         presets: ['es2015', 'es2016', 'es2017', 'react', 'env']
       }
     }, {
-      test: /\.css$/, // looking for any file that ends with .css
-      use: [ // we need multiple loaders, so we'll use "use" and setup array of loaders
-        'style-loader',
-        'css-loader' // we just installed these
-      ]
-    }, {
-      test: /\.scss$/, // usually we'll just test for scss, but in this lesson we're doing both
-      use: [
+      test: /\.s?css$/, // ? is there to look for .scss or .css files making 's' optional
+      use: [ // when we want to use multiple loaders, we use "use" and setup array of loaders
         'style-loader', // we'll convert sass into css using sass loader
         'css-loader', // then css loader will put css into JS via import 
         'sass-loader' // finally style loader will put that css into the DOM
