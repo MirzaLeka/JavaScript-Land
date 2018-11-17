@@ -6,7 +6,7 @@ import './styles/index.scss';
 import 'normalize.css/normalize.css'; // folder/file
 // we are using normalize.css resets to reset all default styles for browsers
 
-const _ = require('lodash');
+// const _ = require('lodash'); // Removed to avoid errors. This isn't the best way to import it 
 
 
 const div = document.createElement('div');
@@ -39,4 +39,4 @@ $('body').css({
   overflowX: 'hidden'
 });
 
-console.log(`${_.isEmpty('')} from Lodash!`);
+// console.log(`${_.isEmpty('')} from Lodash!`);

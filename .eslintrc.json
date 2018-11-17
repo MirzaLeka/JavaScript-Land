@@ -15,6 +15,7 @@
         "eslint linebreak-style": ["off", "windows"],
         "linebreak-style": "off",
         "no-trailing-spaces": "off",
+        "padded-blocks": "off",
         "no-unused-vars": [
             "error",
             {
