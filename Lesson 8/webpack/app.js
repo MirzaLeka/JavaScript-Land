@@ -1,8 +1,8 @@
 import subtract, { square, sum, str } from './another';
 import divide from './singleExport'; // we are importing just default export
 import 'jquery';
-// import './styles/styles.css'; // => we are importing our styles file into js
-import './styles/index.scss';
+// import './styles/index.css'; // => we are importing our styles file into js
+import './styles/styles.scss'; // we no longer need css files
 import 'normalize.css/normalize.css'; // folder/file
 // we are using normalize.css resets to reset all default styles for browsers
 

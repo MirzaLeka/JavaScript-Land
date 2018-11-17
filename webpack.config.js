@@ -1,10 +1,12 @@
 const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = (env) => {
   
   const isProduction = env === 'production'; // returns true or false based on env in webpack build, package.json
+  const CSSExtract = new MiniCssExtractPlugin({ filename: 'styles.css' }); // we'll extract style.css from bundle.js
 
   return {
     entry: path.join(__dirname, '/Lesson 8/webpack/app.js'), // main js file
@@ -22,26 +24,39 @@ module.exports = (env) => {
           presets: ['es2015', 'es2016', 'es2017', 'react', 'env']
         }
       }, {
-        test: /\.s?css$/, // ? is there to look for .scss or .css files making 's' optional
-        use: [ // when we want to use multiple loaders, we use "use" and setup array of loaders
-          'style-loader', // we'll convert sass into css using sass loader
-          'css-loader', // then css loader will put css into JS via import 
-          'sass-loader' // finally style loader will put that css into the DOM
+        test: /\.s?css$/,
+        use: [
+          MiniCssExtractPlugin.loader,
+          {
+            loader: 'css-loader', // we need to enable source maps for css and sass loader
+            options: { // we need object to setup options
+              sourceMap: true
+            }
+          },
+          {
+            loader: 'sass-loader',
+            options: {
+              sourceMap: true
+            }
+          }
         ]
       }]
     },
-    devtool: isProduction ? 'source-map' : 'cheap-module-eval-source-map', // finds error in original src. One source map for production, another for dev
+    devtool: isProduction ? 'source-map' : 'inline-source-map', // finds error in original src. One source map for production, another for dev
     devServer: { // starts server on port 8080 and autoreloads
-      contentBase: path.join(__dirname, '/Lesson 8/webpack/dist') // static files location - tell server where to look
+      contentBase: path.join(__dirname, '/Lesson 8/webpack/dist'), // static files location - tell server where to look
+      historyApiFallback: true
     },
     plugins: [
-      new webpack.ProvidePlugin({
+      CSSExtract, // extracting css
+      new webpack.ProvidePlugin({ // seting up jquery
         $: 'jquery',
         jQuery: 'jquery'
       }), 
-      new HtmlWebpackPlugin({ // since we are not combining files, we do not need loaders
-        minify: {
-          collapseWhitespace: true // minification
+      new HtmlWebpackPlugin({ // compressing html
+        minify: { // since we are not combining files, we do not need loaders
+          collapseWhitespace: true, // minification
+          removeComments: true
         },
         template: path.join(__dirname, '/Lesson 8/webpack/public/index.html'), // original index.html file destination
       })
