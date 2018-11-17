@@ -22,35 +22,35 @@ Now let's look at the topics I intend to cover in this repository.
 
 ### Lessons: 
 * Lesson 1 - JS DOM, JS OOP concepts, prototypes, classes, arrays, try and catch and intervals
-* Lesson 2 - Hoisting, scopes, context, closures
-* Lesson 3 - Intro to ES6
+* Lesson 2 - Hoisting, scopes, Todos: context, closures
+* Lesson 3 - Intro to ES6, Todos: spread, rest operator, destructuring, let, const vs var
 * Lesson 4 - Sets, maps and symbols
 * Lesson 5 - Higher order functions, string functions, for of/in/each loop
-* Lesson 6 - Intro to jQuery, DOM traversal, jquery vs javascript, jquery UI, validate
+* Lesson 6 - Intro to jQuery, DOM traversal, jquery vs javascript, Todos: jquery UI, validate
 * Lesson 7 - Working with modules
-* Lesson 8 - Build tools: Webpack, browserify, gulp and ESLint
-* Lesson 9 - Callback functions
-* Lesson 10 - Promises
-* Lesson 11 - Ajax, old way, jquery way, fetch API ES6
-* Lesson 12 - Iterators and generators
-* Lesson 13 - ES7, Async Await
+* Lesson 8 - Build tools: Webpack, ESLint, Todos: browserify, gul
+* Lesson 9 - Todos: Callback functions
+* Lesson 10 - Todos: Promises
+* Lesson 11 - Todos: Ajax, old way, jquery way, fetch API ES6
+* Lesson 12 - Todos: Iterators and generators
+* Lesson 13 - ES7, Todos: Async Await
 * Lesson 14 - Regex
-* Lesson 15 - Modular Javascript, design patterns, algorithms
-* Lesson 16 - Node JS, saving data into files
+* Lesson 15 - Modular Javascript, Todos: design patterns, algorithms
+* Lesson 16 - Node JS, Todos: saving data into files
 * Lesson 17 - Express JS, hbs, ejs templating engines
-* Lesson 18 - Web Sockets
-* Lesson 19 - MongoDB, crud operations, MongoDB operators, aggregation framework
-* Lesson 20 - Mongoose, nested schemas, mongoose promises, mongoose methods
-* Lesson 21 - NodeJS with SQL
-* Lesson 22 - Uploading files with NodeJS
-* Lesson 23 - JWT authentication, Passport JS, third party auth, emails
+* Lesson 18 - Todos: Web Sockets
+* Lesson 19 - Todos: MongoDB, crud operations, MongoDB operators, aggregation framework
+* Lesson 20 - Todos: Mongoose, nested schemas, mongoose promises, mongoose methods
+* Lesson 21 - Todos: NodeJS with SQL
+* Lesson 22 - Todos: Uploading files with NodeJS
+* Lesson 23 - Todos: JWT authentication, Passport JS, third party auth, emails
 * Lesson 24 - Lodash
 * Lesson 25 - 
-* Lesson 26 - Typescript 
+* Lesson 26 - Todos: Typescript 
 * Lesson 27 - Unit testing
 * Lesson 28 - 
 * Lesson 29 - 
-* Lesson 30 - Cool modules, Validator, Chalk, typed js, cookie parser, baffle js...
+* Lesson 30 - Cool modules, Validator, Chalk, Todos: typed js, cookie parser, baffle js...
 
 ![](readMe_img/js-git-node.jpg)
 
