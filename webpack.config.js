@@ -1,5 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: path.join(__dirname, '/Lesson 8/webpack/app.js'), // main js file
@@ -27,12 +28,18 @@ module.exports = {
   },
   devtool: 'cheap-module-eval-source-map', // finds error in original src. This src map can't be used in production
   devServer: { // starts server on port 8080 and autoreloads
-    contentBase: path.join(__dirname, '/Lesson 8/webpack/dist') // static files location
+    contentBase: path.join(__dirname, '/Lesson 8/webpack/dist') // static files location - tell server where to look
   },
   plugins: [
     new webpack.ProvidePlugin({
       $: 'jquery',
       jQuery: 'jquery'
+    }), 
+    new HtmlWebpackPlugin({ // since we are not combining files, we do not need loaders
+      minify: {
+        collapseWhitespace: true // minification
+      },
+      template: path.join(__dirname, '/Lesson 8/webpack/public/index.html'), // original index file destination
     })
   ]
 };

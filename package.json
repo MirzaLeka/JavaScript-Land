@@ -38,6 +38,7 @@
     "react-dom": "^16.6.3",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
+    "typed.js": "^2.0.9",
     "validator": "^10.9.0",
     "webpack": "^4.25.1",
     "webpack-cli": "^3.1.2",
@@ -56,6 +57,8 @@
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-react": "^7.11.1",
     "expect": "^1.20.2",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
     "mocha": "^5.2.0",
     "nodemon": "^1.18.6"
   }
