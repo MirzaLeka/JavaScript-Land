@@ -1,7 +1,9 @@
-const path = require('path');
-const webpack = require('webpack');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const path = require('path'); // core NodeJS module
+const webpack = require('webpack'); // to access built-in plugins
+const HtmlWebpackPlugin = require('html-webpack-plugin'); // installed via npm
+const MiniCssExtractPlugin = require('mini-css-extract-plugin'); // installed via npm
+// const CleanWebpackPlugin = require('clean-webpack-plugin'); // installed via npm
+// const DelWebpackPlugin = require('del-webpack-plugin') // installed via npm
 
 module.exports = (env) => {
   
@@ -20,8 +22,8 @@ module.exports = (env) => {
         loader: 'babel-loader',
         test: /\.js$/, // what file types we want to run with babel loader & check if file ends with .js
         exclude: /node_modules/, // we are excluding node modules
-        query: { // specify what kind of code we want to convert to vanilla JS
-          presets: ['es2015', 'es2016', 'es2017', 'react', 'env']
+        query: { 
+          presets: ['es2015', 'es2016', 'es2017', 'react', 'env'] // specify what kind of code we want to convert to vanilla JS
         }
       }, {
         test: /\.s?css$/, // check for any file that ends with .scss or .css making first s optional (?) 
@@ -58,7 +60,7 @@ module.exports = (env) => {
         jQuery: 'jquery'
       }), 
       new HtmlWebpackPlugin({ // compressing html
-        filename: 'index.html',
+        filename: 'index.html', // we need to give each file a filename, otherwise webpack will consider everything as one file and only save/export the latter .html file
         minify: { // since we are not combining files, we do not need loaders
           collapseWhitespace: true, // minification
           removeComments: true
@@ -74,7 +76,9 @@ module.exports = (env) => {
         },
         inject: false,
         template: path.join(__dirname, '/Lesson 8/webpack/public/error.html'), 
-      })
+      }),
+      // new CleanWebpackPlugin([path.join(__dirname, '/Lesson 8/webpack/dist')]) // this we'll clean previous dist folder for us, every time we run build script, instead of doing it manually
+      // I commented it out because it removes dist folder in dev-server mode
     ]
   };
 };

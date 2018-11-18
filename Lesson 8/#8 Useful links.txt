@@ -31,7 +31,7 @@ https://www.youtube.com/playlist?list=PLmTsWjOvTMNG6I3auZMjIV6ZghbvgCvm4
 Webpack: Academind
 https://www.youtube.com/playlist?list=PL55RiY5tL51rcCnrOrZixuOsZhAHHy6os
 
-Net Ninja Webpack
+Webpack: Net Ninja
 https://www.youtube.com/playlist?list=PL4cUxeGkcC9iTQ3J5oa6orDIMQKKxl8dC
 
 

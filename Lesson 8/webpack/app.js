@@ -1,3 +1,10 @@
+
+import isEmpty from 'lodash.isempty';
+
+// instead of importing entire lodash we're just import one function we want to use
+// Syntax: npm i --save lodash.isempty and then we import it. works for the same for lodash.isqeual and other methods
+// IMPORTANT Note: We Do Not Use _ when accessing single-imported lodash methods
+
 import subtract, { square, sum, str } from './another';
 import divide from './singleExport'; // we are importing just default export
 import 'jquery';
@@ -40,4 +47,4 @@ $('body').css({
   overflowX: 'hidden'
 });
 
-// console.log(`${_.isEmpty('')} from Lodash!`);
+console.log(`${isEmpty('')} from Lodash!`); // no need for _ because we imported a single method

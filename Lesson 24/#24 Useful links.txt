@@ -7,3 +7,6 @@ https://www.youtube.com/watch?v=kdfikit351Y
 
 # Lodash - Replacing the chain pattern with flow()
 https://www.youtube.com/watch?v=Gj9THIxp7HE
+
+# Lodash - import single function
+https://stackoverflow.com/questions/43479464/how-to-import-single-lodash-function
