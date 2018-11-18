@@ -6,7 +6,8 @@
   "scripts": {
     "build:dev": "webpack --mode development",
     "build:prod": "webpack --mode production --env production",
-    "dev-server": "webpack-dev-server --env production",
+    "dev-server:dev": "webpack-dev-server --env development",
+    "dev-server:prod": "webpack-dev-server --env production",
     "test": " mocha \"./{,!(node_modules)/**/}*assertions.test.js\" ",
     "test-watch": "nodemon --exec \"npm test\""
   },

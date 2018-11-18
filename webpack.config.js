@@ -14,7 +14,7 @@ module.exports = (env) => {
       path: path.join(__dirname, '/Lesson 8/webpack/dist'), // output destination
       filename: 'bundle.js'
     },
-    mode: isProduction ? 'production' : 'development', // this is for dev server
+    mode: isProduction ? 'production' : 'development', // this is for dev server, --mode 'mode'
     module: {
       rules: [{
         loader: 'babel-loader',
@@ -24,9 +24,9 @@ module.exports = (env) => {
           presets: ['es2015', 'es2016', 'es2017', 'react', 'env']
         }
       }, {
-        test: /\.s?css$/,
-        use: [
-          MiniCssExtractPlugin.loader,
+        test: /\.s?css$/, // check for any file that ends with .scss or .css making first s optional (?) 
+        use: [ 
+          MiniCssExtractPlugin.loader, // we specify extract loader
           {
             loader: 'css-loader', // we need to enable source maps for css and sass loader
             options: { // we need object to setup options
@@ -42,10 +42,14 @@ module.exports = (env) => {
         ]
       }]
     },
-    devtool: isProduction ? 'source-map' : 'inline-source-map', // finds error in original src. One source map for production, another for dev
-    devServer: { // starts server on port 8080 and autoreloads
+    devtool: isProduction ? 'source-map' : 'inline-source-map', // finds error in original src. One source map for production, another for dev. --env 'mode'
+    devServer: { // starts server and autoreloads
+      port: 3000, // setting default port to 3000
       contentBase: path.join(__dirname, '/Lesson 8/webpack/dist'), // static files location - tell server where to look
-      historyApiFallback: true
+      historyApiFallback: {
+        index: 'error.html', // renders error.html on every 404 page. Since contentBase is in dist folder, we don't need path here. we just output the error file, which is the same folder as contentBase => dist folder
+      },
+      open: true, // opens browser when server starts
     },
     plugins: [
       CSSExtract, // extracting css
@@ -54,12 +58,32 @@ module.exports = (env) => {
         jQuery: 'jquery'
       }), 
       new HtmlWebpackPlugin({ // compressing html
+        filename: 'index.html',
         minify: { // since we are not combining files, we do not need loaders
           collapseWhitespace: true, // minification
           removeComments: true
         },
+        inject: false,
         template: path.join(__dirname, '/Lesson 8/webpack/public/index.html'), // original index.html file destination
+      }),
+      new HtmlWebpackPlugin({ 
+        filename: 'error.html',
+        minify: { 
+          collapseWhitespace: true, 
+          removeComments: true
+        },
+        inject: false,
+        template: path.join(__dirname, '/Lesson 8/webpack/public/error.html'), 
       })
     ]
   };
 };
+
+// Regarding multiple css files: 
+// Becuase we're getting all different styles and compiling it into one file, if there are any common styles, one file will overwrite the other
+// I guess the best solution is to have multiple tests and also test for array => test: [ /navbar.s?cs$/, /home.s?css$/ ] & bundle these 2 together,
+// but then create new test that will leave out error scss for another test => test: [ /navbar.s?css$/, /error.s?css$/ ]
+// I think it might work 
+
+// ==> will probably work for multiple js, assuming I don't want all html files to use same script
+// or maybe just change entry. one folder for all js,scss files regarding home. another for all js,scss for some other page.

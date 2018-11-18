@@ -6,11 +6,14 @@
     <title>Webpack is AWSM</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="">
-    <!-- Both script tag and styles tag will be added automatically by HtmlWebpackPlugin once build is complete -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!-- If injected is set to true, both script tag and styles tag will be added automatically by HtmlWebpackPlugin once build is complete -->
 </head>
 <body>
-    
+   
     <div id="root"></div>
 
+    <script type="text/javascript" src="bundle.js"></script> 
+    <!-- Since bundled js and css files will be in the same folder as minified index.html, I can set src to bundle.js -->
 </body>
 </html>

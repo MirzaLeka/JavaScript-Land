@@ -34,7 +34,7 @@ Now let's look at the topics I intend to cover in this repository.
 * Lesson 11 - Todos: Ajax, old way, jquery way, fetch API ES6
 * Lesson 12 - Todos: Iterators and generators
 * Lesson 13 - ES7, Todos: Async Await
-* Lesson 14 - Regex
+* Lesson 14 - Todos: Regex
 * Lesson 15 - Modular Javascript, Todos: design patterns, algorithms
 * Lesson 16 - Node JS, Todos: saving data into files
 * Lesson 17 - Express JS, hbs, ejs templating engines
