@@ -46,9 +46,28 @@ module.exports = (env) => {
         test: /\.(png|gif|svg|jpe?g)$/i,
         use: [
           {
-            loader: 'file-loader',
+            loader: 'file-loader', // images loader => copies images from one place to another
             options: {
-              name: 'img/[name].[ext]',
+              name: 'img/[name].[ext]', // by default file loader will replace file name with some random hash. With this, we'll keep the original name and extension
+            } // we're also placing all images inside img folder => img/fileName.ext
+          },
+          {
+            loader: 'image-webpack-loader', // image compression => contains loaders for different types of images
+            options: {
+              gifsicle: { // gif loader
+                interlanced: false
+              },
+              optipng: { // png loader
+                optimizationLevel: 7
+              },
+              pngquant: { // png loader
+                quality: '65-90',
+                speed: 4
+              },
+              mozjpeg: { // jpg loader
+                progressive: true,
+                quality: 65
+              }
             }
           }
         ]

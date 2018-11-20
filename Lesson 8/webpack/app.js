@@ -16,7 +16,11 @@ import './styles/errorStyles.scss'; // importing from root directory / styles fo
 import 'normalize.css/normalize.css'; // folder/file
 // we are using normalize.css resets to reset all default styles for browsers
 
-import './public/img/jet.jpeg';
+// import './public/img/jet.jpeg'; // import a single image
+
+// import multiple images at once
+const req = require.context('./public/img', false, /.*\.(png|gif|svg|jpe?g)$/); 
+req.keys().forEach(key => req(key));
 
 // const _ = require('lodash'); // Removed to avoid errors. This isn't the best way to import it 
 
