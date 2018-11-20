@@ -22,6 +22,10 @@ https://www.youtube.com/results?search_query=ryan+gulp
 Reload server with Gulp
 https://gist.github.com/webdesserts/5632955
 
+# Gulp - sourcemaps
+https://symfonycasts.com/screencast/gulp/sourcemaps-only-dev
+https://github.com/Gottwik/Enduro/issues/220
+
 
 # Webpack
 

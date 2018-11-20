@@ -2,7 +2,8 @@ const path = require('path'); // core NodeJS module
 const webpack = require('webpack'); // to access built-in plugins
 const HtmlWebpackPlugin = require('html-webpack-plugin'); // installed via npm
 const MiniCssExtractPlugin = require('mini-css-extract-plugin'); // installed via npm
-// const CleanWebpackPlugin = require('clean-webpack-plugin'); // installed via np
+// const CleanWebpackPlugin = require('clean-webpack-plugin'); // installed via npm
+
 
 module.exports = (env) => {
   
@@ -41,7 +42,18 @@ module.exports = (env) => {
             }
           }
         ]
-      }]
+      }, {
+        test: /\.(png|gif|svg|jpe?g)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: 'img/[name].[ext]',
+            }
+          }
+        ]
+      }
+      ]
     },
     devtool: isProduction ? 'source-map' : 'inline-source-map', // finds error in original src. One source map for production, another for dev. --env 'mode'
     devServer: { // starts server and autoreloads

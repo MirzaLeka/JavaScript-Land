@@ -8,11 +8,15 @@ import isEmpty from 'lodash.isempty';
 import subtract, { square, sum, str } from './another';
 import divide from './singleExport'; // we are importing just default export
 import 'jquery';
+
 // import './styles/index.css'; // => we are importing our styles file into js
 import './styles/styles.scss'; // we no longer need css files
 import './styles/errorStyles.scss'; // importing from root directory / styles folder / file.scss. app.js is in root
+
 import 'normalize.css/normalize.css'; // folder/file
 // we are using normalize.css resets to reset all default styles for browsers
+
+import './public/img/jet.jpeg';
 
 // const _ = require('lodash'); // Removed to avoid errors. This isn't the best way to import it 
 
