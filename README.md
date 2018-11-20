@@ -25,10 +25,10 @@ Now let's look at the topics I intend to cover in this repository.
 * Lesson 2 - Hoisting, scopes, Todos: context, closures
 * Lesson 3 - Intro to ES6, Todos: spread, rest operator, destructuring, let, const vs var
 * Lesson 4 - Sets, maps and symbols
-* Lesson 5 - Higher order functions, string functions, for of/in/each loop
+* Lesson 5 - Higher order functions, string functions, for of/in/each loop, object methods
 * Lesson 6 - Intro to jQuery, DOM traversal, jquery vs javascript, Todos: jquery UI, validate
 * Lesson 7 - Working with modules
-* Lesson 8 - Build tools: Webpack, ESLint, Todos: browserify, gul
+* Lesson 8 - Build tools: Webpack, ESLint, Todos: browserify, gulp
 * Lesson 9 - Todos: Callback functions
 * Lesson 10 - Todos: Promises
 * Lesson 11 - Todos: Ajax, old way, jquery way, fetch API ES6
