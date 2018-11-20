@@ -34,6 +34,8 @@ https://www.youtube.com/playlist?list=PL55RiY5tL51rcCnrOrZixuOsZhAHHy6os
 Webpack: Net Ninja
 https://www.youtube.com/playlist?list=PL4cUxeGkcC9iTQ3J5oa6orDIMQKKxl8dC
 
+Webpack - ihatetomatoes
+https://www.youtube.com/playlist?list=PLkEZWD8wbltnRp6nRR8kv97RbpcUdNawY
 
 # Webpack + Gulp
 

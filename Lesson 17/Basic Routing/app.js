@@ -19,41 +19,47 @@ const app = express(); // we asign variable app to the return result of express(
 // but you don't call next(), routes below will never execute.
 // What we'll render instead is our maintenance page on all routes
 
+
+// UPDATE: It's better to use path.join() method to join strings in res.sendFile, rather than concat: __dirname + '/somepath');
+const path = require('path'); // path is a core module and does not require install
+
 app.use((req, res, next) => {
-    res.sendFile(__dirname + "/public/maintenance.html");
-    // next(); // remove this comment to be able to access other routes
+//   res.sendFile(__dirname + "/public/maintenance.html"); // OLD WAY
+  res.sendFile(path.join(__dirname, '/public/maintenance.html')); // NEW WAY. ESLINT Approves it!
+  // next(); // remove this comment to be able to access other routes
+
+  // Syntax: path.join( current directory (__dirname), path to a file we want to load )
 });
 
 
 // Route Sample
 app.get('/someRoute', function(req, res) { 
-    res.send("Hello world!"); // so whenever user requests/comes to this route, we'll send the message
+  res.send('Hello world!'); // so whenever user requests/comes to this route, we'll send the message
 // we don't need to specify content type. Express is smart enouch to figure that out for us
-    });
-
-
-// we can create as many routes as we want
-app.get("/contact", function(req, res)  {
-    res.send("This is a contact page");
 });
 
 
-// Express route parameters -- Dynamic Routes
+// we can create as many routes as we want
+app.get('contact', function(req, res)  {
+  res.send("This is a contact page"); // no need path here, it's not concatination
+});
+
+
+// Express route parameters -- DYNAMIC Routes
 // Syntax: /url/:variable
 
-app.get("/profile/:id", (req, res) => {
-    res.send("You requested to see a profile with an id of " + req.params.id);
-    // Syntax: req.params.nameOfTheVariable. It can be id, it can be name, it can be anything.
+app.get('/profile/:id', (req, res) => {
+  res.send('You requested to see a profile with an id of ' + req.params.id);
+  // Syntax: req.params.nameOfTheVariable. It can be id, it can be name, it can be anything.
 
-    // if we go to this path and type in profile/123, we'll ge the message
-    // You requested to see a profile with an id of 123
+  // if we go to this path and type in profile/123, we'll ge the message => You requested to see a profile with an id of 123
 });
 
 
 // Send HTML page
-app.get("/home", function(req, res) {
-    res.sendFile(__dirname + "/public/index.html"); // will load html file when we go to this route
-    // Syntax: current directory (__dirname) + path to a file we want to load
+app.get('/home', function(req, res) {
+  // res.sendFile(__dirname + "/public/index.html"); 
+  res.sendFile(path.join(__dirname, 'public/index.html'));  // will load index.html file when we go to this route
 });
 
 
@@ -62,39 +68,39 @@ app.get("/home", function(req, res) {
 // so we can gather routes into an array and whenever used visits one or the other we'll render
 // home page
 
-app.get(["/", "/home"], function(req, res) {
-    res.sendFile(__dirname + "/public/index.html"); // will load html home page on  both routes
+app.get(['/', '/home'], function(req, res) {
+  res.sendFile(__dirname + '/public/index.html'); // will load html home page on  both routes
 })
 
 
 // send json
-app.get("/somejson", (req, res) => {
-    res.send({ // when we go to this route we'll get the json below
-        user: "Mirza",
-        likes: [
-            "JS",
-            "Games",
-            "Traveling"
-        ]
-    });
+app.get('/somejson', (req, res) => {
+  res.send({ // when we go to this route we'll get the json below
+    user: 'Mirza',
+    likes: [
+      'JS',
+      'Games',
+      'Traveling'
+    ]
+  });
 });
 // there is also res.json() method that gives us a few more options. 
 // More about this method in #17 Useful link.txt
 
 
-// send html without making an html file
-app.get("/somehtml", (req, res) => {
-    res.send(`<h1>This is some html tag</h1>`); 
+// We can send html without making an html file
+app.get('/somehtml', (req, res) => {
+  res.send(`<h1>This is some html tag</h1>`); 
 });
 
 
-// send status
+// Send response based on status
 app.get('/somestatus', (req, res) => {
-    if (res.status(200)) {
-        res.send("You're all good!");
-    } else {
-        res.send("You have an error");
-    }
+  if (res.status(200)) {
+    res.send("You're all good!");
+  } else {
+    res.send('You have an error');
+  }
 });
 
 
@@ -102,11 +108,11 @@ app.get('/somestatus', (req, res) => {
 
 // Middleware is a code in the middle that happens after we request a route and before we send the response
 
-app.get("/newRoute", function(req, res) {
-    console.log("Hello World!"); // This is middleware
-    res.send("this is new route");
-
-    // Middleware is a code that runs between request and the response. Code in the middle.
+app.get('/newRoute', function(req, res) { // This is request
+  console.log('Hello World!'); // => This is Middleware
+  res.send('This is new route'); // This is response
+  
+  // Middleware is a code that runs between request and the response => Code in the middle.
 });
 
 
@@ -125,28 +131,30 @@ app.get("/newRoute", function(req, res) {
 
 
 // Handling middlewares
-app.use('/turtle', function(req, res, next) {
-    console.log(req.url); // will print '/' and it's taking the URL after /turtle
-// so if we type /turtle/leonardo we'll log the result '/leonardo' or /styles.css if we requested that route
-    next();
+app.use('/turtle', (req, res, next) => {
+  console.log(req.url); // will print '/' and it's taking the URL after /turtle
+  // so if we type /turtle/leonardo we'll log the result '/leonardo' or /styles.css if we requested that /turtle/styles.css
+  next();
 });
 
 // app.use('/turtle') - whenever someone visits this route, this middleware will fire
 // middlewares come with next parameter. We use this parameter whenever we have multiple middlewares/routes
 // with the same route, like:
 // app.get('/'), app.use('/')
-// so we put next() at the bottom and we tell mode to switch between middlewares once we're done with the current one
+// so we put next() at the bottom and we tell node to switch between middlewares once we're done with the current one
 
-// Note: if the middleware is the last middleware with that route in the file we don't need to call next() 
+// Note: if the middleware is the last middleware (last in the chain) with that route in the file we don't need to call next() 
 
 
 // Handling static files
-app.use("/assets", express.static(__dirname + '/assets'));
-// Symtax: /nameOfTheRoute, express.static(directoryWeAreIn + '/nameOfTheFolder');
+// app.use('/assets', express.static(__dirname + '/assets')) ;
+app.use('/assets', express.static(path.join(__dirname, '/assets'))); // UPDATED
+
+// Symtax: /nameOfTheRoute, express.static( path.join( directoryWeAreIn + '/nameOfTheFolder' ) );
 // In this case they're both assets
 // So any request towards /assets will send you towards assets folder where all the static files are
 
-// When using express.static there is no need to use next(); because we'll get automatically
+// When using express.static there is no need to use next(); because we'll get automatically it
 // if we go to route /assets/styles.css (route where our css is) we'll get our entire css file:
 /* 
 h1{
@@ -162,17 +170,17 @@ p{
 // Get multiple html files
 // what if we have more html files but we didn't create routes for these files?
 
-app.use(express.static(__dirname + "/public", { extensions: ["html", "htm"]}));
+app.use(express.static(path.join(__dirname, '/public'), { extensions: ['html', 'htm'] }));
 // line above will allow us to use all html files in public folder without making routes
 
-// object in between with extensions key will leave out .html and .htm extensions from route, like
-// website.com/home.html
+// object in between with extensions key will leave out .html and .htm extensions from route, like website.com/home.html
 // the object is optional
 
 
 // if we dom't include this line app.use(express.static(__dirname + "/public", { extensions: ["html", "htm"]}));
+// OR this (UPDATED) app.use(express.static(path.join(__dirname, '/public'), { extensions: ['html', 'htm'] }));
 
-// then if we go to localhost:3000/index, we will not get index.html page. In other words, we'll only
+// then when we go to localhost:3000/index, we will Not get index.html page. In other words, we'll only
 // be able to access index page through routes '/' and '/home'
 
 
@@ -185,7 +193,8 @@ app.use(express.static(__dirname + "/public", { extensions: ["html", "htm"]}));
 
 /* NEW CODE to render error page is to use * instead of / */
 app.get('*', (req, res) => {
-  res.sendFile(__dirname + '/public/error.html');
+//   res.sendFile(__dirname + '/public/error.html');
+  res.sendFile(path.join(__dirname, '/public/error.html'));
 });
 
 
@@ -213,17 +222,15 @@ router.use(function(req, res){
 */
 
 
-
-
 // tell server to listen to a port
-//app.listen(3000); // will listen on port 3000
-//console.log("Server started on port 3000"); 
+// app.listen(3000); // will listen on port 3000
+// console.log("Server started on port 3000"); 
 
-// I can listen to a port like above, but maybe the console log will fire before an app starts listening
+// I can listen to a port like above, but maybe the console log will run before an app starts listening
 // for that reason, I'll console.log server started message inside a callback function
 
 app.listen(3000, function() {
-    console.log("Server started on port 3000");
+  console.log('Server started on port 3000');
 });
 
 

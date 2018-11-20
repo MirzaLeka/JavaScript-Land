@@ -7,3 +7,7 @@ https://www.w3schools.com/nodejs
 
 # Node JS Tutorial for Beginners - met ninja
 https://www.youtube.com/playlist?list=PL4cUxeGkcC9gcy9lrvMJ75z9maRw4byYp
+
+# Node JS Master Class
+https://github.com/pirple/The-NodeJS-Master-Class
+https://pirple.thinkific.com/courses/the-nodejs-master-class?fbclid=IwAR30Ptm1uXYG_EsWRTaVO8CFB3M_mbv4b_y4t-J3TnuxyaLo3A3TYG8TuWw

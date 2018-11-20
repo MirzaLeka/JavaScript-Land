@@ -1,7 +1,7 @@
 
 const expect = require('expect');
 
-const { add, square } = require('./utils');
+const { add, square, setName } = require('./utils');
 
 it('Should add two numbers', () => {
   const res = add(33, 11);
@@ -44,5 +44,32 @@ it('Should expect some values', () => {
   }).toExclude({
     age: 23
   }); // will pass because age is 24
+
+});
+
+
+it('Should verify first and last name are set', () => {
+
+  const user = { // we're creating a new object and setting some properties
+    age: 24,
+    location: 'Sarajevo'
+  };
+  
+  // we'll pass previously created object as an argument of setName function
+  // another parameter will be fullName, which we'll split and into first and last name and asign it as props of object we passed in utils.js file
+  const result = setName(user, 'Bruce Wayne'); // we'll set return result of setName function (object) to be result variable, making result our object
+
+  // Value of result object 
+  /* 
+ { age: 24,
+    location: 'Sarajevo',
+    firstName: 'Bruce',
+    lastName: 'Wayne' 
+  }
+  */
+ 
+  expect(result).toInclude({ firstName: 'Bruce', lastName: 'Wayne' }); // it does include, so it will pass
+  expect(result.firstName).toBe('Bruce'); // will pass
+  expect(result).toBeA('object'); // yes result variable is an object, so will pass
 
 });

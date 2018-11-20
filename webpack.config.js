@@ -2,8 +2,7 @@ const path = require('path'); // core NodeJS module
 const webpack = require('webpack'); // to access built-in plugins
 const HtmlWebpackPlugin = require('html-webpack-plugin'); // installed via npm
 const MiniCssExtractPlugin = require('mini-css-extract-plugin'); // installed via npm
-// const CleanWebpackPlugin = require('clean-webpack-plugin'); // installed via npm
-// const DelWebpackPlugin = require('del-webpack-plugin') // installed via npm
+// const CleanWebpackPlugin = require('clean-webpack-plugin'); // installed via np
 
 module.exports = (env) => {
   
