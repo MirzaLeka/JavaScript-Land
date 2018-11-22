@@ -36,7 +36,7 @@ Now let's look at the topics I intend to cover in this repository.
 * Lesson 13 - ES7, Todos: Async Await
 * Lesson 14 - Todos: Regex
 * Lesson 15 - Modular Javascript, Todos: design patterns, algorithms
-* Lesson 16 - Node JS: Todos: saving data into files
+* Lesson 16 - Node JS core modules: fs, os, events, http...
 * Lesson 17 - Express JS: routing, middlewares, hbs & ejs templating engines
 * Lesson 18 - Todos: Web Sockets
 * Lesson 19 - Todos: MongoDB: crud operations, operators, aggregation framework
