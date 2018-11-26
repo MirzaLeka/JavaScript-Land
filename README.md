@@ -8,16 +8,21 @@ where anyone can learn something.
 This repository is public and encourages forking with other users to contribute to open source by helping others learn
 tough topics of JavaScript.
 
+For nearly every lesson there is a #Useful links file where you'll find more detailed docs regarding the topic,
+as well as videos that will explain to you how things work. 
+I'm also adding coding challenges which can be found in Challenges directory.
+
+### Contributions
+
 If you'd like to contribute, please do, but please, please, please, **don't** change code in files I created. If you don't like my code
 or you think I made a mistake, please write your own code in your own **file**. 
 The reason why I asking you to make your own files, instead of editing the existing ones is because I initially wrote this code
 to help myself learn in way I can understand it.
-I'm also adding coding challenges which can be found in folders directory.
 
-One last important thing to say is that lessons are not connected. 
+One last important thing to say is that lessons are **not** connected. 
 There is no **start** script. If you see any scripts in *package.json* file, these are not connected to one project, but rather spread across multiple lessons and used where needed.
 
-With that out of the way, I wish you happy coding moments. 
+With that out of the way, I wish you happy coding. 
 Now let's look at the topics I intend to cover in this repository.
 
 ### Lessons: 
