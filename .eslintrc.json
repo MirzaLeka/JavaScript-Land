@@ -19,6 +19,10 @@
         "no-trailing-spaces": "off",
         "padded-blocks": "off",
         "max-len": "off",
+        "no-lonely-if": "off",
+        "no-confusing-arrow": "off",
+        "no-array-constructor": "off",
+        "no-use-before-define": "off",
         "no-unused-vars": [
             "error",
             {
