@@ -23,6 +23,7 @@
         "no-confusing-arrow": "off",
         "no-array-constructor": "off",
         "no-use-before-define": "off",
+        "no-param-reassign": "off",
         "no-unused-vars": [
             "error",
             {

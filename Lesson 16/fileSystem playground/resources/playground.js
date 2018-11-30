@@ -57,9 +57,32 @@ function save() {
       response.textContent = 'Username is in use. Try another one.';
     } else {
       users.push(newUser);
+      addUser(newUser);
       response.textContent = 'User added!';
     }
   }
        
   console.log(users);
+}
+
+
+function addUser(user) {
+
+  user = JSON.stringify(user); // I have to stringify it because i'm sending json as content-type
+
+  const xhttp = new XMLHttpRequest();
+
+  xhttp.open('POST', '/users', true);
+  xhttp.setRequestHeader('Content-type', 'application/json'); // setting content-type that we are sending to the server
+
+  xhttp.onload = () => {
+    console.log('Loaded');
+  }
+
+  xhttp.onerror = () => {
+    console.log('Something went wrong');
+  };
+
+  xhttp.send(user);
+
 }

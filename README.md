@@ -8,7 +8,7 @@ where anyone can learn something.
 This repository is public and encourages forking with other users to contribute to open source by helping others learn
 tough topics of JavaScript.
 
-For nearly every lesson there is a #Useful links file where you'll find more detailed docs regarding the topic,
+For nearly every lesson there is a *Useful links* file where you'll find more detailed docs regarding the lesson,
 as well as videos that will explain to you how things work. 
 I'm also adding coding challenges which can be found in Challenges directory.
 
