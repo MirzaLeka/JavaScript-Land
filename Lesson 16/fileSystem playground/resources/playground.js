@@ -17,7 +17,8 @@ function getUsers() {
       users = JSON.parse(users); // what we get from server is always string, so we need to prase it into object
 
       // Note: Arrays are type Object in Javascript
-      console.log(users);
+      
+      displayUsers();
     } else if (this.status === 404) {
       console.log('Route not found!');
     }
@@ -62,7 +63,7 @@ function save() {
     }
   }
        
-  console.log(users);
+  displayUsers();
 }
 
 
@@ -77,12 +78,37 @@ function addUser(user) {
 
   xhttp.onload = () => {
     console.log('Loaded');
-  }
+  };
 
   xhttp.onerror = () => {
     console.log('Something went wrong');
   };
 
   xhttp.send(user);
+
+}
+
+function displayUsers() {
+
+  console.log(users);
+
+  let list = '';
+
+  users.forEach((user) => {
+    list += `<div class="list"> 
+    <p> <b>Username:</b> ${user.username} </p>
+    <p> <b>Age:</b> ${user.age} </p>
+    <button onclick="deleteUser(\`` + user.username + `\`)">X</button>
+    </div>`;
+  });
+
+  document.querySelector('#users').innerHTML = list;
+
+}
+
+
+function deleteUser(username) {
+
+  console.log(username);
 
 }

@@ -1,0 +1,21 @@
+.list{
+height: 30px;
+background: lightblue;
+border: 2px solid #444;
+color: #000;
+display: flex;
+align-items: center;
+margin-bottom: 10px;
+}
+
+.list p{
+ margin-left: 20px;
+}
+
+.list button{
+  background: transparent;
+  border: 1px solid #000;
+  border-radius: 100%;
+  cursor: pointer;
+  margin-left: 50px;
+}
