@@ -26,13 +26,24 @@ router.post('/users', urlencodedParser, (req, res) => { // we are passing urienc
 
   const filePath = path.join(__dirname, '/users.json');
 
+  console.log(req.body);
+
   fs.readFile(filePath, 'utf-8', (err, data) => {
     if (err) throw err;
-    data = JSON.parse(data); // we are reading data from the file and parsing it into object so we can add new element
-  
-    data.push(req.body); // req.body is new user object that is being added when we submit
-  
-    data = JSON.stringify(data); // now when we pushred this to array, we need to turn it back to string
+    
+    if (!data) {
+      // if file is empty, data will be false, so we'll convert data into an array
+      data = [];
+    } else {
+      // if file wasn't empty, we are reading data from the file and parsing it into object so we can add new element
+      data = JSON.parse(data); 
+    }
+
+    // req.body is new user object that is being added when we submit
+    data.push(req.body); 
+
+    // now when we pushed this to array, we need to turn it back to string
+    data = JSON.stringify(data);
     
     // the reason I'm not using fs.appendfile method is because we would just append our new user object at the bottom of the file, out of the bounds of an array
     // now we need to write data into file again
@@ -44,6 +55,37 @@ router.post('/users', urlencodedParser, (req, res) => { // we are passing urienc
 
   });
 
+});
+
+
+router.delete('/users/:username', (req, res) => {
+
+  const filePath = path.join(__dirname, '/users.json');
+
+  fs.readFile(filePath, 'utf-8', (err, data) => {
+    if (err) throw err;
+    
+    // parsing data into object
+    data = JSON.parse(data);
+
+    // find index of user whoose username matches the one in the users.json file
+    const index = data.findIndex(item => item.username === req.params.username);
+
+    // now we'll use splice to delete the object with the index of index
+    data.splice(index, 1);
+
+    // stringifying data
+    data = JSON.stringify(data);
+
+    // now we need to rewrite file with data that's left
+    fs.writeFile(filePath, data, () => {
+      if (err) throw err;
+      console.log('User deleted!');
+    });
+
+  });
+
+  
 });
 
 module.exports = router;

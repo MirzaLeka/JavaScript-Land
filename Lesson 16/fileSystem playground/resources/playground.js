@@ -3,7 +3,7 @@ window.onload = () => {
   getUsers();
 };
 
-let users = '';
+let users = [];
 
 function getUsers() {
  
@@ -12,21 +12,33 @@ function getUsers() {
   xhttp.open('GET', '/users', true); // getting data from that /users route
   
   xhttp.onload = function () {
+
     if (this.status === 200) {
-      users = this.responseText; // we'll fill users variable with what is inside users.json file
-      users = JSON.parse(users); // what we get from server is always string, so we need to prase it into object
 
-      // Note: Arrays are type Object in Javascript
-      
-      displayUsers();
-    } else if (this.status === 404) {
-      console.log('Route not found!');
+      // we'll fill users variable with what is inside users.json file
+      users = this.responseText; 
+
+      // if file is empty do nothing, else do the following
+      if (users) {
+
+        // what we get from server is always string, so we need to prase it into object
+        users = JSON.parse(users); 
+
+        // Note: Arrays are type Object in Javascript
+        
+        displayUsers();
+      } else if (this.status === 404) {
+        console.log('Route not found!');
+      }
     }
+
+    // I'm using normal functions because arrow functions don't bind this keyword
+    xhttp.onerror = function () { 
+      console.log('Request failed!');
+    };
+
   };
 
-  xhttp.onerror = function () { // I'm using normal functions because arrow functions don't bind this keyword
-    console.log('Request failed!');
-  };
   
   xhttp.send();
   
@@ -50,8 +62,15 @@ function save() {
   const response = document.querySelector('p');
     
   if (users.length === 0) {
+    if (users instanceof Array) {
+      //
+    } else {
+      users = [];
+    }
     users.push(newUser);      
     response.textContent = 'User added!'; 
+    addUser(newUser);
+    
   } else {
 
     if (users.some(item => item.username === username)) {
@@ -110,5 +129,10 @@ function displayUsers() {
 function deleteUser(username) {
 
   console.log(username);
+
+  const xhttp = new XMLHttpRequest();
+
+  xhttp.open('DELETE', `users/${username}`, true);
+  xhttp.send(username);
 
 }
