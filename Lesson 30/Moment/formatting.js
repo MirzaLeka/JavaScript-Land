@@ -33,6 +33,14 @@ console.log(date.format('Do')); // output: 6th
 
 console.log(date.format('DD')); // output: 06 => pads zero to numbers less than 10
 
+// Day of the year
+
+console.log(date.format('DDD')); // output: 340 => day in year
+
+console.log(date.format('DDDo')); // output: 340th
+
+console.log(date.format('DDDD')); // output: 340 => pads two zeroes for numbers less than 10 and a single zero for numbers less than 100
+
 // Day of the week
 
 console.log(date.format('d')); // output: 4 (4th day of the week)
@@ -45,15 +53,6 @@ console.log(date.format('ddd')); // output: Thu
 
 console.log(date.format('dddd')); // output: Thursday
 
-// Day of the year
-
-console.log(date.format('DDD')); // output: 340 => day in year
-
-console.log(date.format('DDDo')); // output: 340th
-
-console.log(date.format('DDDD')); // output: 340 => pads two zeroes for numbers less than 10 and a single zero for numbers less than 100
-
-
 // More on formatting
 // We can use the shorter syntax like with > new Date() <
 
@@ -62,3 +61,12 @@ console.log(moment().format('MMM Do YYYY')); // output: Dec 6th 2018
 // We can add custom formatting in between values
 
 console.log(moment().format('MMM | Do, YYYY')); // output: Dec | 6th, 2018
+
+
+// Challenge: Make a date looking like this: 10:35 am, 6:01 am
+
+const now = moment();
+
+console.log(now.format('hh:mm a')); // output: 12:26 am 
+// a stands for am, while A stands for AM
+// hh => for hours 1 to 12, HH for hours 00 to 23
