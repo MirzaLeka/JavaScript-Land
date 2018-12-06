@@ -7,3 +7,6 @@ https://www.npmjs.com/package/chalk
 
 # Typed.js
 https://www.youtube.com/watch?v=E7QZhynh1KE
+
+# Moment
+http://momentjs.com

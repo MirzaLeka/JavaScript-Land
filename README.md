@@ -52,10 +52,10 @@ Now let's look at the topics I intend to cover in this repository.
 * Lesson 24 - Lodash
 * Lesson 25 - Todos: Typescript 
 * Lesson 26 - Unit testing
-* Lesson 27 - ReactJS
+* Lesson 27 - Todos: ReactJS
 * Lesson 28 - 
 * Lesson 29 - 
-* Lesson 30 - Cool modules: Validator, Chalk, Todos: typed js, cookie parser, baffle js...
+* Lesson 30 - Cool modules: Validator, Chalk, Moment...
 
 ![](readMe_img/js-git-node.jpg)
 
