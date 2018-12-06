@@ -1,2 +1,7 @@
-#Net ninja JS OOPs
+# Net ninja JS OOPs
 https://www.youtube.com/playlist?list=PL4cUxeGkcC9i5yvDkJgt60vNVWffpblB7
+
+# Javascript Date Object
+https://www.w3schools.com/js/js_dates.asp
+https://www.w3schools.com/js/js_date_methods.asp
+https://www.w3schools.com/jsref/jsref_obj_date.asp
