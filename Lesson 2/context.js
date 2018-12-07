@@ -44,10 +44,10 @@ const people = {
    }
 
    // example 3
-    // similar example, only this time we're calling addBanana from an anonymous function.
+    // similar example, only this time we're calling moreBanana from an anonymous function.
     // It's already known that inside a function, this is refering to the window (global) object, unless function is
     // an object method, which will refer to the object itself. To gain access to this keyword, we'll need to:
-        // a) add this inside argument of addBanana function and use it inside addBanana function
+        // a) add this inside argument of moreBanana function and use it inside moreBanana function
         // b) add call keyword and insert pass this which is an alternative of a)
 
     window.onload = function() {
@@ -55,11 +55,11 @@ const people = {
         var button = document.querySelector("button");
         button.onclick = function() { // this is anonymous function inside function, so this refers to window object
             // compute some stuff
-            addBanana(); // can be fixed with addBanana.call(apply)
+            moreBanana(); // can be fixed with moreBanana.call(apply)
         }
     }
 
-    function addBanana() {
+    function moreBanana() {
         numBanans++;
         this.innerHTML = "Add a banana " + numBanans + ".";
 

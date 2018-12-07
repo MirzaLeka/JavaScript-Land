@@ -42,6 +42,13 @@ router.post('/users', urlencodedParser, (req, res) => { // we are passing urienc
     // req.body is new user object that is being added when we submit
     data.push(req.body); 
 
+    
+    // Sorting elements in an array 
+
+    const compare = (a, b) => b.score - a.score; // with this users with higher score will come first
+    data.sort(compare);
+    
+
     // now when we pushed this to array, we need to turn it back to string
     data = JSON.stringify(data);
     

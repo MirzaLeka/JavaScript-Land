@@ -45,10 +45,21 @@ function getUsers() {
 
 }
 
-function User(username, age) {
+function User(username, score) {
   this.username = username;
-  this.age = age;
+  this.score = score;
 }
+
+
+/* Calling Save function */
+
+document.querySelector('#score').addEventListener('keyup', (event) => {
+  event.preventDefault();
+
+  if (event.keyCode === 13) {
+    save();
+  }
+});
 
 document.querySelector('#saveBtn').addEventListener('click', save);
   
@@ -56,9 +67,9 @@ document.querySelector('#saveBtn').addEventListener('click', save);
 function save() {
     
   const username = document.querySelector('#username').value;
-  const age = document.querySelector('#age').value;
+  const score = document.querySelector('#score').value;
   
-  const newUser = new User(username, age);
+  const newUser = new User(username, score);
   const response = document.querySelector('p');
     
   if (users.length === 0) {
@@ -70,6 +81,8 @@ function save() {
     users.push(newUser);      
     response.textContent = 'User added!'; 
     addUser(newUser);
+    document.querySelector('#username').value = '';
+    document.querySelector('#score').value = '';
     
   } else {
 
@@ -79,6 +92,8 @@ function save() {
       users.push(newUser);
       addUser(newUser);
       response.textContent = 'User added!';
+      document.querySelector('#username').value = '';
+      document.querySelector('#score').value = '';
     }
   }
        
@@ -116,8 +131,8 @@ function displayUsers() {
   users.forEach((user) => {
     list += `<div class="list"> 
     <p> <b>Username:</b> ${user.username} </p>
-    <p> <b>Age:</b> ${user.age} </p>
-    <button onclick="deleteUser(\`` + user.username + `\`)">X</button>
+    <p> <b>score:</b> ${user.score} </p>
+    <button onclick="deleteUser(\`` + user.username + `\`, this)">X</button>
     </div>`;
   });
 
@@ -126,9 +141,9 @@ function displayUsers() {
 }
 
 
-function deleteUser(username) {
+function deleteUser(username, element) {
 
-  console.log(username);
+  element.parentNode.remove();
 
   const xhttp = new XMLHttpRequest();
 
