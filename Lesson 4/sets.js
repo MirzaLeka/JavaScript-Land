@@ -47,29 +47,4 @@
 	carSet.add(car1).add(car2);
 
 	console.log("Cars: ", carSet);
-
-
-	
-	/* Since Set removes duplicates by default we can use this to remove duplicates from any array */
-	
-	// We create an array
-	let ninjas = ["Ryu", "Jinn", "Ken", "Ryu", "Kazuya", "Splinter", "Kazuya", "Ken"];
-	
-	console.log(ninjas);
-	
-	// We create a new Set and pass our array as an argument
-	let refineNinjas = new Set (ninjas);
-	
-	// We'll see that our set is free of duplicates, however this is an object
-	console.log(refineNinjas);
-	
-	// Now we need tranform our set back to an array using spread operator
-	ninjas = [...refineNinjas];
-	
-	// At last ninjas array will be free of all duplicates
-	console.log(ninjas);
-	
-	
-	
-	
 	

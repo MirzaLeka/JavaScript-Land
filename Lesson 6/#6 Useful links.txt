@@ -7,5 +7,8 @@ https://www.youtube.com/playlist?list=PLoYCgNOIyGABdI2V8I_SWo22tFpgh2s6_
 You might not need jQuery
 http://youmightnotneedjquery.com
 
+Vanilla JS equivalent of common jQuery functions
+https://www.jamestease.co.uk/blether/vanilla-js-equivalent-jquery-find-parent-data-remove-class-empty-append
+
 Jquery .find() in Vanilla JS
 http://usefulangle.com/post/43/jquery-find-function-in-pure-vanilla-javascript
