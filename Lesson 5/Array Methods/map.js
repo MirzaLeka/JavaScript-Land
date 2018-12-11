@@ -55,3 +55,25 @@
     let stringedArr = nums.map(item => item + "");
 
     console.log(stringedArr);
+
+
+// example 7: return key from all objects and store in an array
+
+const humans = [
+  {
+    name: 'Mirza',
+    age: 24
+  },
+  {
+    name: 'Ermin',
+    age: 23
+  },
+  {
+    name: 'Amar',
+    age: 25
+  }
+];
+
+const names = humans.map(human => human.name);
+
+console.log(names);

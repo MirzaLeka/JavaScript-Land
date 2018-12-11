@@ -24,6 +24,7 @@
         "no-array-constructor": "off",
         "no-use-before-define": "off",
         "no-param-reassign": "off",
+        "no-plusplus": "off",
         "no-unused-vars": [
             "error",
             {
