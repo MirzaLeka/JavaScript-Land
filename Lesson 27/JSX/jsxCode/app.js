@@ -17,8 +17,59 @@
 
 // With that out of the way, let's kick things off by writing JSX code and rendering it to the DOM
 
+// rendering multiple elements
+const greeting = (
+<div>
+    <h1>Hello from React</h1>
+    <p>This is some info</p>
+    <ol>
+        <li>Item one</li>
+        <li>Item two</li>
+    </ol>
+</div>
+);
+// adjacent jsx elements must be wrapped in an enclosing tag, meaning we need to enclose multiple elements within <div> tag
+// we also added parentheses to make code clearer
 
-const greeting = <h1>Hello from React</h1>;
+
+// Variables
+
+// In JSX when writting Javascript expressions (variables, functions) we need to add {} (curly brackets) around those expresions
+
+const usersName = 'Mirza';
+const usersAge = 24;
+const usersLocation = 'Sarajevo';
+
+
+const aboutMe = (
+  <div>
+  <h1>{usersName.toUpperCase()}</h1>
+     <p>Age: {usersAge}</p>
+     <p>Location: {usersLocation + ', Bosnia and Herzegovina'}</p>
+     <p>Template String: {`${usersLocation}, Bosnia and Herzegovina`}</p>
+  </div>
+);
+
+
+// Rendering an object
+
+
+// Objects are not valid as a React child, thus we can't just type in name of the object between curly brackets, like this {object}
+// But what we can do is call object.property
+
+const user = {
+  name: 'Mirza',
+  age: 24,
+  location: 'Sarajevo'
+};
+
+const newMe = (
+  <div>
+      <h1>{user.name}</h1>
+      <h2>{user.age}</h2>
+      <h3>{user.location}</h3>
+  </div>
+);
 
 // what we render, where we want to render it to
-ReactDOM.render(greeting, document.querySelector('#app'));
+ReactDOM.render(newMe, document.querySelector('#app'));
