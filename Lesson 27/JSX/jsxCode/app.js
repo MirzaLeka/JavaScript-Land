@@ -12,8 +12,8 @@
 // type: live-server followed by path
 
 // I started both terminal for live-server & babel in the JSX folder so I can just type this the following:
+// babel jsxCode/app.js --out-file=compiledCode/app.js --presets=env,react --watch // This must Come First
 // live-server
-// babel jsxCode/app.js --out-file=compiledCode/app.js --presets=env,react --watch
 
 // With that out of the way, let's kick things off by writing JSX code and rendering it to the DOM
 
@@ -57,19 +57,58 @@ const aboutMe = (
 // Objects are not valid as a React child, thus we can't just type in name of the object between curly brackets, like this {object}
 // But what we can do is call object.property
 
+
+// Conditions and Logical operators
+
+// In JSX we can write Javascript expressions within curly brackets, but same is not true for conditions.
+// To use conditions (Statements) in React code we must declare a function that returns certain value after condition was met.
+
+// Alternative to if / else statement would be a Ternary operator, which is works like JS expression and can be written within curly brackets.
+// Ternary operator example: 5 > 1 ? 'Hello' : 'World'; => if 5 > 1 is true, print 'Hello', else print 'World'
+
+
+// Important Note: If condition resolves to undefined, null, true or false, it will not appear in JSX. 
+// Not just javascript expression, but whole tag, like <h1> for example, with a value of null, undefined or boolean will not appear in HTML.
+
+// How to handle booleans?
+// So we know that we can't write booleans within JSX, but how do we handle it then?
+
+// In Javascript whenever we have two values separated by && operator, if first value resolves to truthy, Javascript will print the Second value
+// Example: console.log(5 > 1 && 'some String'); // output: 'some String';
+// For false, it would be the opposite, JS would print the First value
+// Example: console.log(1 > 5 && 'some String') // output: false
+
+// However when working with || operator we would get the opposite results
+
+
+// Nesting JSX
+// We know that we can write javascript expression within our JSX inside curly brackets, like this: <h1>{some JS}</h1>
+// but we can also nest expressions by writing JSX within curly brackets:
+// <h1>{<p>{some JS}<p>}</h1>
+
 const user = {
   name: 'Mirza',
   age: 24,
   location: 'Sarajevo'
 };
 
+function getLocation(location) {
+  if (location) {
+    return <h3>Location: {location}</h3>;
+  }
+  // we don't need else. If location is undefined, that won't print in JSX anyway
+}
+
 const newMe = (
   <div>
-      <h1>{user.name}</h1>
-      <h2>{user.age}</h2>
-      <h3>{user.location}</h3>
+      <h1>{user.name ? user.name : 'Anonymous'}</h1>  {/* If user.name property exists, return user.name, else return 'Anonymous*/}
+      {(user.age && user.age >= 18) && <h2>Age: {user.age}</h2>}  {/* if user.age exists and it's >= 18 then value will be truthy and we would create <h2> tag with value of Age: user.age*/}
+      {getLocation(user.location)}  {/* We are callling a function and passing user.location as argument. This function will return JSX and users location*/}
   </div>
 );
+
+{/* This is a comment in JSX */}
+
 
 // what we render, where we want to render it to
 ReactDOM.render(newMe, document.querySelector('#app'));

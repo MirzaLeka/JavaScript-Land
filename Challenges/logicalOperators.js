@@ -1,6 +1,26 @@
 
 // Challenges, interview questions and exams
 
+// In Javascript when we have two values in between && operator and First value resolves to truthy,
+// Javascript will choose the Second value
+console.log(2 > 1 && 'Hello World'); // output: 'Hello World'
+
+// But if first value resolves to false, output will be false (boolean)
+console.log(2 > 20 && 'Hello World'); // output: false
+
+// It's important to mention that if Second value is truthy, while first value is 'some string' or number, we would get true
+console.log(47 && 2 > 1); // output: true
+
+// However with false we would yet again get the false as an output
+console.log(47 && 2 > 20); // output: false
+
+
+// For || operator previous code would have the opposite output
+
+
+// That's 
+
+console.log('-------------------');
 
 // && and ||
 
@@ -16,7 +36,7 @@ console.log(1 || 2 && 3); // output: 1
 
 console.log( 1 && 2 || 3); // output: 2
 
-console.log("-------------------");
+console.log('-------------------');
 
 // < and > 
 
