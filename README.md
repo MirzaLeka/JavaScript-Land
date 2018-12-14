@@ -27,7 +27,7 @@ Now let's look at the topics I intend to cover in this repository.
 
 ### Lessons: 
 * Lesson 1 - JS DOM, JS OOP concepts, prototypes, classes, arrays, try and catch and intervals
-* Lesson 2 - Hoisting, scopes, Todos: context, closures
+* Lesson 2 - Hoisting, scopes, context, closures
 * Lesson 3 - Intro to ES6, Todos: spread, rest operator, destructuring, let and const vs var
 * Lesson 4 - Data structures: Sets, Maps and Symbols
 * Lesson 5 - Higher order functions, string functions, for of/in/each loop, object methods
@@ -52,10 +52,10 @@ Now let's look at the topics I intend to cover in this repository.
 * Lesson 24 - Lodash
 * Lesson 25 - Todos: Typescript 
 * Lesson 26 - Unit testing
-* Lesson 27 - Todos: ReactJS
-* Lesson 28 - 
-* Lesson 29 - 
-* Lesson 30 - Cool modules: Validator, Chalk, Moment...
+* Lesson 27 - ReactJS
+* Lesson 28 - Todos: Redux
+* Lesson 29 - Todos: D3.js
+* Lesson 30 - Cool modules: Validator, Chalk, Moment, Opn...
 
 ![](readMe_img/js-git-node.jpg)
 
