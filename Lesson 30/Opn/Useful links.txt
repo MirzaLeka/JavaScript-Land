@@ -1,9 +1,14 @@
 
+a) opn-cli
+
 # Npm “scripts”: “start” run express and open url - Stackoverflow
 https://stackoverflow.com/questions/35261535/npm-scripts-start-run-express-and-open-url
 
 # Github docs
 https://github.com/sindresorhus/opn-cli
 
-# Npm JS docs => some really cool features
+
+b) opn
+
+# Npm JS docs
 https://www.npmjs.com/package/opn

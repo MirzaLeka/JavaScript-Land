@@ -10,7 +10,7 @@
     "dev-server:prod": "webpack-dev-server --env production",
     "test": " mocha \"./{,!(node_modules)/**/}*asyncAssertions.test.js\" ",
     "test-watch": "nodemon --exec \"npm test\"",
-    "open": "opn http://localhost:3000 && node \"Lesson 30/Opn/server.js\""
+    "open": "opn http://localhost:3000 && node \"Lesson 30/Opn/opn-cli/server.js\""
   },
   "repository": {
     "type": "git",
@@ -47,6 +47,7 @@
     "mongoose": "^5.3.12",
     "node-sass": "^4.10.0",
     "normalize.css": "^8.0.1",
+    "opn": "^5.4.0",
     "parcel-bundler": "^1.10.3",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
