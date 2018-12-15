@@ -10,7 +10,8 @@
     "dev-server:prod": "webpack-dev-server --env production",
     "test": " mocha \"./{,!(node_modules)/**/}*asyncAssertions.test.js\" ",
     "test-watch": "nodemon --exec \"npm test\"",
-    "open": "opn http://localhost:3000 && node \"Lesson 30/Opn/opn-cli/server.js\""
+    "open": "opn http://localhost:3000 && node \"Lesson 30/Opn/opn-cli/server.js\"",
+    "clean": "rimraf \"Lesson 30/Rimraf/toDelete\"",
   },
   "repository": {
     "type": "git",

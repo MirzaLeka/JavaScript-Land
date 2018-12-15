@@ -22,12 +22,6 @@ to help myself learn in way I can understand it.
 One last important thing to say is that lessons are **not** connected. 
 There is no **start** script. If you see any scripts in *package.json* file, these are not connected to one project, but rather spread across multiple lessons and used where needed.
 
-### Where to next?
-
-As you can see the list is almost complete. All lessons I intend to cover are listed below, but the list doesn't have to stop there. So I'm asking myself **where to next**?
-Maybe you know some Javascript tehnology I haven't covered yet. If so, feel free the add a new lesson and code on!
-I'm excited to learn new techonologies like React Native, PhaserJS, ThreeJS, GraphQL and cover them when the time is right.
-
 
 With that out of the way, I wish you happy coding. 
 
@@ -64,3 +58,9 @@ With that out of the way, I wish you happy coding.
 * Lesson 30 - Cool modules: Validator, Chalk, Moment, Opn...
 
 ![](readMe_img/js-git-node.jpg)
+
+### Where to next?
+
+As you can see the list is almost complete. All lessons I intended to cover are listed above, but the list doesn't have to stop here. So I'm asking myself **where to next**?
+Maybe you know some Javascript tehnology I haven't covered yet. If so, feel free the add a new lesson and code on!
+I'm excited to learn new techonologies like React Native, PhaserJS, ThreeJS, GraphQL and cover them when the time is right.

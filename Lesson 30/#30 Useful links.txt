@@ -10,3 +10,15 @@ https://www.youtube.com/watch?v=E7QZhynh1KE
 
 # Moment
 http://momentjs.com
+
+# opn-cli
+https://stackoverflow.com/questions/35261535/npm-scripts-start-run-express-and-open-url
+https://github.com/sindresorhus/opn-cli
+
+# opn
+https://www.npmjs.com/package/opn
+
+# rimraf
+https://www.npmjs.com/package/rimraf
+video tutorial
+https://www.youtube.com/watch?v=_cevNBrtz58
