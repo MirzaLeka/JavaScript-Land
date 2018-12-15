@@ -7,7 +7,7 @@
 
 * Second, we create a route and send a response. For this example, I'll wire up my index.html file using core npm module, path.
 
-* Mext thing we do is install opn-cli => ``` npm install --save-dev opn-cli ```
+* Next thing we do is install opn-cli => ``` npm install --save-dev opn-cli ```
 opn-cli will work across different operating systems and allow us to run our localhost as soon as we start the server
 
 
@@ -43,4 +43,4 @@ and this will be executed when we type
 ``` npm run open ```
 in Javascript30 root folder terminal.
 
-Then our browser will load, start a new tab and display our index.htnl file we connected in server.js file.
+Then our browser will load, start a new tab and display our index.html file we connected in server.js file.

@@ -47,12 +47,33 @@ const removeAll = () => {
 */
 
 
+// We are creating a random decision
+const makeADecision = () => {
+
+  // Math.random => random number from 0 to 0.99999. It never reaches 1.
+  // app.options.length => length of our array
+  // Math.floor => floors the decimal value down to an integer number. So if it's 3.99, floor will turn it into 3.
+
+  const randomNumber = Math.floor(Math.random() * app.options.length);
+
+  // Now we need to pick random index from an array
+  const decision = app.options[randomNumber]; // because we are using floor, random value will always be less than array length, thus array won't be out of bounds
+
+  alert(`You should ${decision}`);
+  // As we add new options, we'll be able to use makeADecision function to alert randomly selected option (decision)
+};
+
+
+/*    CODE BREAK       */
+
+
 const reRenderForm = () => {
 
   const template = (
    <div>
       <h1>{app.title}</h1>
       <p>{app.subtitle}</p>
+      <button disabled={app.options.length === 0} onClick={makeADecision}>What should I do next?</button> { /* if our array has a length of zero, button will be disabled */ }
       <button onClick={removeAll}>Remove all</button>
 
       <ol>{
