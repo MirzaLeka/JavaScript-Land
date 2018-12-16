@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SVG elements</title>
+</head>
+<body>
+
+    <!-- svgs are built in html elements. To draw svg element we first need to create an svg tag -->
+    <!-- Like with any other html element, we can give it some properties -->
+
+    <svg width="500" height:"500"> <!-- We give our element height and width to display it on the web -->
+
+        <!-- Let's create a simple rectangle -->
+        <!-- x and y present the position of rectangle in x and y axis -->
+        <!-- positive direction x axis is left to right, while for y it's top to bottom -->
+
+        <rect x="200" y="100" height="100" width="200" fill="blue"></rect> <!-- fill is an svg unique property that sets background color of an svg -->
+
+        <!-- Now let's make a cricle -->
+        <!-- Unlike recrangle circle uses cx and cy for the center of the circle and r for it's radius -->
+
+        <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+        <!-- We can also give element a stroke property which works like an outline. -->
+        <!-- We can set color and width of that stroke as well. -->
+
+
+        <!-- Now let's create a line -->
+        <!-- For line we need to define a starting point on x and y axis, as well as ending point for both axes -->
+
+        <line x1="225" y1="300" x2="150" y2="20" stroke="green" stroke-width="3"></line>
+
+        <!-- Since line has no shape to fill we are using stroke and stroke width to present it on the screen -->
+        
+
+    </svg>
+    
+</body>
+</html>
