@@ -56,8 +56,8 @@ funky(1, 2, 3);
 // Example 5: Array from Map 
 
 const m = new Map([[1, 2], [2, 4], [4, 8]]);
-const arr = Array.from(m);
-console.log(arr); // output: [[1, 2], [2, 4], [4, 8]] => looks the same, but unlike m, arr is type object and is instance of Array
+const mArr = Array.from(m);
+console.log(mArr); // output: [[1, 2], [2, 4], [4, 8]] => looks the same, but unlike m, arr is type object and is instance of Array
 
 
 // Example 6: Array from Map with values and keys
