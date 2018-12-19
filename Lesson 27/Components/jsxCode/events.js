@@ -1,5 +1,5 @@
 
-
+ 
 class Main extends React.Component{
     render() {
         const title = 'Home Page';
@@ -12,6 +12,7 @@ class Main extends React.Component{
                <Action />
                <AddOption />
                <Options options={options} />
+               <br/>
                <Footer /> 
             </div>
         );
@@ -40,10 +41,10 @@ class Navbar extends React.Component{
        };
         return (
        <div>
-         <ul style={ulStyle} >
-              <li className='liClass'>Home</li>
+         <ul className='nav' style={ulStyle} >
+              <li style={{color: 'gold'}} className='liClass'>Home</li>
               <li className='liClass'>About</li>
-              <li style={{color: 'gold'}} className='liClass'>News</li>
+              <li className='liClass'>News</li>
          </ul>
         </div>
         )
@@ -61,7 +62,7 @@ class Action extends React.Component{
     render() {
       return (
           <div>
-              <button onClick={this.handlePick}>What should I do?</button>
+              <button className='btn btn-primary' onClick={this.handlePick}>What should I do?</button>
           </div>
       );
     }
@@ -82,7 +83,7 @@ class Options extends React.Component{
               this.props.options.map((option, counter) => <Option key={counter} text={(counter+1) + '. ' +  option}/> )
             
             }
-            <button onClick={this.handleRemoveAll}>Remove All</button>
+            <button className='btn btn-danger' onClick={this.handleRemoveAll}>Remove All</button>
             </div>
         )
     }
@@ -120,9 +121,9 @@ class AddOption extends React.Component{
     render() {
         return(
             <div>
-                <form name='myForm' onSubmit={this.formSubmit}>
-                    <input name='add' type='text' placeholder='insert anything!'/>
-                    <button>Submit</button>
+                <form className='form-group' name='myForm' onSubmit={this.formSubmit}>
+                    <input className='form-control' name='add' type='text' placeholder='insert anything!' autoComplete='off'/>
+                    <button className='btn btn-success'>Submit</button>
                 </form>
             </div>
         );
@@ -138,5 +139,4 @@ class Footer extends React.Component{
 
 
 ReactDOM.render(<Main />, document.querySelector('#app'));
-
 
