@@ -24,10 +24,10 @@ p.addEventListener('click', function () { div.style.background = "pink"; } );
 // Example of events: click, focus, blur, mouseover, mouseout, etc.
 
 
-/* Bubbling vs Recapturing */
+/* Bubbling vs Capturing */
 
 // if we have two elements, one inside another, we can choose which element to run first.
-        // like if we put state to recapturing (false), clicking on inner tag will first trigger event for the inner element
+        // like if we put state to capturing (false), clicking on inner tag will first trigger event for the inner element
         // and then trigger the outer element
 
         // opposite of this is bubbling (true), which first triggers outer element and then it triggers inner element
@@ -38,7 +38,7 @@ p.addEventListener('click', function () { div.style.background = "pink"; } );
         div.addEventListener('click', addText2, false);
 
         // two elements call 2 different functions. once clicked on div, it will triger only div tag
-        // but if you click on <p> due to recapturing (last argument is set to false), <p> will call the function first, then <div>
+        // but if you click on <p> due to capturing (last argument is set to false), <p> will call the function first, then <div>
 
     function addText() {
         p.textContent += " Paragraph Text.";
