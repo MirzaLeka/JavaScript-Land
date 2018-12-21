@@ -30,7 +30,8 @@ class Student extends Person {
   
   // here we'll use super keyword to extend getDescription method and override it to serve our new needs
   getDescription() {
-    let description = super.getDescription();
+    let description = super.getDescription(); // we are saving in let description that which is returned from getDescription
+    // so we are not completely overriding the function. We are improving it.
 
     // like I said, this.hasMajor() returns booleann
     if (this.hasMajor()) {

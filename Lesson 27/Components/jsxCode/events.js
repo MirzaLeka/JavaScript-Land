@@ -70,6 +70,12 @@ class Action extends React.Component{
 
 
 class Options extends React.Component{
+    constructor(props) {
+      super(props); // we need this to have access to this.props within other functions
+      
+      // to define behaviour of this keyword to other methos we do the same
+      this.handleRemoveAll = this.handleRemoveAll.bind(this);
+    }
 
     handleRemoveAll() {
         alert('Removing All!');
@@ -78,12 +84,12 @@ class Options extends React.Component{
     render() {
         return (
             <div>
+            <button className='btn btn-danger' onClick={this.handleRemoveAll}>Remove All</button>
             Options array have {this.props.options.length} elements:
             {
               this.props.options.map((option, counter) => <Option key={counter} text={(counter+1) + '. ' +  option}/> )
             
             }
-            <button className='btn btn-danger' onClick={this.handleRemoveAll}>Remove All</button>
             </div>
         )
     }
