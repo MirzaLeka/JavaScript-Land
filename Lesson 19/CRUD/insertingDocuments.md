@@ -13,7 +13,7 @@ MongoDB uses *BSON* language, which is binary JSON. Here is a list of data types
 
 There are additional data types like Timestamp, Binary Data, Regular expressions, JS Code, etc.
 
-### Before we can store data in collection we must create a database, followed by collection
+#### Before we can store data in collection we must create a database, followed by collection
 
 Open your terminal/cmd and type *mongo*
 ```use studentsDB``` // creates DB
@@ -23,6 +23,7 @@ Open your terminal/cmd and type *mongo*
 **Insert a single record into a collection**
 
 ```db.students.insertOne({name: 'Mirza', age: 24})```
+
 Output: 
 ```
 "acknowledged" : true,
@@ -31,6 +32,7 @@ Output:
 
 We can specify a custom ObjectId
 ```db.students.insertOne({_id: 2, name: 'Ermin', age: 23})```
+
 Output: ```{ "acknowledged" : true, "insertedId" : 2 }```
 
 
