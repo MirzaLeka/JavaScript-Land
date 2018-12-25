@@ -6,7 +6,7 @@
 Updates all students with the name that matches criteria. We ue $set operator to set new value:
 ```
 db.students.updateOne(
-    {name: 'Mirza'}, // with this we grab the specific entry
+    {name: 'Mirza'}, // with this we grab the specific entry (filter it)
     {
         $set: 
         {
@@ -57,14 +57,14 @@ We will replace the record that matches the filter ```{name: 'ML'}``` with what 
 **Delete one**
 
 To delete a record we use deleteOne():
-```db.students.deleteOne({name: 'Amar'});``` // Mongo will find record with this attribute and delete it
+```db.students.deleteOne({name: 'Amar'});``` Mongo will find record with this attribute and delete it
 
 Output: ```{ "acknowledged" : true, "deletedCount" : 1 }```
 
 **Delete Many**
 
 We can select elements that match certain crieteria and delete those elements:
-```db.students.deleteMany({age: {$gte: 28}});``` // deleteMany with age equal or greater than 28
+```db.students.deleteMany({age: {$gte: 28}});``` deleteMany with age equal or greater than 28
 
 Output: ```{ "acknowledged" : true, "deletedCount" : 2 }```
 

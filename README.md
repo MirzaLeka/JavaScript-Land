@@ -44,7 +44,7 @@ With that out of the way, I wish you happy coding.
 * Lesson 16 - Node JS core modules: fs, os, events, http...
 * Lesson 17 - Express JS: routing, middlewares, hbs & ejs templating engines
 * Lesson 18 - Todos: Web Sockets
-* Lesson 19 - Todos: MongoDB: crud operations, operators, aggregation framework
+* Lesson 19 - MongoDB: crud operations, operators, Todos: aggregation framework
 * Lesson 20 - Todos: Mongoose: nested schemas, mongoose promises, mongoose methods
 * Lesson 21 - Todos: Creating RESTAPIs: NodeJS with MongoDB, NodeJS with SQL
 * Lesson 22 - Todos: Uploading files with NodeJS
