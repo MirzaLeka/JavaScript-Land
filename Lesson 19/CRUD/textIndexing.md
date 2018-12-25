@@ -65,8 +65,8 @@ db.stores.find(
 Score tells us what are the most relevant entries. Like with google, the item on the top is the item with most relevance to the information provided (searched for).
 Then we can do many things like sort and we're gonna sort by score.
 
-```
 Output:
+```
 { "_id" : 1, "name" : "Java Hut", "description" : "Coffee and cakes", "score" : 2.25 }
 { "_id" : 3, "name" : "Coffee Shop", "description" : "Just coffee", "score" : 1.5 }
 { "_id" : 5, "name" : "Java Shopping", "description" : "Indonesian goods", "score" : 0.75 }
