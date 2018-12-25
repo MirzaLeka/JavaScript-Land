@@ -185,8 +185,17 @@ Because all students have age attribute.
 
 **Return records with the attribute of a certain type**
 
-We can search for all students with the name attribute type string:
-db.students.find({name: {$type: 2}}, {_id: 0});
+We can search for all students with the name attribute type string. Number 2 is for type string:
+```db.students.find({name: {$type: 2}}, {_id: 0});```
+
+In this case all students have the name type String. Output:
+```
+{ "name" : "Mirza", "age" : 24 }
+{ "name" : "Ermin", "age" : 23 }
+{ "name" : "Amar", "age" : 25 }
+{ "name" : "Emir", "age" : 21 }
+{ "name" : "Amila", "age" : 28 }
+```
 
 1 is a double,
 2 is a string,
