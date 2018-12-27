@@ -1,0 +1,1 @@
+In order for ESLint to work, we need to put config file in root directory and install VSCode/Atom extension and also install it via npm
