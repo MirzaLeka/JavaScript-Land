@@ -5,3 +5,7 @@ https://www.youtube.com/playlist?list=PL4cUxeGkcC9i5yvDkJgt60vNVWffpblB7
 https://www.w3schools.com/js/js_dates.asp
 https://www.w3schools.com/js/js_date_methods.asp
 https://www.w3schools.com/jsref/jsref_obj_date.asp
+
+# Local storage
+https://blog.logrocket.com/the-complete-guide-to-using-localstorage-in-javascript-apps-ba44edb53a36
+https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage

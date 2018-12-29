@@ -26,7 +26,7 @@ There is no **start** script. If you see any scripts in *package.json* file, the
 With that out of the way, I wish you happy coding. 
 
 ### Lessons: 
-* Lesson 1 - JS DOM, JS OOP concepts, prototypes, classes, arrays, try and catch and intervals
+* Lesson 1 - JS DOM, JS OOP, JS Storage, arrays, try and catch and intervals
 * Lesson 2 - Hoisting, scopes, context, closures
 * Lesson 3 - Intro to ES6, Todos: spread, rest operator, destructuring, let and const vs var
 * Lesson 4 - Data structures: Sets, Maps and Symbols
