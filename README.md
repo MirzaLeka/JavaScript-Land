@@ -33,12 +33,12 @@ With that out of the way, I wish you happy coding.
 * Lesson 5 - Higher order functions, string functions, for of/in/each loop, object methods
 * Lesson 6 - Intro to jQuery, DOM traversal, jquery vs javascript, Todos: jquery UI, validate
 * Lesson 7 - Working with modules
-* Lesson 8 - Build tools: Webpack, ESLint, Todos: browserify, gulp
-* Lesson 9 - Todos: Callback functions
-* Lesson 10 - Todos: Promises
-* Lesson 11 - Todos: Ajax, old way, jquery way, fetch API ES6
-* Lesson 12 - Todos: Iterators and generators
-* Lesson 13 - ES7, Todos: Async Await
+* Lesson 8 - Build tools: Webpack, ESLint, Todos: Gulp
+* Lesson 9 - Asynchronous Javascript
+* Lesson 10 - Todos
+* Lesson 11 - Todos
+* Lesson 12 - Todos
+* Lesson 13 - ES7, ES8
 * Lesson 14 - Todos: Regex
 * Lesson 15 - Modular Javascript, Todos: design patterns, algorithms
 * Lesson 16 - Node JS core modules: fs, os, events, http...
