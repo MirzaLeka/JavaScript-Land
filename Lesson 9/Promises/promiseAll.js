@@ -22,17 +22,16 @@ const cleanRoom = function() {
 
 // We put all our functions inside array
   Promise.all([cleanRoom(), removeGarbage(), winIceCream()]).then(() => { // when all of these are resolved we call then
-   console.log('All done!') ;
+    console.log('All done!');
   });
 
 
-  // We can also use race
+  // We can also use Promise.race()
   // This will execute when at least one of the promises in array is finished
 
   Promise.race([cleanRoom(), removeGarbage(), winIceCream()]).then(() => { 
-    console.log('At least one is done!') ;
+    console.log('At least one is done!');
    });
 
   // Race can be useful when we are pulling something data from the server.
   // We only want to know if one data was pulled
-  

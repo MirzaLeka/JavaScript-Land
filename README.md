@@ -28,39 +28,33 @@ With that out of the way, I wish you happy coding.
 ### Lessons: 
 * Lesson 1 - JS DOM, JS OOP, JS Storage, arrays, try and catch and intervals
 * Lesson 2 - Hoisting, scopes, context, closures
-* Lesson 3 - Intro to ES6, Todos: spread, rest operator, destructuring, let and const vs var
+* Lesson 3 - ES6, ES7, ES8, ES9 and beyond (major features)
 * Lesson 4 - Data structures: Sets, Maps and Symbols
 * Lesson 5 - Higher order functions, string functions, for of/in/each loop, object methods
-* Lesson 6 - Intro to jQuery, DOM traversal, jquery vs javascript, Todos: jquery UI, validate
+* Lesson 6 - Intro to jQuery, DOM traversal, jquery vs javascript, Todo: jquery UI, validate
 * Lesson 7 - Working with modules
-* Lesson 8 - Build tools: Webpack, ESLint, Todos: Gulp
+* Lesson 8 - Build tools: Webpack, ESLint, Todo: Gulp
 * Lesson 9 - Asynchronous Javascript
-* Lesson 10 - Todos
-* Lesson 11 - Todos
-* Lesson 12 - Todos
-* Lesson 13 - ES7, ES8
-* Lesson 14 - Todos: Regex
-* Lesson 15 - Modular Javascript, Todos: design patterns, algorithms
+* Lesson 10 - Todo
+* Lesson 11 - Todo
+* Lesson 12 - Todo
+* Lesson 13 - Todo
+* Lesson 14 - Todo: Regex
+* Lesson 15 - Modular Javascript, Todo: design patterns, algorithms
 * Lesson 16 - Node JS core modules: fs, os, events, http...
 * Lesson 17 - Express JS: routing, middlewares, hbs & ejs templating engines
-* Lesson 18 - Todos: Web Sockets
-* Lesson 19 - MongoDB: crud operations, operators, Todos: aggregation framework
-* Lesson 20 - Todos: Mongoose: nested schemas, mongoose promises, mongoose methods
-* Lesson 21 - Todos: Creating RESTAPIs: NodeJS with MongoDB, NodeJS with SQL
-* Lesson 22 - Todos: Uploading files with NodeJS
-* Lesson 23 - Todos: Authentication: JWT, Passport JS, Nodemailer
+* Lesson 18 - Todo: Web Sockets
+* Lesson 19 - MongoDB: crud operations, operators, Todo: aggregation framework
+* Lesson 20 - Todo: Mongoose
+* Lesson 21 - Todo: Creating RESTAPIs: NodeJS with MongoDB, NodeJS with SQL
+* Lesson 22 - Todo: Uploading files with NodeJS
+* Lesson 23 - Todo: Authentication: JWT, Passport JS, Nodemailer
 * Lesson 24 - Lodash
-* Lesson 25 - Todos: Typescript 
+* Lesson 25 - Todo: Typescript 
 * Lesson 26 - Unit testing
 * Lesson 27 - ReactJS
-* Lesson 28 - Todos: Redux
-* Lesson 29 - Todos: D3.js
+* Lesson 28 - Todo: Redux
+* Lesson 29 - Todo: D3.js
 * Lesson 30 - Cool modules: Validator, Chalk, Moment, Opn...
 
 ![](readMe_img/js-git-node.jpg)
-
-### Where to next?
-
-As you can see the list is almost complete. All lessons I intended to cover are listed above, but the list doesn't have to stop here. So I'm asking myself **where to next**?
-Maybe you know some Javascript tehnology I haven't covered yet. If so, feel free the add a new lesson and code on!
-I'm excited to learn new techonologies like React Native, PhaserJS, ThreeJS, GraphQL and cover them when the time is right.
