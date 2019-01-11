@@ -1,4 +1,7 @@
 
+# ES2018 new feature
+https://css-tricks.com/new-es2018-features-every-javascript-developer-should-know/?fbclid=IwAR1rsPxiU3loCZi3ie2cy8-p_8gBdpoQ3DAqBEX6-1LW_tmC5QGh5IyI1BI
+
 # Everything new in ecmascript 2016, 2017, 2018
 https://medium.freecodecamp.org/here-are-examples-of-everything-new-in-ecmascript-2016-2017-and-2018-d52fa3b5a70e
 
