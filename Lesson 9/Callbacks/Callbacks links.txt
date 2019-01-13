@@ -1,24 +1,24 @@
- 
+
+# Leafie Tutoring
 https://www.youtube.com/watch?v=xHneyv38Jro
 
+# techsith
 https://www.youtube.com/watch?v=pTbSfCT42_M
 
+# Coding Train
 https://www.youtube.com/watch?v=NcCEzzd9BGE
 
+# Net Ninja
 https://www.youtube.com/watch?v=QRq2zMHlBz4
 
+# Kyle Robinson Young
 https://www.youtube.com/watch?v=qN0dkXj7jc0 
 
+# Learn Code.academy
 https://www.youtube.com/watch?v=obaSQBBWZLk
 
-https://www.youtube.com/watch?v=GxyFlXbhdsY
-
+# Steve Griffith
 https://www.youtube.com/watch?v=Q-Zmc0E0GYY
-
-https://www.youtube.com/watch?v=UQOt3p9rUQc
-
-mead udemy nodejs
 
 # JavaScript: What the heck is a Callback?
 https://codeburst.io/javascript-what-the-heck-is-a-callback-aba4da2deced
-
