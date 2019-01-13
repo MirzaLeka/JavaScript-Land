@@ -1,0 +1,6 @@
+
+# Net Ninja ES6 generators
+https://www.youtube.com/watch?v=Ojis8iFIjDQ
+
+# Net Ninja Async JS generators
+https://www.youtube.com/watch?v=pnS2lBQuLGc
