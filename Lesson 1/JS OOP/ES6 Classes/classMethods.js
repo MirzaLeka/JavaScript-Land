@@ -2,7 +2,7 @@
 class Person {
 
   static language() {
-    console.log('Javascript!');
+    console.log(' Javascript!'); // mo need to use process.stdout.write() 
   }
 
   lovesToCode() {
@@ -20,7 +20,7 @@ class Developer extends Person {
 
   // override
   lovesToCode() {
-    console.log(this.name + super.lovesToCode()); // obj.name + return result of lovesToCode()
+    process.stdout.write(this.name + super.lovesToCode()); // obj.name + return result of lovesToCode()
   }
 
 }
@@ -28,7 +28,13 @@ class Developer extends Person {
 const dev = new Developer('Mirza');
 
 // instance method
-dev.lovesToCode(); // output: Mirza loves to code
+dev.lovesToCode(); 
 
 // static method
-Developer.language(); // output: Javascript
+Developer.language(); 
+
+// because of > process.stdout.write() < method everything will be printed inline
+
+// output: Mirza loves to code Javascript
+
+// Note:  process.stdout.write() only works for Node.js and doesn't work for console in browser
