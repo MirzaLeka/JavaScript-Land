@@ -1,3 +1,7 @@
+
+# "Synchronous" fetch with async/await 
+https://dev.to/johnpaulada/synchronous-fetch-with-asyncawait
+
 # Async Await Wes Bos
 https://www.youtube.com/watch?v=DwQJ_NPQWWo
 

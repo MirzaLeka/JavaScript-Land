@@ -1,3 +1,6 @@
+# JS Collections:
+http://www.collectionsjs.com/all
+
 # Symbols: 
 http://exploringjs.com/es6/ch_symbols.html
 

@@ -22,6 +22,8 @@ bcrypt.genSalt(10, (err, salt) => { // 10 is a number of random values we want. 
   });
 });
 
+// because bcrypt.compare() will run sooner than bcrypt.genSalt() and hash() I pulled hashed value out so I can make a comparison without running into errors
+hashed = '$2a$10$JYFPvYnh93pkayRRX1mLjuJeTz9.Q1aCKDm7xXGWVVNJdVMXPgSkC';
 
 // to compare hashed password and original password we use method compare()
 bcrypt.compare(password, hashed, (err, result) => {
