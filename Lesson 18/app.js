@@ -27,4 +27,13 @@ io.on('connect', (socket) => {
   // each socket is unique and each client connected to a server will have it's unique socket (argument)  
   console.log('made socket connection'); // this will print once we setup 'connect' event on frontend and open our site
   console.log(socket.id); // we'll see unique id. every time we refresh (different PC connects), we'll get different id
+
+  // here we are listening for 'chat' we emitted on frontend and we recieve the data we sent (an object)
+  socket.on('chat', function(data) {
+      // now we'll send this message (data) to all other people who are connected to our server
+      // what we are doing is emitting that message (data) to everyone else, so once again we type the name of the event we want to emit
+      // and then on the client side we are listening for this event (in this case response) using .on()
+      io.sockets.emit('response', data); // sockets refers to all sockets on our server
+  });
+
 });
