@@ -36,4 +36,9 @@ io.on('connect', (socket) => {
       io.sockets.emit('response', data); // sockets refers to all sockets on our server
   });
 
+  // Here we'll listen to the typing event we created and instead of emitting it we will broadcast it to every other socket (client)
+  socket.on('typing', (data) => {
+    socket.broadcast.emit('feedback', data); // we are sending the data to everyone else on event named 'feedback'
+  });
+
 });
