@@ -47,6 +47,7 @@
     "moment": "^2.22.2",
     "mongodb": "^3.1.9",
     "mongoose": "^5.3.12",
+    "multer": "^1.4.1",
     "node-sass": "^4.10.0",
     "normalize.css": "^8.0.1",
     "opn": "^5.4.0",

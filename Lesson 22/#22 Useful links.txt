@@ -7,7 +7,10 @@ https://www.youtube.com/watch?v=WLEtj-iZL3g
 Create RESTAPI with NodeJS - uploading IMG (Max)
 https://www.youtube.com/watch?v=srPXMt1Q0nY
 
-Uploading Files MongoDB - Traversy
+Upload Image with Multer - Traversy
+https://www.youtube.com/watch?v=9Qzmri1WaaE
+
+Uploading Files MongoDB - Traversy (GridFS)
 https://www.youtube.com/watch?v=3f5Q9wDePzY
 
 

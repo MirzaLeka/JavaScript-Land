@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://use.fontawesome.com/fe459689b4.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel='stylesheet' type='text/css' href='styles.css'/>
+</head>
+<body>
+
+    <br/>
+
+  <div class="container">
+      <div class="row">
+        <form action="/upload" method="POST" enctype="multipart/form-data">
+            <input type='file' name='myImage' class="inputfile" id="file"/>
+            <label for="file"><i class="fa fa-upload" aria-hidden="true"></i> Choose a file</label>
+            <button class="btn btn-primary" type='submit'>Upload</button>        
+          </form>
+      </div>
+  </div>
+    
+    <script src='scripts.js'></script>
+</body>
+</html>

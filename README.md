@@ -45,7 +45,7 @@ With that out of the way, I wish you happy coding.
 * Lesson 19 - MongoDB: crud operations, operators, Todo: aggregation framework
 * Lesson 20 - Todo: Mongoose
 * Lesson 21 - Todo: Creating RESTAPIs: NodeJS with MongoDB, NodeJS with SQL
-* Lesson 22 - Todo: Uploading files with NodeJS
+* Lesson 22 - Uploading files with NodeJS using Multer
 * Lesson 23 - Todo: Authentication: JWT, Passport JS, Nodemailer
 * Lesson 24 - Lodash
 * Lesson 25 - Todo: Typescript 
