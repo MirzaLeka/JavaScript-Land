@@ -10,3 +10,6 @@ https://medium.com/front-end-hacking/spread-operator-and-destructuring-arrays-an
 
 # Destructuring MDN 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
+
+# ES10 / ES2019 *New* Features! - codedamn
+https://www.youtube.com/watch?v=eps-J_p4eQY

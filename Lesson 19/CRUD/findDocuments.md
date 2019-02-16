@@ -107,8 +107,8 @@ You can search by passing multiple attributes like:
 Output: ```{ "name" : "Emir", "age" : 21 }```
 
 The code above works like **And** => find students with name: name and age: age, but we can also use **Or** logic
-```db.students.find({$or: [{name: 'Amila'}, {age: 21}]}, {_id: 0})``` 
-This will return any student with the name Amila or age 21.
+```db.students.find({$or: [ {name: 'Amila'}, {age: 21} ]}, {_id: 0})``` 
+This will return any student with the *name Amila* or *age 21*.
 
 Output:
 ```
@@ -116,7 +116,7 @@ Output:
 { "name" : "Amila", "age" : 28 }
 ```
 
-$or is MongoDB operator that provides an array of objects, where first object is option one and second is option two.
+$or is MongoDB operator that provides an array of objects, where first object is *option one* and second is *option two*.
 
 **Greater and Less than**
 
@@ -156,7 +156,7 @@ $ne = not equal to
 
 **Return records based on attributes from the array**
 
-We can use $in operator to return records with the names that we specifiy in the array
+We can use ```$in``` operator to return records with the names that we specifiy in the array
 ```db.students.find({name: {$in: ['Amar', 'Ermin']}}, {_id: 0});```
 
 Output:
@@ -165,11 +165,11 @@ Output:
 { "name" : "Amar", "age" : 25 }
 ```
 
-Opposite of $in would be $nin which means return all records with the names that are *not* int the array.
+Opposite of ```$in``` would be ```$nin``` which means return all records with the names that are *not* int the array.
 
 **Return records that have certain attribute**
 
-We can use $exists operator to check if attribute exists and then return students with that attribute.
+We can use ```$exists``` operator to check if attribute exists and then return students with that attribute.
 ```db.students.find({age: {$exists: true}}, {_id: 0});```
 
 Output:

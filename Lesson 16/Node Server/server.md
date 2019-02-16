@@ -2,13 +2,17 @@
 ### http module 
 
 *http* is a core module so we do not need to install it
+
 ```const http = require('http');```
 
 We start by creating a server
+
 ```const server = http.createServer(function(req, res) { ```
 
 **Set a response header**
+
 We're sending status 200 and content type plain text:
+
 ```res.writeHead(200, {'Content-Type': 'text/plain'});```
 
 It's very important to set Content-Type (MINE type). Here is a list of MINE types avilable:
@@ -35,7 +39,9 @@ To learn more about MINE types make sure to visit [MDN](https://developer.mozill
 When working with *Express.js* we do not need to to set Content-Type. Express does that for us.
 
 To end a response we use ```res.end()```.
+
 ```res.end()``` can take various type of parameters that will be sent to a user on client side.
+
 ```res.end('Hello World!');```
 
 ```});```
@@ -46,18 +52,20 @@ To end a response we use ```res.end()```.
 
 When we create request and a response we're also sending headers:
 * request header
-* response headers
-Headers are extra information about request and reponse, like ```<head>``` tag in html.
+* response headers.
+
+Headers give extra information about request and reponse, like ```<head>``` tag in html.
+
 ```<head>``` tag gives info about the page, but it will not appear on page.
 
 Here are some of the things you can send in header:
 * Content-Type (as mentioned above)
 * Status (100, 200, 300, 400, 500)
-* Token (user authentication)
-and so on.
+* Token (user authentication), etc.
 
 *We cant't change request header, but we can modify the response.*
 
 Final part is to create a port. This works for the following ip address, but also for localhost.
+
 ``` server.listen(3000, '127.0.0.1');  ```
 ``` console.log("Server is active on port 3000!"); ```
