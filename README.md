@@ -24,36 +24,36 @@ There is no **start** script. If you see any scripts in *package.json* file, the
 With that out of the way, I wish you happy coding. 
 
 ### Lessons: 
-* Lesson 1 - Core JavaScript: *JS DOM, JS OOP, JS Storage and more*
-* Lesson 2 - JavaScript Rules: *Hoisting, scopes, context, closures*
-* Lesson 3 - Modern JavaScript: *ES6, ES7, ES8, ES9 and beyond (major features)*
-* Lesson 4 - Collections: *Sets, Maps and Symbols*
-* Lesson 5 - Higher order functions: *array, string functions, for of/in/each loop, object methods*
-* Lesson 6 - Jquery: *DOM traversal, jquery vs javascript, Todo: jquery UI, validate*
-* Lesson 7 - Modules
-* Lesson 8 - Build tools: *Webpack, ESLint, Todo: Gulp*
-* Lesson 9 - Asynchronous Javascript: *Xhr, AJAX, Callbacks, Promises, Async Await and more*
+* Lesson 1 - **Core JavaScript:** JS DOM, JS OOP, JS Storage and more
+* Lesson 2 - **JavaScript Rules**: Hoisting, scopes, context, closures
+* Lesson 3 - **Modern JavaScript**: ES6, ES7, ES8, ES9 and beyond (major features)
+* Lesson 4 - **Collections:** Sets, Maps and Symbols
+* Lesson 5 - **Higher order functions:** array, string functions, for of/in/each loop, object methods
+* Lesson 6 - **Jquery**: DOM traversal, jquery vs javascript, Todo: jquery UI, validate
+* Lesson 7 - **Modules**
+* Lesson 8 - **Build tools:** Webpack, ESLint, Todo: Gulp
+* Lesson 9 - **Asynchronous Javascript:** Xhr, AJAX, Callbacks, Promises, Async Await and more
 * Lesson 10 - Todo
 * Lesson 11 - Todo
 * Lesson 12 - Todo
 * Lesson 13 - Todo
 * Lesson 14 - Todo: Regex
-* Lesson 15 - Design Patterns: *Modular Javascript, Todo: algorithms and more*
-* Lesson 16 - Node JS core modules: *file system, events, node server and more*
-* Lesson 17 - Express JS: *routing, middlewares, ejs template engine*
-* Lesson 18 - Socket IO
-* Lesson 19 - MongoDB: *crud operations, MongoDB operators, Todo: aggregation framework*
+* Lesson 15 - **Design Patterns:** Modular Javascript, Todo: algorithms and more
+* Lesson 16 - **Node JS core modules:** file system, events, node server and more
+* Lesson 17 - **Express JS:** routing, middlewares, ejs template engine
+* Lesson 18 - **Socket IO:** Chat App 
+* Lesson 19 - **MongoDB:** crud operations, MongoDB operators, Todo: aggregation framework
 * Lesson 20 - Todo: Mongoose
-* Lesson 21 - Create RESTAPI: *NodeJS with text files, Todo: NodeJS with MongoDB, NodeJS with PGSQL*
-* Lesson 22 - Upload files: *NodeJS and Multer, Todo: NodeJS MongoDB GridFS*
-* Lesson 23 - Todo: Authentication: JWT, Passport JS, Nodemailer
-* Lesson 24 - Lodash
+* Lesson 21 - **Create RESTAPI:** *NodeJS with text files, Todo: NodeJS with MongoDB, NodeJS with PGSQL*
+* Lesson 22 - **Upload files:** *NodeJS and Multer, Todo: NodeJS MongoDB GridFS*
+* Lesson 23 - Todo: Authentication: JWT, Passport JS
+* Lesson 24 - **Lodash**
 * Lesson 25 - Todo: Typescript 
-* Lesson 26 - Unit testing
-* Lesson 27 - ReactJS: *JSX, components, states, Todo: React Router*
+* Lesson 26 - **Unit testing**: Mocha, Expect, Todo: Jest
+* Lesson 27 - **ReactJS:** JSX, components, states, Todo: React Router
 * Lesson 28 - Todo: Redux
 * Lesson 29 - Todo: D3.js
-* Lesson 30 - Cool modules: *Validator, Chalk, Moment, Opn and more*
+* Lesson 30 - **Cool modules:** Validator, Chalk, Moment, Opn and more, Todo: Nodemailer
 
 ![](readMe_img/js-git-node.jpg)
 

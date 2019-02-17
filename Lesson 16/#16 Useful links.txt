@@ -14,3 +14,7 @@ https://www.youtube.com/playlist?list=PL4cUxeGkcC9gcy9lrvMJ75z9maRw4byYp
 # Node JS Master Class
 https://github.com/pirple/The-NodeJS-Master-Class
 https://pirple.thinkific.com/courses/the-nodejs-master-class?fbclid=IwAR30Ptm1uXYG_EsWRTaVO8CFB3M_mbv4b_y4t-J3TnuxyaLo3A3TYG8TuWw
+
+# Streams and Buffers
+https://medium.freecodecamp.org/do-you-want-a-better-understanding-of-buffer-in-node-js-check-this-out-2e29de2968e8
+https://hackernoon.com/https-medium-com-amanhimself-converting-a-buffer-to-json-and-utf8-strings-in-nodejs-2150b1e3de57
