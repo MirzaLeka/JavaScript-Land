@@ -20,6 +20,7 @@ b = 3;
 
 // they are Primitive because both a and b have their own memory location, thus they both 'exist' after we asign a to b
 
+
 // REFERENCE types:
 // array, object
 
@@ -32,7 +33,7 @@ let B = A;
 
 B.name = 'Amar';
 
-// then A will change as well. Because they Point to same Object in memory. They are the same thing now.
+// then A will change as well. Because they Point to same Object in memory. They are the SAME thing now.
 
-console.log(A);
-console.log(B);
+console.log(A); // output: { name: 'Amar' }
+console.log(B); // output: { name: 'Amar' }

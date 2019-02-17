@@ -32,7 +32,9 @@ It's very important to set Content-Type (MINE type). Here is a list of MINE type
 * application/octet-stream
 
 A Multipurpose Internet Mail Extensions (MIME) type is a standard that indicates the nature and format of a document.
+
 ```type/subtype```
+
 A MIME type consists of a type and a subtype — two strings separated by /. No whitespace is allowed.
 
 To learn more about MINE types make sure to visit [MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types).
@@ -68,4 +70,5 @@ Here are some of the things you can send in header:
 Final part is to create a port. This works for the following ip address, but also for localhost.
 
 ``` server.listen(3000, '127.0.0.1');  ```
+
 ``` console.log("Server is active on port 3000!"); ```
