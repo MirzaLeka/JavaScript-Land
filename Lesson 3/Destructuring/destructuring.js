@@ -85,7 +85,7 @@ console.log(a+b+e); // => 1 + 2 + 5, ouput: 8
 
 var [a,b, ...rest] = arr; // a & b will be the first two elements from an array. ...rest stands for the rest of the array.
 // what rest in this case represents are numbers followed by a & b, which are 3, 4 and 5. rest is always the last parameter.
-// rest can be called anything we like, like ...bbb
+// rest can be called anything we like, ...p, ...bbb, etc.
 
 console.log(a,b); // output: 1, 2
 

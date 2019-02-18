@@ -16,7 +16,7 @@ I'm also adding coding challenges which can be found in Challenges directory.
 
 If you'd like to contribute, please do. JavaScript is a huge language and there is no way I can cover everything that is needed to be known. You can update the existing lessons or create a new ones. Every line of code you write makes an impact.
 
-> But please, make sure you write clean code and make sure you avoid making any errors before commiting.
+> But please, make sure you write clean and write *error-free* code.
 
 One last important thing to say is that lessons are **not** connected. 
 There is no **start** script. If you see any scripts in *package.json* file, these are not connected to one project, but rather spread across multiple lessons and used where needed.
@@ -31,7 +31,7 @@ With that out of the way, I wish you happy coding.
 * Lesson 4 - **Collections:** Sets, Maps and Symbols
 * Lesson 5 - **Higher order functions:** array, string functions, for of/in/each loop, object methods
 * Lesson 6 - **Jquery**: DOM traversal, jquery vs javascript, Todo: jquery UI, validate
-* Lesson 7 - **Modules**
+* Lesson 7 - **Modules:** require / export
 * Lesson 8 - **Build tools:** Webpack, ESLint, Todo: Gulp
 * Lesson 9 - **Asynchronous Javascript:** Xhr, AJAX, Callbacks, Promises, Async Await and more
 * Lesson 10 - Todo

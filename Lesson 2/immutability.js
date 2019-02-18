@@ -37,3 +37,10 @@ B.name = 'Amar';
 
 console.log(A); // output: { name: 'Amar' }
 console.log(B); // output: { name: 'Amar' }
+
+// That extra Object is getting Garbage Collected
+
+
+// It's worth mentioning that primitive types are stored in Stack
+// Reference types are stored in Heaps
+// Each Heap has it's place (address) in a Stack
