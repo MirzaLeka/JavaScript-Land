@@ -5,7 +5,7 @@ const fs = require ('fs');
 // we'll pick up data from readMe.txt file
 
 // first parameter is path and second parameter is encoding, like 'uft8'
-let myReadStream = fs.createReadStream(__dirname + '/readMe.txt', 'utf8');
+let myReadStream = fs.createReadStream(__dirname + '/file.txt', 'utf8');
 
 // if we don't type encoding will get a bunch of numbers
 
