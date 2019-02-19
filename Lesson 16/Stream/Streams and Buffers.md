@@ -17,6 +17,7 @@ Once we fill the **Buffer** we send it down the **Stream** to point B.
 We do the same process for every single chunk (Buffer) until data is been transfered.
 
 The idea is that we can start consuming data before all of the data arrives.
+When it comes to __performance__, sending data with streams is much more efficient.
 
 Example of that is watching streams, like movies and games online.
 
@@ -28,3 +29,11 @@ We have three types of streams in NodeJS:
 > To work with **Streams** in Node.js we are using **fs** core module.
 
 **Pipe**
+Reading data from the Read Stream and writing data to the Write Stream is quite common in Node.js and
+because of that we are given Pipes.
+Pipe takes data from read stream and pipes it to the write stream automatically.
+
+Benefit is that we don't need to manually listen for events and setup the logic.
+Pipe can only be used on Readable streams.
+
+We are **piping** data from the Readable stream to the Writable stream.
