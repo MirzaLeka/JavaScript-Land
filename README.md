@@ -26,24 +26,24 @@ With that out of the way, I wish you happy coding.
 
 ### Lessons: 
 * Lesson 1 - **Core JavaScript:** JS DOM, JS OOP, JS Storage and more
-* Lesson 2 - **JavaScript Rules**: Hoisting, scopes, context, closures
-* Lesson 3 - **Modern JavaScript**: ES6, ES7, ES8, ES9 and beyond (major features)
+* Lesson 2 - **JavaScript Rules:** Hoisting, scopes, context, closures
+* Lesson 3 - **Modern JavaScript:** ES6, ES7, ES8, ES9 and beyond (major features)
 * Lesson 4 - **Collections:** Sets, Maps and Symbols
-* Lesson 5 - **Higher order functions:** array, string functions, for of/in/each loop, object methods
-* Lesson 6 - **Jquery**: DOM traversal, jquery vs javascript, Todo: jquery UI, validate
-* Lesson 7 - **Modules:** require / export
-* Lesson 8 - **Build tools:** Webpack, ESLint, Todo: Gulp
-* Lesson 9 - **Asynchronous Javascript:** Xhr, AJAX, Callbacks, Promises, Async Await and more
-* Lesson 10 - Todo
+* Lesson 5 - **Higher order functions:** Array and string functions, for of/in loop, object methods
+* Lesson 6 - **Jquery:** DOM traversal, jquery vs javascript, Todo: jquery UI, validate
+* Lesson 7 - **Asynchronous Javascript:** Xhr, AJAX, Callbacks, Promises, Async Await and more
+* Lesson 8 - **Build Tools:** Webpack, ESLint, Todo: Gulp
+* Lesson 9 - Todo: Regex
+* Lesson 10 - **Design Patterns:** Modular Javascript, Todo: algorithms and more
 * Lesson 11 - Todo
 * Lesson 12 - Todo
 * Lesson 13 - Todo
-* Lesson 14 - Todo: Regex
-* Lesson 15 - **Design Patterns:** Modular Javascript, Todo: algorithms and more
-* Lesson 16 - **Node JS core modules:** file system, events, node server and more
-* Lesson 17 - **Express JS:** routing, middlewares, ejs template engine
-* Lesson 18 - **Socket IO:** Chat App 
-* Lesson 19 - **MongoDB:** crud operations, MongoDB operators, Todo: aggregation framework
+* Lesson 14 - Todo
+* Lesson 15 - Todo: GraphQL
+* Lesson 16 - **Node JS:** Core modules, data stream, require / export
+* Lesson 17 - **Express JS:** Routing, middlewares, ejs template engine
+* Lesson 18 - **Socket IO:** Chat App example 
+* Lesson 19 - **MongoDB:** Crud operations, MongoDB operators, Todo: aggregation framework
 * Lesson 20 - Todo: Mongoose
 * Lesson 21 - **Create RESTAPI:** NodeJS with text files, Todo: NodeJS with MongoDB, NodeJS with PGSQL
 * Lesson 22 - **Upload files:** NodeJS / Multer / MongoDB, Todo: NodeJS / MongoDB / GridFS

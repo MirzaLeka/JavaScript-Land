@@ -1,3 +1,6 @@
+
+// IMPORTANT: import keyword will likely not work without babel
+
 const basicMath = require('./basicMath');
 
 basicMath.add(2, 3);
@@ -19,7 +22,7 @@ var print = require('./singleFunction');
 
 print("Mirza");
 
-// import all with * -- GETTING an error for some reason
+// import all with * 
 
 // import * as manyModules from './manyModules';
 
@@ -30,6 +33,6 @@ print("Mirza");
 
 // Exporting variables
 
-const { num } = require('./variables');
+const { num } = require('./exportVariables');
 
 console.log('Num is ' + num);
