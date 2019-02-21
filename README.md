@@ -68,6 +68,7 @@ The following is the list of people whose courses I watched and created previous
 * [LearnCode.academy](https://www.youtube.com/channel/UCVTlvUkGslCV_h-nSAId8Sw)
 * [Maximilian Schwarzmüller](https://www.youtube.com/channel/UCSJbGtTlrDami-tDGPUV9-w)
 * [Mike Dane](https://www.youtube.com/channel/UCvmINlrza7JHB1zkIOuXEbw)
+* [O'Reilly](https://www.youtube.com/channel/UC3BGlwmI-Vk6PWyMt15dKGw)
 * [Techsith](https://www.youtube.com/channel/UCbGZKLIHpox2l0whz6_RYyg)
 * [The Coding Train](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw)
 * [The Net Ninja](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg)

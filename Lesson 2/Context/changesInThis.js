@@ -11,6 +11,8 @@
     people object. Thus we cant't we can't use this keyword to access people array.
     */
 
+// imagine there is a button element in HTML
+
 const people = {
     people: [],
     bindEvents() { 
@@ -47,7 +49,7 @@ const people = {
     // similar example, only this time we're calling moreBanana from an anonymous function.
     // It's already known that inside a function, this is refering to the window (global) object, unless function is
     // an object method, which will refer to the object itself. To gain access to this keyword, we'll need to:
-        // a) add this inside argument of moreBanana function and use it inside moreBanana function
+        // a) add this inside argument of moreBanana function and use it inside moreBanana function OR
         // b) add call keyword and insert pass this which is an alternative of a)
 
     window.onload = function() {
@@ -55,10 +57,20 @@ const people = {
         var button = document.querySelector("button");
         button.onclick = function() { // this is anonymous function inside function, so this refers to window object
             // compute some stuff
-            moreBanana(); // can be fixed with moreBanana.call(apply)
+            
+            // moreBanana(this); // option a). Now we'll need to pass an argument to moreBanana() function which will look like:
+            /* 
+               function moreBanana(btn) {
+                numBanans++;
+                btn.innerHTML = "Add a banana " + numBanans + "."; // where btn refers to this keyword we passed in
+            */
+
+            moreBanana.call(this); // option b), more elegant approach. We set a value of this to the button behind the scenes
+             
         }
     }
-
+    
+    // now we can use this keyword inside moreBanana() function we we don't need to pass any arguments
     function moreBanana() {
         numBanans++;
         this.innerHTML = "Add a banana " + numBanans + ".";
@@ -68,4 +80,4 @@ const people = {
     }
 
     // first argument of bind, apply and call is always this, thus if we write function.call(), empty argument is refering to this
-    // Similarily, bind(null) or apply(null) will give not give object a value of ull
+    // Similarily, bind(null) or apply(null) will give not give object a value of null
