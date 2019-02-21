@@ -22,7 +22,8 @@ const storage = multer.diskStorage({
 
 // fieldName = input name attribute value
 // originalName = name of the file we are uploading
-// path.extname = returns extension. For example if we are working with file.txt, this would equal to txt
+// path.extname(fileName) = returns extension of fileName.
+  // For example if we are working with file.txt, path.extname(file.txt) would equal to txt
 
 // Init upload
 const upload = multer({
@@ -72,8 +73,6 @@ app.post('/upload', (req, res) => {
       }).catch((e) => {
         res.status(400).send(e);
       })
-
-      
 
     }
   })
