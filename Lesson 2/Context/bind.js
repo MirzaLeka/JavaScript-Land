@@ -26,3 +26,8 @@ const c2_func = printCoordinates.bind(c2); // we do the same binding for 2nd fun
 
 c1_func(); // output: 5, 10
 c2_func(); // output: 75, 235
+
+// if we would call printCoordinates() like below will get undefined for x and y, because this inside function refers to window
+// and there is no window.x nor window.y, unless we manually create them (window.x = 100; window.y = 200)
+
+// printCoordinates() // output: undefined undefined

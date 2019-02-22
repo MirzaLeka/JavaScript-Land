@@ -1,3 +1,15 @@
 
 # Keeping Track of "This" in JavaScript
 https://www.youtube.com/watch?v=JduQUNn7L4w
+
+
+# The 'call' method in JavaScript | Function Call Explained
+https://www.youtube.com/watch?v=CCb96W92A54
+
+
+# Bind Explained in JavaScript
+https://www.youtube.com/watch?v=g2WcckBB_q0
+
+
+# The 'apply' method in JavaScript | Function Apply Explained
+https://www.youtube.com/watch?v=lQtDH0kW6II

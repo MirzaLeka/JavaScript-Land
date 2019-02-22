@@ -1,0 +1,6 @@
+
+# Regular Expressions in JavaScript - #1 REGEX ULTRA BASICS 
+https://www.youtube.com/watch?v=VrT3TRDDE4M
+
+# Regular Expressions - Programming with Text
+https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YEypLuls7iidwHMdCM6o2w
