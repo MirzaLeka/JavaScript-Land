@@ -27,17 +27,18 @@ A pattern is a reusable solution that can be applied to commonly occurring probl
 * Mixin Pattern
 * Decorator Pattern
 * Flyweight Pattern
-* JavaScript MV* Patterns
+
+*JavaScript MV* Patterns:*
 * MVC Pattern
 * MVP Pattern
 * MVVM Pattern
-* Modern Modular JavaScript Design Patterns
+
+*Modern Modular JavaScript Design Patterns:*
 * AMD
 * CommonJS
 * ES Harmony
 
-
-**Design patterns in jQuery:**
+*Design patterns in jQuery:*
 * Composite Pattern
 * Adapter Pattern
 * Facade Pattern
