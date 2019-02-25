@@ -107,10 +107,12 @@ Function expressions and variables declared with *let* and *const* keywords are 
 * Async function
 * Arrow function
 * Immediately Invoked Function Expression (IIFE)
+
 __These can be either:__
 * function statement (declaration)
 * function expression 
-*Note*: Arrow function can only be declared as function expression.
+
+**Note**: Arrow function can only be declared as a function expression.
 
 
 **What is a Closure?**
@@ -132,11 +134,45 @@ React is a JavaScript library for building user interfaces. It is maintained by 
 
 Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node.js. It manages relationships between data, provides schema validation, and is used to translate between objects in code and the representation of those objects in MongoDB.
 
-
+git
 ### Sources:
-* [AddyOsmani.com](https://addyosmani.com)
-* [Coderwall](https://coderwall.com)
-* [Medium](https://medium.com)
-* [Rising Stack](https://community.risingstack.com)
-* [W3Schools](https://www.w3schools.com)
-* [Wikipedia](https://en.wikipedia.org)
+
+AddyOsmani
+* [Design Patterns](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)
+
+Coderwall
+* [Difference between _proto_ and prototype](https://coderwall.com/p/j1khtg/javascript-difference-between-__proto__-and-prototype)
+
+MDN
+* [Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
+* [Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions)
+* [Inheritance and prototype chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
+* [Object prototypes](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes)
+* [Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+* [What is JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript)
+
+Medium:
+* [Callbacks](https://codeburst.io/javascript-what-the-heck-is-a-callback-aba4da2deced)
+* [Closures](https://medium.freecodecamp.org/javascript-closures-simplified-d0d23fa06ba4)
+* [Hoisting](https://medium.freecodecamp.org/function-hoisting-hoisting-interview-questions-b6f91dbc2be8)
+* [Mongoose](https://medium.freecodecamp.org/introduction-to-mongoose-for-mongodb-d2a7aa593c57)
+* [Node.js](https://medium.com/@adnanrahic/hello-world-app-with-node-js-and-express-c1eb7cfa8a30)
+* [Promises](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261)
+* [Prototypes](https://medium.freecodecamp.org/prototype-in-js-busted-5547ec68872)
+* [Prototypes](https://hackernoon.com/prototypes-in-javascript-5bba2990e04b)
+
+Rising Stack
+* [Prototype chain inheritance](https://community.risingstack.com/javascript-prototype-chain-inheritance/)
+
+Scotch
+* [Design patterns](https://scotch.io/bar-talk/4-javascript-design-patterns-you-should-know)
+
+W3Schools
+* [Closures](https://www.w3schools.com/js/js_function_closures.asp)
+* [Hoisting](https://www.w3schools.com/js/js_hoisting.asp)
+* [Prototypes](https://www.w3schools.com/js/js_object_prototypes.asp)
+
+Wikipedia
+* [Callbacks](https://en.wikipedia.org/wiki/Callback_(computer_programming))
+* [React](https://en.wikipedia.org/wiki/React_(JavaScript_library))
+
