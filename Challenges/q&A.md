@@ -100,7 +100,7 @@ Function expressions and variables declared with *let* and *const* keywords are 
 * object (arrays are type object)
 
 
-**Types of functions:**
+**Functions types:**
 * Constructor function
 * Generator function
 * Method (function within Class)
@@ -134,7 +134,8 @@ React is a JavaScript library for building user interfaces. It is maintained by 
 
 Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node.js. It manages relationships between data, provides schema validation, and is used to translate between objects in code and the representation of those objects in MongoDB.
 
-git
+-------------------------------------------------------------------------------------------------------------------------------
+
 ### Sources:
 
 AddyOsmani
