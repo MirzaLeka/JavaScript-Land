@@ -1,6 +1,6 @@
 
-# Fetch API - Traversy Media
+# Fetch API Introduction
 https://www.youtube.com/watch?v=Oive66jrwBs
 
-# Paul Halliday - How to use Fetch with JavaScript
+# How to use Fetch with JavaScript
 https://www.youtube.com/watch?v=tVQgfKqbX3M

@@ -1,0 +1,5 @@
+# javaScript promises explained tutorial
+https://www.youtube.com/watch?v=s6SH72uAn3Q
+
+# Promises Part 1 - Topics of JavaScript/ES6
+https://www.youtube.com/watch?v=QO4NXhWo_NM 

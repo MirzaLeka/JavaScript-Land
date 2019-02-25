@@ -14,13 +14,13 @@ function definePerson (...attr) {
 
  definePerson.apply(person, [24, "JS"]);
 
- const cama = {
-     firstName: "Ermin",
-     lastName: "Cama"
+ const harvey = {
+     firstName: "Harvey",
+     lastName: "Specter"
  }
 
  // We cam allow another object to access method fullName from person object
- console.log(person.fullName.call(cama)); 
+ console.log(person.fullName.call(harvey)); 
 
  // difference between call and apply:
 // apply uses array as the second argument

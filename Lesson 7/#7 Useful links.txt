@@ -1,0 +1,6 @@
+
+# Async JS Crash Course - Callbacks, Promises, Async Await 
+https://www.youtube.com/watch?v=PoRJizFvM7s
+
+# Asynchronous JavaScript Tutorial (playlist)
+https://www.youtube.com/playlist?list=PL4cUxeGkcC9jAhrjtZ9U93UMIhnCc44MH

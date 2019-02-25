@@ -100,6 +100,19 @@ Function expressions and variables declared with *let* and *const* keywords are 
 * object (arrays are type object)
 
 
+**Let and Const vs Var**
+* let and const are block scoped. var is function scoped.
+* let and const are not hoisted. var is hoisted.
+* same var variable can be declared multiple times within same scope. With let and const, this would cause an error. 
+* const must be initialized when declared, but can't be reassigned.
+
+
+**Undefined vs Null:**
+Undefined means a variable has been declared but has not yet been assigned a value. On the other hand, null is an assignment value. It can be assigned to a variable as a representation of no value.
+
+Also, undefined and null are two distinct types: undefined is a type itself (**undefined**) while null is an **object**.
+
+
 **Functions types:**
 * Constructor function
 * Generator function
@@ -112,18 +125,43 @@ __These can be either:__
 * function statement (declaration)
 * function expression 
 
+Key __difference__ between function expression and function statement is that expressions are **not** hoisted.
+
 **Note**: Arrow function can only be declared as a function expression.
 
 
 **What is a Closure?**
 
-A closure is a feature in JavaScript where an inner function has access to the outer (enclosing) function's variables. The closure has three scope chains:
+A closure is a feature in JavaScript where an inner function has access to the outer (enclosing) function's variables even when the function finishes execution. The closure has three scope chains:
 * it has access to its own scope — variables defined between its curly brackets
 * it has access to the outer function’s variables
 * it has access to the global variables
 
 JavaScript variables can belong to the local or global scope. Global variables can be **made** local (private) with closures.
 
+
+**What is IIFE?**
+
+An IIFE (Immediately Invoked Function Expression) is a JavaScript function that runs as soon as it is defined.
+
+
+**What is strict equality (Identity operator) ?**
+
+Two variables are equal ( == ) if they have the same value: ```2 == '2' // true```
+
+The identity (===) operator behaves identically to the equality ( == ) operator except that the types must be the **same** to be considered equal: ```2 === '2' // false```, ```2 === 2 // true```.
+
+**What is strict mode, 'use strict'?**
+
+The purpose of "use strict" is to indicate that the code should be executed in "strict mode. The "use strict" directive was new in ECMAScript version 5. 
+It is not a statement, but a literal expression, ignored by earlier versions of JavaScript.
+
+Strict mode makes several changes to normal JavaScript semantics:
+
+* helps you to write cleaner code, like preventing you from using undeclared variables
+* eliminates some JavaScript silent errors by changing them to throw errors
+* fixes mistakes that make it difficult for JavaScript engines to perform optimizations: strict mode code can sometimes be made to run faster than identical code that's not strict mode
+* prohibits some syntax likely to be defined in future versions of ECMAScript
 
 **What is React?**
 
@@ -141,15 +179,20 @@ Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node.js. It ma
 AddyOsmani
 * [Design Patterns](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)
 
+Ajaymatharu
+* [Undefined vs Null](https://www.ajaymatharu.com/javascript-difference-between-undefined-and-null/)
+
 Coderwall
 * [Difference between _proto_ and prototype](https://coderwall.com/p/j1khtg/javascript-difference-between-__proto__-and-prototype)
 
 MDN
 * [Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
 * [Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions)
+* [IIFE](https://developer.mozilla.org/en-US/docs/Glossary/IIFE)
 * [Inheritance and prototype chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
 * [Object prototypes](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes)
 * [Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+* [Strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode)
 * [What is JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript)
 
 Medium:
@@ -168,10 +211,14 @@ Rising Stack
 Scotch
 * [Design patterns](https://scotch.io/bar-talk/4-javascript-design-patterns-you-should-know)
 
+StackOverflow
+* [Strict equality](https://stackoverflow.com/questions/359494/which-equals-operator-vs-should-be-used-in-javascript-comparisons)
+
 W3Schools
 * [Closures](https://www.w3schools.com/js/js_function_closures.asp)
 * [Hoisting](https://www.w3schools.com/js/js_hoisting.asp)
 * [Prototypes](https://www.w3schools.com/js/js_object_prototypes.asp)
+* [Strict mode](https://www.w3schools.com/js/js_strict.asp)
 
 Wikipedia
 * [Callbacks](https://en.wikipedia.org/wiki/Callback_(computer_programming))

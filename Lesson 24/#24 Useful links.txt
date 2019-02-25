@@ -10,3 +10,6 @@ https://www.youtube.com/watch?v=Gj9THIxp7HE
 
 # Lodash - import single function
 https://stackoverflow.com/questions/43479464/how-to-import-single-lodash-function
+
+# lodash Playlist
+https://www.youtube.com/playlist?list=PLTgRMOcmRb3OL-PKT5FvIBdXVazTNTl-_
