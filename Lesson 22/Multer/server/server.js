@@ -7,8 +7,9 @@ Image = require('./model/imageModel'),
 
 publicFolder = path.join(__dirname, '../web');
 
-app.use(express.static(publicFolder));
-
+app.use(express.static(publicFolder, {
+  extensions: ['html', 'htm']
+}));
 
 
 // set the storage engine

@@ -1,0 +1,33 @@
+
+body{
+    height: 100vh;
+    width: 100%;
+    overflow-x: none;
+}
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.inputfile + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    border: 2px solid red;
+    display: inline-block;
+    padding: 0 5px;
+}
+
+
+.inputfile + label {
+	cursor: pointer; 
+}
+
+.inputfile:focus + label {
+	outline: 1px dotted #000;
+	outline: -webkit-focus-ring-color auto 5px;
+}
