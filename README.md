@@ -1,20 +1,22 @@
-# JavaScript30
-Intermediate to Pro practice course
+# JSLand
+I started this repository to fill my gaps with JavaScript language. It all started as a *JavaScript 30 days challenge*, but as time went on I kept updating the repoistory with various kinds of technologies and decided to turn it into a library where anyone can learn something.  
 
 ![](readMe_img/js-logo.jpg)
 
-I started this repository to fill my gaps with JavaScript language, but as time went on I thought why not turn this into a library
-where anyone can learn something. 
-This repository is public and encourages forking with other users to contribute to open source by helping others learn
-tough topics of JavaScript.
+Welcome to **JSLand**, one of the best places to learn JavaScript! 
+JSLand project is heavily focused on JavaScript language and covers object oriented programming, major features of ES2015, ES2016, all the way to ES2019, asynchronous javascript, higher order functions, context, collections, immutability, but also covers Node.js, Express, MongoDB, Mocha, Lodash, Jquery, Webpack, even fundamentals of React. 
+There is also a section for various interesting modules like Moment, Bcrypt and Opn.
 
-For nearly every lesson there is a *Useful links* file where you'll find more detailed docs regarding the lesson,
+For nearly every lesson there is a __Useful links__ file where you'll find more detailed docs regarding the lesson,
 as well as videos that will explain to you how things work. 
+
 I'm also adding coding challenges which can be found in Challenges directory.
 
 ### Contributions
 
-If you'd like to contribute, please do. JavaScript is a huge language and there is no way I can cover everything that is needed to be known. You can update the existing lessons or create a new ones. Every line of code you write makes an impact.
+This repository is public and __encourages__ forking with other users to contribute to open source by helping others learn
+tough topics of JavaScript.
+If you want to contribute, please do. JavaScript is a huge language and there is no way I can cover everything that is needed to be known. You can update the existing lessons or create a new ones. Every line of code you write makes an __impact__.
 
 > But please, make sure you write clean and *error-free* code.
 
@@ -34,12 +36,12 @@ With that out of the way, I wish you happy coding.
 * Lesson 7 - **Asynchronous Javascript:** Xhr, AJAX, Callbacks, Promises, Async Await and more
 * Lesson 8 - **Build Tools:** Webpack, ESLint, Todo: Gulp
 * Lesson 9 - Todo: Regex
-* Lesson 10 - **Design Patterns:** Modular Javascript, Todo: algorithms and more
+* Lesson 10 - Todo: Design Patterns, algorithms and more
 * Lesson 11 - Todo
 * Lesson 12 - Todo
 * Lesson 13 - Todo
-* Lesson 14 - Todo
-* Lesson 15 - Todo: GraphQL
+* Lesson 14 - Todo: GraphQL
+* Lesson 15 - Todo: Firebase
 * Lesson 16 - **Node JS:** Core modules, data stream, require / export
 * Lesson 17 - **Express JS:** Routing, middlewares, ejs template engine
 * Lesson 18 - **Socket IO:** Chat App example 
