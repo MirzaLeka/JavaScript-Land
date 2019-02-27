@@ -1,10 +1,11 @@
 # JSLand
-I started this repository to fill my gaps with JavaScript language. It all started as a *JavaScript 30 days challenge*, but as time went on I kept updating the repoistory with various kinds of technologies and decided to turn it into a library where anyone can learn something.  
+I started this repository to fill my gaps with JavaScript language. It all started as a *JavaScript 30 days challenge*, but as time went on I kept updating the repoistory with various kinds of technologies and decided to turn it into a library where anyone can learn something new.  
 
 ![](readMe_img/js-logo.jpg)
 
-Welcome to **JSLand**, one of the best places to learn JavaScript! 
-JSLand project is heavily focused on JavaScript language and covers object oriented programming, major features of ES2015, ES2016, all the way to ES2019, asynchronous javascript, higher order functions, context, collections, immutability, but also covers Node.js, Express, MongoDB, Mocha, Lodash, Jquery, Webpack, even fundamentals of React. 
+### Introducing *JSLand*, one of the best places to learn JavaScript! 
+
+JSLand project is heavily focused on JavaScript language and covers topics like object oriented programming, major features of ES2015, ES2016, all the way to ES2019, asynchronous javascript, higher order functions, context, collections, immutability, but also covers Node.js, Express, MongoDB, Mocha, Lodash, Jquery, Webpack, even fundamentals of React. 
 There is also a section for various interesting modules like Moment, Bcrypt and Opn.
 
 For nearly every lesson there is a __Useful links__ file where you'll find more detailed docs regarding the lesson,
