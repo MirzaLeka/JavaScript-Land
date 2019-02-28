@@ -1,4 +1,6 @@
 
+// to which object should this method refer
+
 const person = {
     firstName: "Mirza",
     lastName: "Leka",
