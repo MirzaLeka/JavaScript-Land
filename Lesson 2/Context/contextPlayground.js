@@ -26,4 +26,3 @@ function definePerson (...attr) {
 
  // difference between call and apply:
 // apply uses array as the second argument
-

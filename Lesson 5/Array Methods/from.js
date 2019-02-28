@@ -70,3 +70,16 @@ console.log(values); // output: ['a', 'b'];
 
 const keys = Array.from(mapper.keys());
 console.log(keys); // output: // ['1', '2'];
+
+
+// Example 7: Array from HTML collection
+
+// if we grab multiple HTML elements instead of array, we'll get an HTML collection
+
+const HTMLCollection = document.getElementsByTagName('div');
+
+// we can use Array.from() to convert the collection into regularArray 
+
+const regularArray = Array.from(HTMLCollection);
+
+console.log(regularArray instanceof Array); // output: trues

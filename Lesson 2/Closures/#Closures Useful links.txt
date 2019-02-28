@@ -1,0 +1,21 @@
+
+# 9.6: JavaScript Closure - p5.js Tutorial
+https://www.youtube.com/watch?v=-jysK0nlz7A 
+
+# JavaScript Closures 101: What is a closure?
+https://www.youtube.com/watch?v=yiEeiMN2Khs
+
+# JavaScript Closures
+https://www.youtube.com/watch?v=-rLrGAXK8WE
+
+# Javascript Closure tutorial ( Closures Explained )
+https://www.youtube.com/watch?v=71AtaJpJHw0
+
+# Closures in JavaScript | Inside a loop, inner function and setTimeoout
+https://www.youtube.com/watch?v=-xqJo5VRP4A
+
+# Demystifying JavaScript Closure
+https://www.youtube.com/watch?v=TznpOmv2BQM
+
+# Understanding Variable Scope & Closures Without Losing your Mind
+https://www.youtube.com/watch?v=iSlSxDNarDY
