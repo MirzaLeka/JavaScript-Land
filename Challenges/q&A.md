@@ -108,6 +108,7 @@ Function expressions and variables declared with *let* and *const* keywords are 
 
 
 **Undefined vs Null:**
+
 Undefined means a variable has been declared but has not yet been assigned a value. On the other hand, null is an assignment value. It can be assigned to a variable as a representation of no value.
 
 Also, undefined and null are two distinct types: undefined is a type itself (**undefined**) while null is an **object**.

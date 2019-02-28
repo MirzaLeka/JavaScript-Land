@@ -36,7 +36,7 @@ With that out of the way, I wish you happy coding.
 * Lesson 6 - **Jquery:** DOM traversal, jquery vs javascript, Todo: jquery UI, validate
 * Lesson 7 - **Asynchronous Javascript:** Xhr, AJAX, Callbacks, Promises, Async Await and more
 * Lesson 8 - **Build Tools:** Webpack, ESLint, Todo: Gulp
-* Lesson 9 - Todo: Regex
+* Lesson 9 - **Regex**
 * Lesson 10 - Todo: Design Patterns, algorithms and more
 * Lesson 11 - Todo
 * Lesson 12 - Todo
