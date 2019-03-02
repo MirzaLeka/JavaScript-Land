@@ -6,14 +6,15 @@
 
 let myList = document.getElementById('myList');
 
-myList.addEventListener('click', function(e) {
+myList.addEventListener('click', function(e) { // e === event
  
-  if (e.target.matches('li')) {
-     e.target.classList.toggle('colorRed');
+  if (e.target.matches('li')) { // once we click on ul, we check if user clicked on any li item
+     e.target.classList.toggle('colorRed'); // if so change color of li item you clicked on to red
   }
   
 });
 
+// if we create new list item and append it to myList ul, we'll still be able to use event delegation on it
 let newLi = document.createElement('li');
 newLi.textContent = 'Fourth';
 

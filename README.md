@@ -49,7 +49,7 @@ With that out of the way, I wish you happy coding.
 * Lesson 19 - **MongoDB:** Crud operations, MongoDB operators, Todo: aggregation framework
 * Lesson 20 - Todo: Mongoose
 * Lesson 21 - **Create RESTAPI:** NodeJS with text files, Todo: NodeJS with MongoDB, NodeJS with PGSQL
-* Lesson 22 - **Upload files:** NodeJS / Multer / MongoDB, Todo: NodeJS / MongoDB / GridFS
+* Lesson 22 - **Upload files:** NodeJS / Multer / Folder, Todo: NodeJS / MongoDB / Multer / GridFS
 * Lesson 23 - Todo: Authentication: JWT, Passport JS
 * Lesson 24 - **Lodash**
 * Lesson 25 - Todo: Typescript 
