@@ -8,10 +8,9 @@ I started this repository to fill my gaps with JavaScript language. It all start
 JSLand project is heavily focused on JavaScript language and covers topics like object oriented programming, major features of ES2015, ES2016, all the way to ES2019, asynchronous javascript, higher order functions, context, collections, immutability, but also covers Node.js, Express, MongoDB, Mocha, Lodash, Jquery, Webpack, even fundamentals of React. 
 There is also a section for various interesting modules like Moment, Bcrypt and Opn.
 
-For nearly every lesson there is a __Useful links__ file where you'll find more detailed docs regarding the lesson,
+In every lesson there is a __Useful links__ file where you'll find more detailed docs regarding the lesson,
 as well as videos that will explain to you how things work. 
-
-I'm also adding coding challenges which can be found in Challenges directory.
+I'm also adding coding challenges and JavaScript interview questions which can be found in __Challenges__ directory.
 
 ### Contributions
 

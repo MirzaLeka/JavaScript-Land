@@ -2,3 +2,5 @@
 # W3 Schools - Node.js MySQL
 https://www.w3schools.com/nodejs/nodejs_mysql.asp
 
+# Node.js & PostgreSQL Recipe App
+https://www.youtube.com/playlist?list=PLillGF-RfqbaEmlPcX5e_ejaK7Y5MydkW

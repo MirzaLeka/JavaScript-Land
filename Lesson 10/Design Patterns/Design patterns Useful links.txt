@@ -1,0 +1,12 @@
+
+# Addyosmani Design Patterns
+https://addyosmani.com/resources/essentialjsdesignpatterns/book/
+
+# Design Patterns - Beau teaches JavaScript
+https://www.youtube.com/playlist?list=PLWKjhJtqVAbnZtkAI3BqcYxKnfWn_C704
+
+# Observer Design Pattern in Javascript | Design Patterns Tutorial - dcode
+https://www.youtube.com/watch?v=T-xfEbDORng
+
+# JavaScript Design Patterns - Udacity
+https://www.udacity.com/course/javascript-design-patterns--ud989
