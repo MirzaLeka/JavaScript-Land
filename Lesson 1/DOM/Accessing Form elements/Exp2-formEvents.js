@@ -18,4 +18,3 @@ function funky(event) {
 
     // both of these will give us value of first input field
   }
-

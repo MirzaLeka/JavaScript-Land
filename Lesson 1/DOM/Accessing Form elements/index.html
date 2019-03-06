@@ -5,12 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Accessing Form Elements</title>
+    <link rel='stylesheet' type='text/css' href='index.css'/>
 </head>
 <body>
 
-    <form onsubmit='funky(event)'>
-        <input name='username'/>
-        <input name='password'/>
+    <h1>Document Form example</h1>
+
+    <form name="firstForm" id="form1" onsubmit='func();return false'> <!-- "return false" works like event.preventDefault() -->
+        <input placeholder="username" name='username'/> 
+        <input placeholder="password" name='password'/>
+        <button type='submit'>CLICK</button>
+    </form>
+
+    <h1>Form Event example</h1>
+
+    <form id="form2" onsubmit='funky(event)'>
+        <input placeholder="username" name='username'/>
+        <input placeholder="password" name='password'/>
         <button type='submit'>CLICK</button>
     </form>
   
