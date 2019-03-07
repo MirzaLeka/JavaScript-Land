@@ -1,4 +1,7 @@
-  let backgroundColors = ["red", "blue", "green", "yellow"];
+  
+// once you click on traffic light color, background will change and new background will be stored in your local storage
+
+  const backgroundColors = ["red", "blue", "green", "yellow"];
 
 (function() {
   
@@ -9,7 +12,6 @@
 }
   
  
-
   let body = '';
   for (let i = 0; i < backgroundColors.length; i++) {
     body += `<div style="background: ${backgroundColors[i]}"></div> <br>`;
@@ -27,9 +29,4 @@ let divs = document.getElementsByTagName("div");
 
   document.body.style.background = localStorage.getItem("background");              
   }, false);
-  }
-
-
-
- 
-  
+}

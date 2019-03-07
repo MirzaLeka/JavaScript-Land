@@ -22,7 +22,6 @@ function bye() {
 }
 
 
-
 /* setInterval */
 
 // similar, you pass function and timer
@@ -31,7 +30,7 @@ function bye() {
 // can be called with window object
 
 var count = 0;
-var intId = setInterval(counter, 1000); // name of the interval we want to clear
+var intId = setInterval(counter, 1000); // name of the intervalr
 
 function counter() { // will be executed over and over after 1000ms until we call clearInterval()
 	console.log(count++);
@@ -39,5 +38,5 @@ function counter() { // will be executed over and over after 1000ms until we cal
 
 
 // summary
-// setTimeout executes once and stops with clearTimeout();
+// setTimeout executes once and stops. It can be cleared with clearTimeout();
 // setInterval executes continously and stops with clearInterval();
