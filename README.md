@@ -5,8 +5,8 @@ I started this repository to fill my gaps with JavaScript language. It all start
 
 ### Introducing *JSLand*, one of the best places to learn JavaScript! 
 
-JSLand project is heavily focused on JavaScript language and covers topics like object oriented programming, major features of ES2015, ES2016, all the way to ES2019, asynchronous javascript, higher order functions, context, collections, immutability, but also covers Node.js, Express, MongoDB, Mocha, Lodash, Jquery, Webpack, even fundamentals of React. 
-There is also a section for various interesting modules like Moment, Bcrypt and Opn.
+JSLand project is heavily focused on JavaScript language and covers topics like object oriented programming, major features of ES2015, ES2016, all the way to ES2019, asynchronous javascript, higher order functions, context, collections, immutability, but also Node.js, Express, MongoDB, Mocha, Lodash, Jquery, Webpack and React. 
+There is also a section for various interesting modules like Moment, Bcrypt and many other.
 
 In every lesson there is a __Useful links__ file where you'll find more detailed docs regarding the lesson,
 as well as videos that will explain to you how things work. 
@@ -21,13 +21,13 @@ If you want to contribute, please do. JavaScript is a huge language and there is
 > But please, make sure you write clean and *error-free* code.
 
 One last important thing to say is that lessons are **not** connected. 
-There is no **start** script. If you see any scripts in *package.json* file, these are not connected to one project, but rather spread across multiple lessons and used where needed.
+There is **no** start script. If you see any scripts in *package.json* file, these are not connected to one project, but rather spread across multiple lessons and used where needed.
 
 
-With that out of the way, I wish you happy coding. 
+With that out of the way, I wish you happy coding and I hope you teach all of us something new. 
 
 ### Lessons: 
-* Lesson 1 - **Core JavaScript:** JS DOM, JS OOP, JS Storage
+* Lesson 1 - **Core JavaScript:** JS DOM, JS OOP ES5/ES6, JS Storage
 * Lesson 2 - **JavaScript Rules:** Hoisting, scopes, context, closures
 * Lesson 3 - **Modern JavaScript:** ES6, ES7, ES8, ES9 and beyond (major features)
 * Lesson 4 - **Collections:** Sets, Maps and Symbols
