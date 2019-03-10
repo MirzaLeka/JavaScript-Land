@@ -18,6 +18,9 @@ https://github.com/sindresorhus/opn-cli
 # opn
 https://www.npmjs.com/package/opn
 
+# Randomstring
+https://www.npmjs.com/package/randomstring
+
 # rimraf
 https://www.npmjs.com/package/rimraf
 video tutorial

@@ -52,6 +52,7 @@
     "normalize.css": "^8.0.1",
     "opn": "^5.4.0",
     "parcel-bundler": "^1.10.3",
+    "randomstring": "^1.1.5",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-router-dom": "^4.2.2",

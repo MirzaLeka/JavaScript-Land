@@ -56,7 +56,7 @@ With that out of the way, I wish you happy coding.
 * Lesson 27 - **ReactJS:** JSX, components, states, Todo: React Router
 * Lesson 28 - Todo: Redux
 * Lesson 29 - Todo: D3.js
-* Lesson 30 - **Cool modules:** Validator, Chalk, Moment, Opn and more, Todo: Nodemailer
+* Lesson 30 - **Cool modules:** Validator, Chalk, Moment, Opn and more
 
 ![](readMe_img/js-git-node.jpg)
 
