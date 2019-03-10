@@ -1,17 +1,17 @@
-Javascript FileReader
+# Javascript FileReader
 https://www.youtube.com/watch?v=-AR-6X_98rM
 
-Upload file NodeJS (just building API)
+# Upload file NodeJS (just building API)
 https://www.youtube.com/watch?v=WLEtj-iZL3g
 
-Create RESTAPI with NodeJS - uploading IMG (Max)
+# Create RESTAPI with NodeJS - uploading IMG (Max)
 https://www.youtube.com/watch?v=srPXMt1Q0nY
 
-Upload Image with Multer - Traversy
+# Upload Image with Multer - Traversy
 https://www.youtube.com/watch?v=9Qzmri1WaaE
 
-Uploading Files MongoDB - Traversy (GridFS)
+# Uploading Files MongoDB - Traversy (GridFS)
 https://www.youtube.com/watch?v=3f5Q9wDePzY
 
-
-
+# Preview selected image 
+https://stackoverflow.com/questions/18457340/how-to-preview-selected-image-in-input-type-file-in-popup-using-jquery

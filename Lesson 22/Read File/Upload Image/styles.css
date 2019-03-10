@@ -1,0 +1,16 @@
+body{
+    margin: 40px;
+  }
+  
+  form{
+    width: 300px;
+    border: 2px solid #333;
+    padding: 2%;
+  }
+  
+  #myImg{
+    display: none;
+    height: 250px;
+    width: 400px;
+  }
+  
