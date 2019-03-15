@@ -1,5 +1,5 @@
 # JSLand
-I started this repository to fill my gaps with JavaScript language. It all started as a *JavaScript 30 days challenge*, but as time went on I kept updating the repoistory with various kinds of technologies and decided to turn it into a library where anyone can learn something new.  
+I started this repository to fill my gaps with JavaScript language. It all started as a *JavaScript 30 days challenge*, but as time went on I kept updating the repoistory with various kinds of technologies and decided to turn it into a library where anyone can learn something new. Read the full story on [Medium](https://medium.com/@mirza.ng4/back-to-square-one-javascript-41355ef3eda).
 
 ![](readMe_img/js-logo.jpg)
 
