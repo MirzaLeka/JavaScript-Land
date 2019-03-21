@@ -24,6 +24,44 @@ const items = [
 ];
 
 
+/*
+Number.prototype.toKelvin = function() {
+  return (this + 273.15); // this keyword refers to tempCelsius (25)
+}
+*/
+
+Array.prototype.sortBy = function(field) {
+  return function(a, b) {
+      return a[field] - b[field];
+    // if (a[field] > b[field]) {
+    //     return -1;
+    // } else if (a[field] < b[field]) {
+    //     return 1;
+    // }
+    // return 0;
+  };
+}
+
+
+function randomSort() {
+
+    console.log(items);
+
+    // items.sortBy(items.price);
+
+   items.sort(function(x, y) {
+        if (x < y) {
+          return -1;
+        }
+        if (x > y) {
+          return 1;
+        }
+        return 0;
+      });
+    
+    console.log(items);
+}
+
 !function() {
 
     const row = document.querySelector('.row');
@@ -92,4 +130,21 @@ array.sort(function(x, y) {
 });
 
 // Teatr White White 023 White flower
-document.write(array);
+// document.write(array);
+
+
+///////////
+
+// function sortBy(field) {
+//     return function(a, b) {
+//         if (a[field] > b[field]) {
+//             return -1;
+//         } else if (a[field] < b[field]) {
+//             return 1;
+//         }
+//         return 0;
+//     };
+// }
+
+
+// https://stackoverflow.com/questions/39877156/how-to-extend-string-prototype-and-use-it-next-in-typescript
