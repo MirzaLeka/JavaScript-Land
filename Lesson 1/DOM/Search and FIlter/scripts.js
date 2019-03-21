@@ -43,6 +43,10 @@ const items = [
 }();
 
 
+function compare(a,b) {
+    return a.price - b.price;
+}
+
 
 function handleSubmit(event) {
     event.preventDefault();
@@ -53,19 +57,39 @@ function handleSubmit(event) {
     const sort = document.getElementById("sort");
     const sortOption = sort.options[sort.selectedIndex].value;
 
+    console.log(sortOption);
+
     const searchValue = event.target.search.value;
 
     // sort by price, date, text(asc/desc)?
 
     const filteredSearch = items.filter( item => item.text.toLowerCase().includes(searchValue.toLowerCase()) );
     const filterCategory = filteredSearch.filter(search => pickedCategory === 'all categories'? filteredSearch : search.category === pickedCategory );
-    const filterSort = filterCategory.filter(() => sortOption === 'asc' ? filterCategory.sort() : filterCategory.sort().reverse() );
+    // const filterSort = filterCategory.filter(() => sortOption === 'asc' ? filterCategory.sort(compare) : filterCategory.sort(compare).reverse() );
+
+    const filterSort = filterCategory.sort(compare(sortOption));
     
-    console.log(filteredSearch);
-    console.log(filterCategory);
+    // console.log(filteredSearch);
+    // console.log(filterCategory);
     console.log(filterSort);
 
     const row = document.querySelector('.row');
 
 
 }
+
+// for string type
+var array = ['White 023', 'White', 'White flower', 'Teatr'];
+
+array.sort(function(x, y) {
+  if (x < y) {
+    return -1;
+  }
+  if (x > y) {
+    return 1;
+  }
+  return 0;
+});
+
+// Teatr White White 023 White flower
+document.write(array);
