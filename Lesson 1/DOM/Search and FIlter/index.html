@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link rel='stylesheet' href="styles.css"/>
+</head>
+<body>
+
+    <form onsubmit="handleSubmit(event)">
+        <input type="text" name="search" placeholder="search"/>
+        <button>Submit</button>
+    </form>
+
+    <!-- onchange="myFunction()" -->
+
+<!-- class="browser-default custom-select" -->
+
+    <select id="mySelect">
+        <option selected value="all categories">All Categories</option>
+        <option value="toys">Toys</option>
+        <option value="tech">Tech</option>
+        <option value="furniture">Furniture</option>
+        <option value="cars">Cars</option>
+    </select>
+
+          <select id="sort">
+                <option selected value="asc">ASC</option>
+                <option value="desc">DESC</option>
+              </select>
+
+          <!-- <p id="demo"></p> -->
+
+
+        <div class="container">
+            <div class="row"></div>
+        </div>
+
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
