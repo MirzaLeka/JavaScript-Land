@@ -1,0 +1,12 @@
+
+# Angular 2 | The Net Ninja
+https://www.youtube.com/playlist?list=PL4cUxeGkcC9jqhk5RvBiEwHMKSUXPyng0
+
+# Angular 7 | Codevolution
+https://www.youtube.com/playlist?list=PLC3y8-rFHvwhBRAgFinJR8KHIrCdTkZcZ
+
+# Angular Crash Course - 2019 | Traversy Media
+https://www.youtube.com/watch?v=Fdf5aTYRW0E
+
+# Binding specific keys to keyup and keydown events
+https://alligator.io/angular/binding-keyup-keydown-events/

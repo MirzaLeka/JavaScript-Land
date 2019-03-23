@@ -37,11 +37,11 @@ With that out of the way, I wish you happy coding and I hope you teach all of us
 * Lesson 8 - **Build Tools:** Webpack, ESLint, Todo: Gulp
 * Lesson 9 - **Regex**
 * Lesson 10 - Todo: Design Patterns, algorithms and more
-* Lesson 11 - Todo
-* Lesson 12 - Todo
-* Lesson 13 - Todo
-* Lesson 14 - Todo: GraphQL
-* Lesson 15 - Todo: Firebase
+* Lesson 11 - Todo: Phaser.js
+* Lesson 12 - Todo: D3.js 
+* Lesson 13 - Todo: TypeScript
+* Lesson 14 - Todo: Angular 7
+* Lesson 15 - Todo: RxJS
 * Lesson 16 - **Node JS:** Core modules, data stream, require / export
 * Lesson 17 - **Express JS:** Routing, middlewares, ejs template engine
 * Lesson 18 - **Socket IO:** Chat App example 
@@ -51,11 +51,11 @@ With that out of the way, I wish you happy coding and I hope you teach all of us
 * Lesson 22 - **Upload files:** NodeJS / Multer / Folder, Todo: NodeJS / MongoDB / Multer / GridFS
 * Lesson 23 - Todo: Authentication: JWT, Passport JS
 * Lesson 24 - **Lodash**
-* Lesson 25 - Todo: Typescript 
+* Lesson 25 - Todo: Firebase 
 * Lesson 26 - **Unit testing**: Mocha, Expect, Todo: Jest
 * Lesson 27 - **ReactJS:** JSX, components, states, Todo: React Router
 * Lesson 28 - Todo: Redux
-* Lesson 29 - Todo: D3.js
+* Lesson 29 - Todo: GraphQL
 * Lesson 30 - **Cool modules:** Validator, Chalk, Moment, Opn and more
 
 ![](readMe_img/js-git-node.jpg)
