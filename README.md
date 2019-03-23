@@ -10,7 +10,7 @@ There is also a section for various interesting modules like Moment, Bcrypt and 
 
 In every lesson there is a __Useful links__ file where you'll find more detailed docs regarding the lesson,
 as well as videos that will explain to you how things work. 
-I'm also adding coding challenges and JavaScript interview questions which can be found in __Challenges__ directory.
+I'm also adding coding challenges, books and JavaScript interview questions.
 
 ### Contributions
 
