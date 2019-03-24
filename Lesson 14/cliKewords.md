@@ -2,18 +2,27 @@
 ## CLI Keywords
 
 Install Node.js
+
 https://nodejs.org/en/
 
 Install Angular
+
 ``` npm install -g @angular/cli ```
 
+Check Angular version
+
+``` ng version ```
+
 Start New Project
+
 ``` ng new projectName ```
 
 Run app
+
 ``` ng serve ``` or ``` npm start ``` 
 
-**ng generate**
+
+### ng generate
 
 Generates and/or modifies files based on a schematic. Syntax: ```ng <option> <customTitle>```.
 

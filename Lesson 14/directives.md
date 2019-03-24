@@ -3,6 +3,8 @@
 
 Directive is a custom HTML attribute that angular provides.
 
+*ngStyle*
+
 *ngClass*
 
 *ngModel*
@@ -14,3 +16,5 @@ Directive is a custom HTML attribute that angular provides.
 *ngSwitch*
 
 *ngSubmit*
+
+ngcontent

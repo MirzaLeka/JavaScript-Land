@@ -1,10 +1,10 @@
 
 ## Data binding
 
-**One-way data binding**
+### One-way data binding
+Data flows from class to template.
 
-
-*String interpolation:* ```{{property}}```
+**String interpolation:** ```{{property}}```
 
 component.ts file
 ```
@@ -18,7 +18,7 @@ component.html file
 ```
 
 
-*Property binding:*  ```[HTML attribute]="property"``` 
+**Property binding:**  ```[HTML attribute]="property"``` 
 component.ts file
 ```
 export class SomeComponent{
@@ -49,7 +49,7 @@ component.html file
 ```
 
 
-*Class binding:*
+**Class binding:**
 component.ts file
 ```
 export class SomeComponent{
@@ -70,7 +70,7 @@ component.html file
 ```
 
 
-Conditional binding => apply a single class
+*Conditional binding => apply a single class*
 component.ts file
 ```
 export class SomeComponent{
@@ -90,7 +90,7 @@ component.html file
 We want to conditionally apply and *toggle* .text-danger class if hasError property is true or not.
 
 
-Conditional binding => apply multiple classes with **ngClass** directive
+*Conditional binding => apply multiple classes with **ngClass** directive*
 component.ts file
 ```
 export class SomeComponent{
@@ -123,7 +123,7 @@ component.html file
 We apply classes we specified in the *messageClasses* object.
 
 
-*Style Binding*
+**Style Binding**
 component.ts file
 ```
 export class SomeComponent{
@@ -138,7 +138,7 @@ component.html file
 ```
 In this instance color keyword is not a class, but a css style property.
 
-Conditional style
+*Conditional style*
 component.ts file
 ```
 export class SomeComponent{
@@ -152,7 +152,7 @@ component.html file
 If AngularIsAwesome property results to true, color will be red, otherwise it will be blue.
 
 
-Multiple styles with **ngStyle** directive
+*Multiple styles with **ngStyle** directive*
 component.ts file
 ```
 export class SomeClass {
@@ -168,12 +168,89 @@ component.html file
 ```
 We apply classes we specified in the *titleStyles* object.
 
-*Event binding*
 
+**Event binding**
+User events and keyboard events
+
+*Simple onclick*
+component.ts file
+```
+export class SomeClass {
+  funky() {
+    console.log('Hello World');
+  }
+}
+```
+component.html file
+```
+<button (click)="funky()">Click ME</button>
+```
+
+*Update DOM*
+component.ts file
+```
+export class SomeClass {
+  greeting = ''; // we we will change the greeting property
+  funky() {
+    this.greeting = 'Hello!';
+  }
+}
+```
+component.html file
+```
+<button (click)="funky()">Click ME</button>
+{{greeting}} // will print 'Hello' after we click on button
+```
+
+*Use events*
+component.ts file
+```
+export class SomeClass {
+  funky(event) {
+    console.log(event);
+  }
+}
+```
+component.html file
+```
+<button (click)="funky($event)">Click ME</button>
+```
+
+*Tempate statement*
+component.ts file
+```
+export class SomeClass {
+  greeting = '';
+}
+```
+component.html file
+```
+<button (click)="greeting = 'Hello!">Click ME</button> // updates greeting property on click
+ {{greeting}} // code is executed right in the html element
+```
+
+
+**Template Reference Variables:** ```#variableName```
+component.ts file
+```
+export class SomeClass {
+  log(value) {
+    console.log('This is a value of input tag', value);
+  }
+}
+```
+component.html file
+```
+<input type="text" #myInput /> // #myInput is now a reference to this input tag
+<button (click)="log(myInput.value)">Click ME</button> // myInput.value refers to value of our input tag
+```
 
 --------------------------------------------------
 
-**Two-way data binding**
+###Two-way data binding
+Data flows from class to template (HTML component) and from template to the class.
+
+
 
 *ngModel
 
