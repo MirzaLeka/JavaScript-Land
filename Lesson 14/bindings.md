@@ -19,6 +19,7 @@ component.html file
 
 
 **Property binding:**  ```[HTML attribute]="property"``` 
+
 component.ts file
 ```
 export class SomeComponent{
@@ -35,6 +36,7 @@ Alternative -> *String Interpolation*
 <input type="text" id="{{myId}}" />
 ```
 But *String Interpolation* can only be used for properties that are string. Some of them are also booleans, so **Property Binding** is a better solution, as seen below:
+
 component.ts file
 ```
 export class SomeComponent{
@@ -50,6 +52,7 @@ component.html file
 
 
 **Class binding:**
+
 component.ts file
 ```
 export class SomeComponent{
@@ -71,6 +74,7 @@ component.html file
 
 
 *Conditional binding => apply a single class*
+
 component.ts file
 ```
 export class SomeComponent{
@@ -91,6 +95,7 @@ We want to conditionally apply and *toggle* .text-danger class if hasError prope
 
 
 *Conditional binding => apply multiple classes with **ngClass** directive*
+
 component.ts file
 ```
 export class SomeComponent{
@@ -124,6 +129,7 @@ We apply classes we specified in the *messageClasses* object.
 
 
 **Style Binding**
+
 component.ts file
 ```
 export class SomeComponent{
@@ -139,6 +145,7 @@ component.html file
 In this instance color keyword is not a class, but a css style property.
 
 *Conditional style*
+
 component.ts file
 ```
 export class SomeComponent{
@@ -153,6 +160,7 @@ If AngularIsAwesome property results to true, color will be red, otherwise it wi
 
 
 *Multiple styles with **ngStyle** directive*
+
 component.ts file
 ```
 export class SomeClass {
@@ -173,6 +181,7 @@ We apply classes we specified in the *titleStyles* object.
 User events and keyboard events
 
 *Simple onclick*
+
 component.ts file
 ```
 export class SomeClass {
@@ -187,6 +196,7 @@ component.html file
 ```
 
 *Update DOM*
+
 component.ts file
 ```
 export class SomeClass {
@@ -203,6 +213,7 @@ component.html file
 ```
 
 *Use events*
+
 component.ts file
 ```
 export class SomeClass {
@@ -217,6 +228,7 @@ component.html file
 ```
 
 *Tempate statement*
+
 component.ts file
 ```
 export class SomeClass {
@@ -231,6 +243,7 @@ component.html file
 
 
 **Template Reference Variables:** ```#variableName```
+
 component.ts file
 ```
 export class SomeClass {
@@ -243,16 +256,39 @@ component.html file
 ```
 <input type="text" #myInput /> // #myInput is now a reference to this input tag
 <button (click)="log(myInput.value)">Click ME</button> // myInput.value refers to value of our input tag
+// We can also log(myInput) or any other property.
 ```
+Reference variable can be used to refer to an HTML element and all of it's DOM properties.
 
 --------------------------------------------------
 
-###Two-way data binding
+### Two-way data binding
 Data flows from class to template (HTML component) and from template to the class.
+View (HTML) and Model (TypeScript) should always be in sync.
+
+**ngModel:** ```([ngModel])="property" {{property}}```
+
+component.ts file
+```
+export class SomeClass {
+  public greeting = '';
+}
+```
+component.html file
+```
+<input type="text" [(ngModel)]="greeting" />
+{{greeting}} // whatever we type into input will appear as a value of greeting
+```
+In order for this to work, we **need** to import a *FormsModule* to app.module.ts file and add it to the imports array.
+
+app.module.ts file
+```
+import { FormsModule } from '@angular/forms';
+
+imports: [FormsModule]
+```
 
 
-
-*ngModel
 
 
 
