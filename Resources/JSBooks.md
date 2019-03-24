@@ -36,6 +36,6 @@ https://github.com/cjitendra12/javascript-ebooks-1/blob/master/%5BEffective%20Ja
 https://github.com/cjitendra12/javascript-ebooks-1/blob/master/%5BMastering%20JavaScript%20Design%20Patterns%20-%20Essential%20Solutions%20for%20Effective%20JavaScript%20Web%20Design%20by%20Simon%20Timms%20-%202014%5D.pdf
 
 
-** More books**
+**More books**
 
 https://github.com/cjitendra12/javascript-ebooks-1

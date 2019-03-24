@@ -36,11 +36,11 @@ With that out of the way, I wish you happy coding and I hope you teach all of us
 * Lesson 7 - **Asynchronous Javascript:** Xhr, AJAX, Callbacks, Promises, Async Await and more
 * Lesson 8 - **Build Tools:** Webpack, ESLint, Todo: Gulp
 * Lesson 9 - **Regex**
-* Lesson 10 - Todo: Design Patterns, algorithms and more
-* Lesson 11 - Todo: Phaser.js
+* Lesson 10 - **Patterns:** Design Patterns & Algorithms (Todo)
+* Lesson 11 - Todo: JavaScript Canvas
 * Lesson 12 - Todo: D3.js 
 * Lesson 13 - Todo: TypeScript
-* Lesson 14 - Todo: Angular 7
+* Lesson 14 - **Angular 7**
 * Lesson 15 - Todo: RxJS
 * Lesson 16 - **Node JS:** Core modules, data stream, require / export
 * Lesson 17 - **Express JS:** Routing, middlewares, ejs template engine
@@ -64,6 +64,7 @@ The following is the list of people whose courses I watched and created previous
 * [Andrew Mead](https://www.youtube.com/user/andrewjosephmead1/feed?disable_polymer=1)
 * [Beau Carnes](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ)
 * [Codedamn](https://www.youtube.com/channel/UCJUmE61LxhbhudzUugHL2wQ)
+* [Codevolution](https://www.youtube.com/channel/UC80PWRj_ZU8Zu0HSMNVwKWw)
 * [CodeWorkr](https://www.youtube.com/channel/UCfYTu_qAO5T7a-8rC_74Ypw)
 * [Dcode](https://www.youtube.com/channel/UCjX0FtIZBBVD3YoCcxnDC4g)
 * [Lasha Nozadze](https://www.udemy.com/the-ultimate-javascript-course-build-real-world-apps2018/)

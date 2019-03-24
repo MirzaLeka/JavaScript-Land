@@ -1,34 +1,19 @@
 
-### Keywords
+## CLI Keywords
 
-**One-way data binding**
+Install Node.js
+https://nodejs.org/en/
 
+Install Angular
+``` npm install -g @angular/cli ```
 
-*String interpolation*
+Start New Project
+``` ng new projectName ```
 
-component.ts file
-```
-export class SomeComponent{
-  title = 'Hello World!'
-}
-```
-component.html file
-```
-<h1>{{title}}</h1> // output: Hello World!
-```
+Run app
+``` ng serve ``` or ``` npm start ``` 
 
-*Property binding*
-
-
-*Event binding*
-
-
-**Two-way data binding**
-
-*ngModel*
-
-
-### ng generate
+**ng generate**
 
 Generates and/or modifies files based on a schematic. Syntax: ```ng <option> <customTitle>```.
 

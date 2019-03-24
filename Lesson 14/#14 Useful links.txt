@@ -1,4 +1,7 @@
 
+# Angular Docs
+https://angular.io
+
 # Angular 2 | The Net Ninja
 https://www.youtube.com/playlist?list=PL4cUxeGkcC9jqhk5RvBiEwHMKSUXPyng0
 
