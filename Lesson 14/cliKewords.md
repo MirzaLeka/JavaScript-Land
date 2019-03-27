@@ -24,7 +24,7 @@ Run app
 
 ### ng generate
 
-Generates and/or modifies files based on a schematic. Syntax: ```ng <option> <customTitle>```.
+Generates and/or modifies files based on a schematic. Syntax: ```ng g <option> <customTitle>```.
 
 List of options we can generate:
 * appShell
