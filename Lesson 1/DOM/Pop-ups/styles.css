@@ -1,0 +1,27 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #F5F5F5;
+}
+
+button{
+  border: none;
+  outline: none;
+  background: #007BFF;
+  color: white;
+  cursor: pointer;
+  width: 200px;
+  text-align: center;
+  height: 45px;
+  border-radius: 1pc;
+  opacity: .9;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+button:hover{
+  opacity: 1;
+}
