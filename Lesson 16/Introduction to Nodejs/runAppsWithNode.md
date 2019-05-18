@@ -1,0 +1,4 @@
+
+node appName
+
+nodemon

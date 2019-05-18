@@ -71,3 +71,11 @@ let customLog = (message, color) => {
     customLog("Green", COLOR_GREEN);
 
  // Symbols can't be enumerated
+
+
+/* Symbol.prototype.description */
+
+ // You can now retrieve the description of a symbol by accessing its description property 
+
+ const testSymbol = Symbol('test');
+ console.log(testSymbol.description); // output: test
