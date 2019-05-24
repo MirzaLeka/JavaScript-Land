@@ -10,7 +10,6 @@ There is also a section for various interesting modules like Moment, Bcrypt and 
 
 In every lesson there is a __Useful links__ file where you'll find more detailed docs regarding the lesson,
 as well as videos that will explain to you how things work. 
-I'm also adding coding challenges, books and JavaScript interview questions.
 
 ### Contributions
 
@@ -26,7 +25,7 @@ There is **no** start script. If you see any scripts in *package.json* file, the
 
 With that out of the way, I wish you happy coding and I hope you teach all of us something new. 
 
-### Lessons: 
+### Table of content: 
 * Lesson 1 - **Core JavaScript:** JS DOM, JS OOP ES5/ES6, JS Storage
 * Lesson 2 - **JavaScript Rules:** Hoisting, scopes, context, closures
 * Lesson 3 - **Modern JavaScript:** ES6, ES7, ES8, ES9 and beyond (major features)
@@ -57,6 +56,8 @@ With that out of the way, I wish you happy coding and I hope you teach all of us
 * Lesson 28 - Todo: Redux
 * Lesson 29 - Todo: GraphQL
 * Lesson 30 - **Cool modules:** Validator, Chalk, Moment, Opn and more
+* Tips and Tricks - handful of JS tricks to improve the way you write code
+* Literature - JS online books and common interview questions
 
 ![](readMe_img/js-git-node.jpg)
 
