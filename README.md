@@ -56,8 +56,8 @@ With that out of the way, I wish you happy coding and I hope you teach all of us
 * Lesson 28 - Todo: Redux
 * Lesson 29 - Todo: GraphQL
 * Lesson 30 - **Cool modules:** Validator, Chalk, Moment, Opn and more
-* Tips and Tricks - handful of JS tricks to improve the way you write code
-* Literature - JS online books and common interview questions
+* Tips and Tricks - handful of **JS tricks** to **improve** the way you write code
+* Literature - **JS books** and common **interview questions**
 
 ![](readMe_img/js-git-node.jpg)
 
