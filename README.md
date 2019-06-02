@@ -81,4 +81,4 @@ The following is the list of people whose courses I watched and created previous
 * [Tyler McGinnis](https://www.youtube.com/channel/UCbAn7pVK2VIyo-UysfWGdZQ)
 * [Wes Bos](https://www.youtube.com/channel/UCoebwHSTvwalADTJhps0emA)
 
-Along with various other sources like [Medium](https://medium.com), [W3Schools](https://www.w3schools.com), [MDN](https://developer.mozilla.org) and other.
+Along with various other sources like [Medium](https://medium.com), [W3Schools](https://www.w3schools.com), [MDN](https://developer.mozilla.org), [Stack Overflow](https://stackoverflow.com) and other.
