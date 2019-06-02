@@ -42,5 +42,4 @@ emojis.map(emoji => {
 document.write(str); // output: I love emojis 😀 😊 😀 😀 🙂 😉 😀
 
 
-// Credits: qwerty, StackOverFlow
-// https://stackoverflow.com/questions/2116558/fastest-method-to-replace-all-instances-of-a-character-in-a-string
+// Credits: https://stackoverflow.com/a/6714233/7584952
