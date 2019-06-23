@@ -5,7 +5,12 @@ https://www.npmjs.com/package/validator
 # Chalk
 https://www.npmjs.com/package/chalk
 
+# Jimp
+https://www.npmjs.com/package/jimp
+
 # Typed.js
+https://github.com/mattboldt/typed.js/
+https://www.youtube.com/watch?v=0l2SdoUYB6k
 https://www.youtube.com/watch?v=E7QZhynh1KE
 
 # Moment
@@ -23,5 +28,4 @@ https://www.npmjs.com/package/randomstring
 
 # rimraf
 https://www.npmjs.com/package/rimraf
-video tutorial
 https://www.youtube.com/watch?v=_cevNBrtz58
