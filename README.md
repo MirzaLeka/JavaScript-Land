@@ -26,7 +26,7 @@ There is **no** start script. If you see any scripts in *package.json* file, the
 With that out of the way, I wish you happy coding and I hope you teach all of us something new. 
 
 ### Table of content: 
-* Lesson 1 - **Core JavaScript:** JS DOM, BOM, JS OOP ES5/ES6, JS Storage
+* Lesson 1 - **Core JavaScript:** JS DOM, BOM, OOP ES5/ES6, Storage
 * Lesson 2 - **JavaScript Rules:** Hoisting, scopes, context, closures
 * Lesson 3 - **Modern JavaScript:** ES6, ES7, ES8, ES9 and beyond (major features)
 * Lesson 4 - **Collections:** Sets, Maps and Symbols
@@ -55,7 +55,7 @@ With that out of the way, I wish you happy coding and I hope you teach all of us
 * Lesson 27 - **ReactJS:** JSX, components, states, Todo: React Router
 * Lesson 28 - Todo: Redux
 * Lesson 29 - Todo: GraphQL
-* Lesson 30 - **Cool modules:** Validator, Chalk, Moment, Opn and more
+* Lesson 30 - **Cool modules:** Validator, Chalk, Moment, Opn, Jimp and more
 * Tips and Tricks - handful of **JS tricks** to **improve** the way you write code
 * Literature - **JS books** and common **interview questions**
 
@@ -81,4 +81,4 @@ The following is the list of people whose courses I watched and created previous
 * [Tyler McGinnis](https://www.youtube.com/channel/UCbAn7pVK2VIyo-UysfWGdZQ)
 * [Wes Bos](https://www.youtube.com/channel/UCoebwHSTvwalADTJhps0emA)
 
-Along with various other sources like [Medium](https://medium.com), [W3Schools](https://www.w3schools.com), [MDN](https://developer.mozilla.org), [Stack Overflow](https://stackoverflow.com) and other.
+Along with various other sources like [Medium](https://medium.com), [W3Schools](https://www.w3schools.com), [MDN](https://developer.mozilla.org), [Stack Overflow](https://stackoverflow.com), [NPM](https://www.npmjs.com) and other.
