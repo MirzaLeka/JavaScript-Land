@@ -29,3 +29,7 @@ https://www.npmjs.com/package/randomstring
 # rimraf
 https://www.npmjs.com/package/rimraf
 https://www.youtube.com/watch?v=_cevNBrtz58
+
+# Mathjs
+https://mathjs.org/index.html
+https://github.com/josdejong/mathjs

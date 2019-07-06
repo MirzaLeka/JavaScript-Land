@@ -44,6 +44,7 @@
     "lodash": "^4.17.11",
     "lodash.isempty": "^4.4.0",
     "lodash.isequal": "^4.5.0",
+    "mathjs": "^6.0.2",
     "mini-css-extract-plugin": "^0.4.4",
     "moment": "^2.22.2",
     "mongodb": "^3.1.9",
