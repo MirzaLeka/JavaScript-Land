@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+</head>
+<body onkeydown="updateText(event)">
+
+    <button id="toggle-btn" class="btn btn-danger" onclick="toggleDesignMode()">Toggle Design Mode</button>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="child">
+                <h2>Copy to clipboard</h2>
+
+                <!-- The text field -->
+                <input type="text" value="Hello World" id="copyInput">
+
+                <!-- The button used to copy the text -->
+                <button class="btn-styled" onclick="copyToClipboard()">Copy text</button> 
+            </div>
+        </div>        
+    
+
+        <div class="row">
+            <div class="child">
+                <h2>Cut to clipboard</h2>
+                
+                <input type="text" value="Hello JavaScript" id="cutInput">
+
+                <button class="btn-styled" onclick="cutToClipboard()">Cut text</button> 
+            </div>
+        </div>  
+        
+        
+        <div class="row">
+            <div class="child">
+                <h2>Paste from clipboard</h2>
+                
+                <input type="text" id="pasteInput">
+
+                <button class="btn-styled" onclick="pasteFromClipboard()">Paste text</button> 
+            </div>
+        </div>  
+
+
+        <div class="row">
+            <div class="child">
+                <h2>Detect Caps Lock</h2>
+                
+                <input type="text" onkeyup="checkCapsLock(event)" id="capsInput">
+                 <p id="warning-msg">Caps Lock is ON</p>   
+                 
+            </div>
+        </div>  
+            
+        
+        
+        <div class="row">
+            <div class="child">
+                <h2>Bold text</h2>
+                <h4>Select text and press <b>Shift</b> key</h4>
+                <h6>Remember to turn design mode on</h6>
+               
+                <p>This is JavaScript DOM!</p>
+
+            </div>
+        </div>   
+
+    </div>
+
+<script src="app.js"></script>
+</body>
+</html>

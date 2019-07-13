@@ -1,0 +1,12 @@
+
+Interact with Clipboard 
+
+#W3Schools 
+https://www.w3schools.com/jsref/met_document_execcommand.asp
+https://www.w3schools.com/howto/howto_js_copy_clipboard.asp
+https://www.w3schools.com/howto/howto_js_detect_capslock.asp
+
+#MDN
+https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Interact_with_the_clipboard
+https://developer.mozilla.org/en-US/docs/Web/API/Document/execCommand
+https://developer.mozilla.org/en-US/docs/Web/API/Clipboard
