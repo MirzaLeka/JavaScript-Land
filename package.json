@@ -11,6 +11,7 @@
     "test": " mocha \"./{,!(node_modules)/**/}*asyncAssertions.test.js\" ",
     "test-watch": "nodemon --exec \"npm test\"",
     "open": "opn http://localhost:3000 && node \"Lesson 30/Opn/opn-cli/server.js\"",
+    "electron": "electron \"Lesson 15/electron.js\"",
     "clean": "rimraf \"Lesson 30/Rimraf/toDelete\""
   },
   "repository": {
@@ -36,12 +37,13 @@
     "body-parser": "^1.18.3",
     "css-loader": "^1.0.1",
     "ejs": "^2.6.1",
+    "electron": "^6.0.1",
     "express": "^4.16.4",
     "extract-loader": "^3.0.0",
     "extract-text-webpack-plugin": "^3.0.0",
     "jimp": "^0.6.4",
     "jquery": "^3.4.1",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.15",
     "lodash.isempty": "^4.4.0",
     "lodash.isequal": "^4.5.0",
     "mathjs": "^6.0.2",

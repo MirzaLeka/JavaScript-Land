@@ -40,7 +40,7 @@ With that out of the way, I wish you happy coding and I hope you teach all of us
 * Lesson 12 - Todo: D3.js 
 * Lesson 13 - Todo: TypeScript
 * Lesson 14 - **[Angular 7](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%2014)**
-* Lesson 15 - Todo: RxJS
+* Lesson 15 - **[Electron](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%2015)**
 * Lesson 16 - **[Node JS](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%2016):** Core modules, data stream, require / export
 * Lesson 17 - **[Express JS](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%2017):** Routing, middlewares, ejs template engine
 * Lesson 18 - **[Socket IO](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%2018):** Chat App example 
