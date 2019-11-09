@@ -50,7 +50,7 @@ With that out of the way, I wish you happy coding and I hope you teach all of us
 * Lesson 22 - **[Upload files](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%2022):** NodeJS / Multer / Folder, Todo: NodeJS / MongoDB / Multer / GridFS
 * Lesson 23 - Todo: Authentication: JWT, Passport JS
 * Lesson 24 - **[Lodash](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%2024)**
-* Lesson 25 - Todo: Firebase 
+* Lesson 25 - **Rx.js**
 * Lesson 26 - **[Unit testing](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%2026)**: Mocha, Expect, Todo: Jest
 * Lesson 27 - **[ReactJS](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%2027):** JSX, components, states, Todo: React Router
 * Lesson 28 - Todo: Redux
