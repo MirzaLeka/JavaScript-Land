@@ -56,8 +56,8 @@ With that out of the way, I wish you happy coding and I hope you teach all of us
 * Lesson 28 - Todo: Redux/NgRx
 * Lesson 29 - Todo: GraphQL
 * [Lesson 30](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%2030) - **Cool modules:** Validator, Chalk, Moment, Opn, Jimp and more
-* **[Tips and Tricks](https://github.com/MirzaLeka/JSLand/tree/master/Tips%20and%20Tricks)** - handful of **JS tricks** to **improve** the way you write code
-* **[Literature](https://github.com/MirzaLeka/JSLand/tree/master/Literature)** - **JS books** and common **interview questions**
+* [Tips and Tricks](https://github.com/MirzaLeka/JSLand/tree/master/Tips%20and%20Tricks) - handful of **JS tricks** to **improve** the way you write code
+* [Literature](https://github.com/MirzaLeka/JSLand/tree/master/Literature) - **JS books** and common **interview questions**
 
 ![](readMe_img/js-git-node.jpg)
 
