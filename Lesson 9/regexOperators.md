@@ -24,6 +24,7 @@ We can use a set of characters to easily match the desired expressions:
 * \. = matches dot
 * $ = ends with
 * ? = may or may not include character
+* ^ = matches all chararacters except the ones mark with this
 
 ----------------------------------------------------------------------------
 
@@ -34,7 +35,12 @@ We can use a set of characters to easily match the desired expressions:
 
 ----------------------------------------------------------------------------
 
-* /[a-z]/i = matches all letters a to z (lowercase and uppercase)
-* /[0-9]/ = matches all numbers 0 to 9
+* /[a-z]/i = matches a single character from a to z (lowercase and uppercase)
+* /[0-9]/ = matches a single number from 0 to 9
+* /[^0-9]/ = matches a single character not present from 0 to 9
+
+----------------------------------------------------------------------------
+
 * /jpg|jpeg|gif|png/ = matches selected file types
+* \jpe?g = matches jpg and jpeg (may include "e")
 * \.(jpg|jpeg|gif|png)$ = matches all files that **end with** ($ sign) . followed by either selected file type

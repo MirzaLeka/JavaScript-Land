@@ -26,36 +26,36 @@ There is **no** start script. If you see any scripts in *package.json* file, the
 With that out of the way, I wish you happy coding and I hope you teach all of us something new. 
 
 ### Table of content: 
-* Lesson 1 - **[Core JavaScript](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%201):** JS DOM, BOM, OOP ES5/ES6, Storage
-* Lesson 2 - **[JavaScript Rules](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%202):** Hoisting, scopes, context, closures
-* Lesson 3 - **[Modern JavaScript](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%203):** ES6, ES7, ES8, ES9 and beyond (major features)
-* Lesson 4 - **[Collections](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%204):** Sets, Maps and Symbols
-* Lesson 5 - **[Higher order functions](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%205):** Array and string functions, for of/in loop, object methods
-* Lesson 6 - **[Jquery](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%206):** DOM traversal, jquery vs javascript, Todo: jquery UI, validate
-* Lesson 7 - **[Asynchronous Javascript](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%207):** Xhr, AJAX, Callbacks, Promises, Async Await and more
-* Lesson 8 - **[Build Tools](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%208):** Webpack, ESLint, Todo: Gulp
-* Lesson 9 - **[Regex](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%209)**
-* Lesson 10 - **[Patterns](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%2010):** Design Patterns & Algorithms (Todo)
+* [Lesson 1](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%201) - **Core JavaScript:** JS DOM, BOM, OOP ES5/ES6, Storage
+* [Lesson 2](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%202) - **JavaScript Rules:** Hoisting, scopes, context, closures
+* [Lesson 3](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%203) - **Modern JavaScript:** ES6, ES7, ES8, ES9 and beyond (major features)
+* [Lesson 4](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%204) - **Collections:** Sets, Maps and Symbols
+* [Lesson 5](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%205) - **Higher order functions:** Array and string functions, for of/in loop, object methods
+* [Lesson 6](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%206) - **Jquery:** DOM traversal, jquery vs javascript, Todo: jquery UI, validate
+* [Lesson 7](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%207) - **Asynchronous Javascript:** Xhr, AJAX, Callbacks, Promises, Async Await and more
+* [Lesson 8](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%208) - **Build Tools:** Webpack, ESLint, Todo: Gulp
+* [Lesson 9](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%209) - **Regex**
+* [Lesson 10](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%2010) - **Patterns:** Design Patterns & Algorithms (Todo)
 * Lesson 11 - Todo: JavaScript Canvas
 * Lesson 12 - Todo: D3.js 
 * Lesson 13 - Todo: TypeScript
-* Lesson 14 - **[Angular 7](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%2014)**
-* Lesson 15 - **[Electron](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%2015)**
-* Lesson 16 - **[Node JS](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%2016):** Core modules, data stream, require / export
-* Lesson 17 - **[Express JS](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%2017):** Routing, middlewares, ejs template engine
-* Lesson 18 - **[Socket IO](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%2018):** Chat App example 
-* Lesson 19 - **[MongoDB](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%2019):** Crud operations, MongoDB operators, Todo: aggregation framework
-* Lesson 20 - Todo: Mongoose
-* Lesson 21 - **[Create RESTAPI](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%2021):** NodeJS with text files, Todo: NodeJS with MongoDB, NodeJS with PGSQL
-* Lesson 22 - **[Upload files](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%2022):** NodeJS / Multer / Folder, Todo: NodeJS / MongoDB / Multer / GridFS
+* [Lesson 14](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%2014) - **Angular**
+* [Lesson 15](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%2015) - **Electron**
+* [Lesson 16](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%2016) - **Node JS:** Core modules, data stream, require / export
+* [Lesson 17](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%2017) - **Express JS:** Routing, middlewares, ejs template engine
+* [Lesson 18](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%2018) - **Socket IO:** Chat App example 
+* [Lesson 19](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%2019) - **MongoDB:** Crud operations, MongoDB operators, Todo: aggregation framework, Mongoose
+* [Lesson 20](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%2020) - **Firebase**
+* [Lesson 21](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%2021) - **Create RESTAPI:** NodeJS with text files, Todo: NodeJS with MongoDB, NodeJS with SQL
+* [Lesson 22](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%2022) - **Upload files:** NodeJS / Multer / Folder, Todo: NodeJS / MongoDB / Multer / GridFS
 * Lesson 23 - Todo: Authentication: JWT, Passport JS
-* Lesson 24 - **[Lodash](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%2024)**
-* Lesson 25 - **Rx.js**
-* Lesson 26 - **[Unit testing](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%2026)**: Mocha, Expect, Todo: Jest
-* Lesson 27 - **[ReactJS](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%2027):** JSX, components, states, Todo: React Router
-* Lesson 28 - Todo: Redux
+* [Lesson 24](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%2024) - **Lodash**
+* [Lesson 25](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%2025) - **Rx.js**
+* [Lesson 26](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%2026) - **Testing:**: Unit Testing, Todo: Integration, E2E Testing
+* [Lesson 27](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%2027): - **ReactJS:** JSX, components, states, Todo: React Router
+* Lesson 28 - Todo: Redux/NgRx
 * Lesson 29 - Todo: GraphQL
-* Lesson 30 - **[Cool modules](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%2030):** Validator, Chalk, Moment, Opn, Jimp and more
+* [Lesson 30](https://github.com/MirzaLeka/JSLand/tree/master/Lesson%2030) - **Cool modules:** Validator, Chalk, Moment, Opn, Jimp and more
 * **[Tips and Tricks](https://github.com/MirzaLeka/JSLand/tree/master/Tips%20and%20Tricks)** - handful of **JS tricks** to **improve** the way you write code
 * **[Literature](https://github.com/MirzaLeka/JSLand/tree/master/Literature)** - **JS books** and common **interview questions**
 
