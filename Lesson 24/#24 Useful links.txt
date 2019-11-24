@@ -13,3 +13,6 @@ https://stackoverflow.com/questions/43479464/how-to-import-single-lodash-functio
 
 # lodash Playlist
 https://www.youtube.com/playlist?list=PLTgRMOcmRb3OL-PKT5FvIBdXVazTNTl-_
+
+# 10 Lodash functions everyone should know
+https://medium.com/voobans-tech-stories/10-lodash-functions-everyone-should-know-334b372aec5d

@@ -3,7 +3,7 @@ I started this repository to fill my gaps with JavaScript language. It all start
 
 ![](readMe_img/js-logo.jpg)
 
-### Introducing *JSLand*, one of the best places to learn JavaScript! 
+Introducing **JSLand**, one of the best places to learn **JavaScript**! 
 
 JSLand project is heavily focused on JavaScript language and covers topics like object oriented programming, major features of ES2015, ES2016, all the way to ES2019, asynchronous javascript, higher order functions, context, collections, immutability, but also Node.js, Express, MongoDB, Mocha, Lodash, Jquery, Webpack and React. 
 There is also a section for various interesting modules like Moment, Bcrypt and many other.

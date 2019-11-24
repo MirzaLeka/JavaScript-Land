@@ -1,6 +1,9 @@
 
-# MongoDB & Mongoose | GT Bits of Good
-https://www.youtube.com/playlist?list=PLG3Osgh6aITX5HMqWJ1f0J30e_zl-Lhxl
+# Firebase Firestore - The Net Ninja
+https://www.youtube.com/playlist?list=PL4cUxeGkcC9itfjle0ji1xOZ2cjRGY_WB
 
-# Mongoose official docs
-https://mongoosejs.com
+# Firebase Authentication - The Net Ninja
+https://www.youtube.com/playlist?list=PL4cUxeGkcC9jUPIes_B8vRjn1_GaplOPQ
+
+# Firestore - Fireship
+https://www.youtube.com/playlist?list=PL0vfts4VzfNiPCzuRPXFZS1Hnw_RvVEXR

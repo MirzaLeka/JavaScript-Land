@@ -7,3 +7,9 @@ https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpOFJ9JcVW9u4PlSWO-VFoao
 
 # W3 schools - Node.js MongoDB
 https://www.w3schools.com/nodejs/nodejs_mongodb.asp
+
+# MongoDB & Mongoose | GT Bits of Good
+https://www.youtube.com/playlist?list=PLG3Osgh6aITX5HMqWJ1f0J30e_zl-Lhxl
+
+# Mongoose official docs
+https://mongoosejs.com
