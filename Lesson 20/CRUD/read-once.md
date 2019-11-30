@@ -23,7 +23,7 @@ Read at root level
 
 ```
 database.ref()
-  .once('value')
+  .once('value') // value parameter stands for *value change*
   .then((snapshot) => {
     console.log(snapshot.val());
   })
