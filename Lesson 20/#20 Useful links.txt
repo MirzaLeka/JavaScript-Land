@@ -1,4 +1,7 @@
 
+# Firebase Docs
+https://firebase.google.com/docs
+
 # Firebase Firestore - The Net Ninja
 https://www.youtube.com/playlist?list=PL4cUxeGkcC9itfjle0ji1xOZ2cjRGY_WB
 
@@ -7,3 +10,9 @@ https://www.youtube.com/playlist?list=PL4cUxeGkcC9jUPIes_B8vRjn1_GaplOPQ
 
 # Firestore - Fireship
 https://www.youtube.com/playlist?list=PL0vfts4VzfNiPCzuRPXFZS1Hnw_RvVEXR
+
+# Firebase Basics - Fireship
+https://www.youtube.com/playlist?list=PL0vfts4VzfNj28Xp5kmNAdIqABNGhTzKF
+
+# Firebase for SQL developers
+https://www.youtube.com/playlist?list=PLl-K7zZEsYLlP-k-RKFa7RyNPa9_wCH2s
