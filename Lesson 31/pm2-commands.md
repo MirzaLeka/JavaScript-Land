@@ -16,9 +16,15 @@ Start app with max number of instances/processes (max == number of logical CPUs 
 
 ![image](https://user-images.githubusercontent.com/23176181/120230894-8afde780-c250-11eb-9347-a0be84cf6fc3.png)
 
+When PM2 Starts the app it exits out of terminal. This means the app is running in the background and won't stop if we hit CTRL+C.
+
 #
 
-When PM2 Starts the app it exits out of terminal. This means the app is running in the background and won't stop if we hit CTRL+C.
+Display the list of running processes
+
+```pm2 list```
+
+#
 
 Stop app
 
@@ -29,6 +35,14 @@ Stop app
 Stop all apps on PC
 
 ```pm2 stop all```
+
+Stop specific process
+
+
+```
+pm2 list (display list of processes)
+pm2 stop 0 <0-th indexed app>
+```
 
 #
 
@@ -56,3 +70,8 @@ To see list of active processes, monitor logs and incoming requests, run app in 
 
  ![image](https://user-images.githubusercontent.com/23176181/120231158-17100f00-c251-11eb-9d42-dc29291620df.png)
 
+#
+
+Display logs
+
+```pm2 logs <processname>``` or ``` pm2 logs <app-name> ```
