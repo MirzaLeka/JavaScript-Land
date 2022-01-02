@@ -24,3 +24,9 @@ console.log(collection);
   "D": 1
 } 
 */
+
+// Alternatively
+
+letters.map(letter => collection[letter] ? collection[letter]++ : collection[letter] = 1);
+
+console.log(collection);
